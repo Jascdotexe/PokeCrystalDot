@@ -302,6 +302,7 @@ BattleAnimations::
 	dw BattleAnim_FlameCharge
 	dw BattleAnim_LavaPlume
 	dw BattleAnim_Inferno
+	dw BattleAnim_Overheat
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -962,6 +963,7 @@ BattleAnim_Flamethrower:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_Overheat:
 BattleAnim_Inferno:
 BattleAnim_LavaPlume:
 BattleAnim_FireBlast:

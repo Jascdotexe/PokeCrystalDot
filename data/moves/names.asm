@@ -274,4 +274,5 @@ MoveNames::
 	li "FLAME CHARGE"
 	li "LAVA PLUME"
 	li "INFERNO"
+	li "OVERHEAT"
 	assert_list_length NUM_ATTACKS

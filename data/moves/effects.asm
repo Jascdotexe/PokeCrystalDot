@@ -627,6 +627,28 @@ SpecialAttackDownHit:
 	statdownmessage
 	endmove
 
+SpecialAttackDown2Hit:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	specialattackdown2
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	statdownmessage
+	endmove
+
 SpecialDefenseDownHit:
 	checkobedience
 	usedmovetext

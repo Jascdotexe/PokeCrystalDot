@@ -73,6 +73,7 @@ MoveEffectsPointers:
 	dw DefenseDownHit
 	dw SpeedDownHit
 	dw SpecialAttackDownHit
+	dw SpecialAttackDown2Hit
 	dw SpecialDefenseDownHit
 	dw AccuracyDownHit
 	dw EvasionDownHit

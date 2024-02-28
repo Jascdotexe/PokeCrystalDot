@@ -279,6 +279,7 @@ MoveDescriptions1:
 	dw FlameChargeDescription
 	dw LavaPlumeDescription
 	dw InfernoDescription
+	dw OverheatDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1379,3 +1380,7 @@ LavaPlumeDescription:
 InfernoDescription:
 	db   "Intense flames"
 	next "leave a burn.@"
+
+OverheatDescription:
+	db   "Recoil harshly"
+	next "lowers SP.ATK@"
