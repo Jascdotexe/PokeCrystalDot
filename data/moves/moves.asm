@@ -289,4 +289,5 @@ Moves1:
 	move EFFECT_FLINCH_HIT,         80, DARK,          SPECIAL,    100, 15,  20       ; DARK_PULSE
 	move EFFECT_PRIORITY_HIT,       40, ICE,           PHYSICAL,   100, 30,   0       ; ICE_SHARD
 	move EFFECT_NORMAL_HIT,         90, WATER,         PHYSICAL,    90, 10,   0       ; AQUA_TAIL
+	move EFFECT_SPEED_UP_HIT,       50, FIRE,          PHYSICAL,   100, 20, 100       ; FLAME_CHARGE      
 .IndirectEnd::

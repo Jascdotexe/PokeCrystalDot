@@ -276,6 +276,7 @@ MoveDescriptions1:
 	dw DarkPulseDescription
 	dw IceShardDescription
 	dw AquaTailDescription
+	dw FlameChargeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1365,3 +1366,6 @@ AquaTailDescription:
 	db   "Swins tail in a"
 	next "vicious wave.@"
 	
+FlameChargeDescription:
+	db   "Cloak in flames"
+	next "and attack.@"

@@ -172,8 +172,11 @@ CyndaquilEvosAttacks:
 	dbw 13, QUICK_ATTACK
 	dbw 19, FLAME_WHEEL
 	dbw 22, DEFENSE_CURL
-	dbw 36, SWIFT
-	dbw 46, FLAMETHROWER
+	dbw 28, FLAME_CHARGE
+	dbw 31, SWIFT
+	dbw 40, FLAMETHROWER
+	dbw 49, ROLLOUT
+	dbw 55, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 QuilavaEvosAttacks:
@@ -182,12 +185,15 @@ QuilavaEvosAttacks:
 	dbw 1, TACKLE
 	dbw 1, LEER
 	dbw 1, SMOKESCREEN
-	dbw 6, SMOKESCREEN
-	dbw 12, EMBER
-	dbw 19, QUICK_ATTACK
-	dbw 31, FLAME_WHEEL
-	dbw 42, SWIFT
-	dbw 54, FLAMETHROWER
+	dbw 10, EMBER
+	dbw 13, QUICK_ATTACK
+	dbw 20, FLAME_WHEEL
+	dbw 24, DEFENSE_CURL
+	dbw 31, SWIFT
+	dbw 35, FLAME_CHARGE
+	dbw 46, FLAMETHROWER
+	dbw 57, ROLLOUT
+	dbw 64, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 TyphlosionEvosAttacks:
@@ -196,12 +202,14 @@ TyphlosionEvosAttacks:
 	dbw 1, LEER
 	dbw 1, SMOKESCREEN
 	dbw 1, EMBER
-	dbw 6, SMOKESCREEN
-	dbw 12, EMBER
-	dbw 21, QUICK_ATTACK
-	dbw 31, FLAME_WHEEL
-	dbw 45, SWIFT
-	dbw 60, FLAMETHROWER
+	dbw 1, DOUBLE_EDGE
+	dbw 13, QUICK_ATTACK
+	dbw 20, FLAME_WHEEL
+	dbw 24, DEFENSE_CURL
+	dbw 31, SWIFT
+	dbw 35, FLAME_CHARGE
+	dbw 48, FLAMETHROWER
+	dbw 61, ROLLOUT
 	db 0 ; no more level-up moves
 
 TotodileEvosAttacks:

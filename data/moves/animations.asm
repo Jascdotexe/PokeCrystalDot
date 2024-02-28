@@ -299,6 +299,7 @@ BattleAnimations::
 	dw BattleAnim_DarkPulse
 	dw BattleAnim_IceShard
 	dw BattleAnim_AquaTail
+	dw BattleAnim_FlameCharge
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -3212,6 +3213,7 @@ BattleAnim_Nightmare:
 	anim_wait 96
 	anim_ret
 
+BattleAnim_FlameCharge:
 BattleAnim_FlameWheel:
 	anim_1gfx BATTLE_ANIM_GFX_FIRE
 .loop

@@ -141,6 +141,7 @@ MoveEffectsPointers:
 	dw SunnyDay
 	dw DefenseUpHit
 	dw AttackUpHit
+	dw SpeedUpHit
 	dw AllUpHit
 	dw FakeOut
 	dw BellyDrum

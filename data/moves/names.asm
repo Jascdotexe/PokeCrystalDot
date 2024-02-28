@@ -271,4 +271,5 @@ MoveNames::
 	li "DARK PULSE"
 	li "ICE SHARD"
 	li "AQUA TAIL"
+	li "FLAME CHARGE"
 	assert_list_length NUM_ATTACKS

@@ -277,6 +277,7 @@
 	const DARK_PULSE
 	const ICE_SHARD
 	const AQUA_TAIL
+	const FLAME_CHARGE
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff
