@@ -276,13 +276,16 @@ FeraligatrEvosAttacks:
 SentretEvosAttacks:
 	dbbw EVOLVE_LEVEL, 15, FURRET
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 5, DEFENSE_CURL
-	dbw 11, QUICK_ATTACK
-	dbw 17, FURY_SWIPES
-	dbw 25, SLAM
-	dbw 33, REST
-	dbw 41, AMNESIA
+	dbw 1, SCRATCH
+	dbw 4, DEFENSE_CURL
+	dbw 7, QUICK_ATTACK
+	dbw 13, FURY_SWIPES
+	dbw 20, SLAM
+	dbw 28, REST
+	dbw 36, AMNESIA
+	dbw 39, BATON_PASS
+	dbw 42, DOUBLE_EDGE
+	; dbw 47, HYPER_VOICE
 	db 0 ; no more level-up moves
 
 FurretEvosAttacks:
@@ -290,71 +293,92 @@ FurretEvosAttacks:
 	dbw 1, SCRATCH
 	dbw 1, DEFENSE_CURL
 	dbw 1, QUICK_ATTACK
-	dbw 5, DEFENSE_CURL
-	dbw 11, QUICK_ATTACK
-	dbw 18, FURY_SWIPES
-	dbw 28, SLAM
-	dbw 38, REST
-	dbw 48, AMNESIA
+	dbw 13, FURY_SWIPES
+	dbw 21, SLAM
+	dbw 32, REST
+	dbw 42, AMNESIA
+	dbw 46, BATON_PASS
+	dbw 50, DOUBLE_EDGE
+	; dbw 56, HYPER_VOICE
 	db 0 ; no more level-up moves
 
 HoothootEvosAttacks:
 	dbbw EVOLVE_LEVEL, 20, NOCTOWL
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
+	dbw 1, PECK
 	dbw 1, GROWL
-	dbw 6, FORESIGHT
-	dbw 11, PECK
+	dbw 3, TACKLE
+	dbw 6, FORESIGHT ; ECHOED_VOICE
+	dbw 9, CONFUSION
+	dbw 12, REFLECT
+	; dbw 15, DEFOG
+	; dbw 18, AIR_SLASH
 	dbw 16, HYPNOSIS
-	dbw 22, REFLECT
-	dbw 28, TAKE_DOWN
-	dbw 34, CONFUSION
-	dbw 48, DREAM_EATER
+	; dbw 22, EXTRASENSORY
+	dbw 24, TAKE_DOWN
+	; dbw 27, UPROAR
+	; dbw 30, ROOST
+	dbw 33, MOONBLAST
+	dbw 39, DREAM_EATER
 	db 0 ; no more level-up moves
 
 NoctowlEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, GROWL
-	dbw 1, FORESIGHT
 	dbw 1, PECK
-	dbw 6, FORESIGHT
-	dbw 11, PECK
+	dbw 1, GROWL
+	dbw 1, TACKLE
+	dbw 1, FORESIGHT ; ECHOED_VOICE
+	dbw 1, SKY_ATTACK
+	dbw 9, CONFUSION
+	dbw 12, REFLECT
+	; dbw 15, DEFOG
+	; dbw 18, AIR_SLASH
 	dbw 16, HYPNOSIS
-	dbw 25, REFLECT
-	dbw 33, TAKE_DOWN
-	dbw 41, CONFUSION
-	dbw 57, DREAM_EATER
+	; dbw 23, EXTRASENSORY
+	dbw 28, TAKE_DOWN
+	; dbw 33, UPROAR
+	; dbw 38, ROOST
+	dbw 43, MOONBLAST
+	dbw 53, DREAM_EATER
 	db 0 ; no more level-up moves
 
 LedybaEvosAttacks:
 	dbbw EVOLVE_LEVEL, 18, LEDIAN
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 8, SUPERSONIC
+	dbw 5, SUPERSONIC
+	dbw 8, SWIFT
+	dbw 12, LIGHT_SCREEN
+	dbw 12, REFLECT
+	dbw 12, SAFEGUARD
 	dbw 15, COMET_PUNCH
-	dbw 22, LIGHT_SCREEN
-	dbw 22, REFLECT
-	dbw 22, SAFEGUARD
-	dbw 29, BATON_PASS
-	dbw 36, SWIFT
-	dbw 43, AGILITY
-	dbw 50, DOUBLE_EDGE
+	dbw 18, MACH_PUNCH
+	; dbw 19, ROOST
+	; dbw 22, STRUGGLE_BUG
+	dbw 26, BATON_PASS
+	dbw 29, AGILITY
+	; dbw 33, BUG_BUZZ
+	; dbw 36, AIR_SLASH
+	dbw 40, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 LedianEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, SUPERSONIC
-	dbw 8, SUPERSONIC
+	dbw 1, SWIFT
+	dbw 12, LIGHT_SCREEN
+	dbw 12, REFLECT
+	dbw 12, SAFEGUARD
 	dbw 15, COMET_PUNCH
-	dbw 24, LIGHT_SCREEN
-	dbw 24, REFLECT
-	dbw 24, SAFEGUARD
-	dbw 33, BATON_PASS
-	dbw 42, SWIFT
-	dbw 51, AGILITY
-	dbw 60, DOUBLE_EDGE
+	dbw 18, MACH_PUNCH
+	; dbw 20, ROOST
+	; dbw 24, STRUGGLE_BUG
+	dbw 29, BATON_PASS
+	dbw 33, AGILITY
+	; dbw 38, BUG_BUZZ
+	; dbw 42, AIR_SLASH
+	dbw 47, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 SpinarakEvosAttacks:
@@ -362,30 +386,46 @@ SpinarakEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, POISON_STING
 	dbw 1, STRING_SHOT
-	dbw 6, SCARY_FACE
-	dbw 11, CONSTRICT
-	dbw 17, NIGHT_SHADE
-	dbw 23, LEECH_LIFE
-	dbw 30, FURY_SWIPES
-	dbw 37, SPIDER_WEB
-	dbw 45, AGILITY
-	dbw 53, PSYCHIC_M
+	dbw 5, ABSORB
+	dbw 8, CONSTRICT
+	; dbw 8, INFESTATION
+	dbw 12, SCARY_FACE
+	dbw 15, NIGHT_SHADE
+	; dbw 19, SHADOW_SNEAK
+	dbw 22, FURY_SWIPES
+	dbw 26, SPIDER_WEB
+	; dbw 26, SUCKER_PUNCH
+	dbw 29, LEECH_LIFE
+	dbw 33, AGILITY
+	dbw 40, PSYCHIC_M
+	; dbw 43, POISON_JAB
+	; dbw 47, CROSS_POISON
+	; dbw 50, STICKY_WEB
+	; dbw 54, TOXIC_THREAD
 	db 0 ; no more level-up moves
 
 AriadosEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, POISON_STING
 	dbw 1, STRING_SHOT
-	dbw 1, SCARY_FACE
+	dbw 1, ABSORB
 	dbw 1, CONSTRICT
-	dbw 6, SCARY_FACE
-	dbw 11, CONSTRICT
-	dbw 17, NIGHT_SHADE
-	dbw 25, LEECH_LIFE
-	dbw 34, FURY_SWIPES
-	dbw 43, SPIDER_WEB
-	dbw 53, AGILITY
-	dbw 63, PSYCHIC_M
+	dbw 1, FOCUS_ENERGY
+	; dbw 8, INFESTATION
+	dbw 12, SCARY_FACE
+	dbw 15, NIGHT_SHADE
+	; dbw 19, SHADOW_SNEAK
+	dbw 22, FURY_SWIPES
+	dbw 24, SWORDS_DANCE
+	dbw 28, SPIDER_WEB
+	; dbw 28, SUCKER_PUNCH
+	dbw 32, LEECH_LIFE
+	dbw 37, AGILITY
+	dbw 46, PSYCHIC_M
+	; dbw 50, POISON_JAB
+	; dbw 55, CROSS_POISON
+	; dbw 58, STICKY_WEB
+	; dbw 63, TOXIC_THREAD
 	db 0 ; no more level-up moves
 
 CrobatEvosAttacks:
