@@ -273,4 +273,5 @@ MoveNames::
 	li "AQUA TAIL"
 	li "FLAME CHARGE"
 	li "LAVA PLUME"
+	li "INFERNO"
 	assert_list_length NUM_ATTACKS

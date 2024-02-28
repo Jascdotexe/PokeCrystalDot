@@ -291,4 +291,5 @@ Moves1:
 	move EFFECT_NORMAL_HIT,         90, WATER,         PHYSICAL,    90, 10,   0       ; AQUA_TAIL
 	move EFFECT_SPEED_UP_HIT,       50, FIRE,          PHYSICAL,   100, 20, 100       ; FLAME_CHARGE      
 	move EFFECT_BURN_HIT,           80, FIRE,          SPECIAL,    100, 15,  30       ; LAVA_PLUME
+	move EFFECT_BURN_HIT,          100, FIRE,          SPECIAL,    100,  5, 100       ; INFERNO              
 .IndirectEnd::

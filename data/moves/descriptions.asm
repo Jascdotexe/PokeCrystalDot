@@ -278,6 +278,7 @@ MoveDescriptions1:
 	dw AquaTailDescription
 	dw FlameChargeDescription
 	dw LavaPlumeDescription
+	dw InfernoDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1373,4 +1374,8 @@ FlameChargeDescription:
 
 LavaPlumeDescription:
 	db   "Torches and may"
+	next "leave a burn.@"
+
+InfernoDescription:
+	db   "Intense flames"
 	next "leave a burn.@"
