@@ -220,30 +220,36 @@ CroconawEvosAttacks:
 	dbbw EVOLVE_LEVEL, 30, FERALIGATR
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
-	dbw 1, LEER
-	dbw 1, RAGE
-	dbw 7, RAGE
-	dbw 13, WATER_GUN
-	dbw 21, BITE
-	dbw 28, SCARY_FACE
-	dbw 37, SLASH
-	dbw 45, SCREECH
+	dbw 1, AQUA_TAIL
+	dbw 1, WATER_GUN
+	dbw 13, BITE
+	dbw 15, SCARY_FACE
+	dbw 21, ICE_FANG
+	dbw 24, FLAIL
+	dbw 30, CRUNCH
+	dbw 34, SLASH
+	dbw 37, SCREECH
+	dbw 42, THRASH
+	dbw 47, AQUA_TAIL
 	dbw 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 FeraligatrEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
-	dbw 1, LEER
-	dbw 1, RAGE
+	dbw 1, AQUA_TAIL
 	dbw 1, WATER_GUN
-	dbw 7, RAGE
-	dbw 13, WATER_GUN
-	dbw 21, BITE
-	dbw 28, SCARY_FACE
-	dbw 38, SLASH
-	dbw 47, SCREECH
-	dbw 58, HYDRO_PUMP
+	dbw 1, AGILITY
+	dbw 13, BITE
+	dbw 15, SCARY_FACE
+	dbw 21, ICE_FANG
+	dbw 24, FLAIL
+	dbw 32, CRUNCH
+	dbw 37, SLASH
+	dbw 44, SCREECH
+	dbw 51, THRASH
+	dbw 59, AQUA_TAIL
+	dbw 70, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
