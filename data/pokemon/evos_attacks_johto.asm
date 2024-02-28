@@ -114,13 +114,16 @@ ChikoritaEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, GROWL
-	dbw 1, RAZOR_LEAF
-	dbw 8, REFLECT
-	dbw 13, POISONPOWDER
-	dbw 22, SYNTHESIS
-	dbw 29, BODY_SLAM
-	dbw 36, LIGHT_SCREEN
-	dbw 43, SAFEGUARD
+	dbw 6, RAZOR_LEAF
+	dbw 9, POISONPOWDER
+	dbw 12, SYNTHESIS
+	dbw 17, REFLECT
+	dbw 23, LEECH_SEED
+	dbw 28, SWEET_SCENT
+	dbw 31, LIGHT_SCREEN
+	dbw 34, BODY_SLAM
+	dbw 39, SAFEGUARD
+	dbw 42, GIGA_DRAIN
 	dbw 50, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -130,15 +133,16 @@ BayleefEvosAttacks:
 	dbw 1, TACKLE
 	dbw 1, GROWL
 	dbw 1, RAZOR_LEAF
-	dbw 1, REFLECT
-	dbw 8, RAZOR_LEAF
-	dbw 12, REFLECT
-	dbw 15, POISONPOWDER
-	dbw 23, SYNTHESIS
-	dbw 31, BODY_SLAM
-	dbw 39, LIGHT_SCREEN
-	dbw 47, SAFEGUARD
-	dbw 55, SOLARBEAM
+	dbw 1, POISONPOWDER
+	dbw 12, SYNTHESIS
+	dbw 18, REFLECT
+	dbw 26, LEECH_SEED
+	dbw 32, SWEET_SCENT
+	dbw 36, LIGHT_SCREEN
+	dbw 40, BODY_SLAM
+	dbw 46, SAFEGUARD
+	dbw 50, GIGA_DRAIN
+	dbw 54, SOLARBEAM
 	db 0 ; no more level-up moves
 
 MeganiumEvosAttacks:
@@ -146,26 +150,28 @@ MeganiumEvosAttacks:
 	dbw 1, TACKLE
 	dbw 1, GROWL
 	dbw 1, RAZOR_LEAF
-	dbw 1, REFLECT
-	dbw 8, RAZOR_LEAF
-	dbw 12, REFLECT
-	dbw 15, POISONPOWDER
-	dbw 23, SYNTHESIS
-	dbw 31, BODY_SLAM
-	dbw 41, LIGHT_SCREEN
-	dbw 51, SAFEGUARD
-	dbw 61, SOLARBEAM
+	dbw 1, POISONPOWDER
+	dbw 12, SYNTHESIS
+	dbw 18, REFLECT
+	dbw 26, LEECH_SEED
+	dbw 34, SWEET_SCENT
+	dbw 40, LIGHT_SCREEN
+	dbw 46, BODY_SLAM
+	dbw 54, SAFEGUARD
+	dbw 60, GIGA_DRAIN
+	dbw 65, SOLARBEAM
 	db 0 ; no more level-up moves
 
 CyndaquilEvosAttacks:
 	dbbw EVOLVE_LEVEL, 14, QUILAVA
 	db 0 ; no more evolutions
-	dbw 1, EMBER
 	dbw 1, TACKLE
 	dbw 1, LEER
-	dbw 8, SMOKESCREEN
-	dbw 16, QUICK_ATTACK
-	dbw 27, FLAME_WHEEL
+	dbw 6, SMOKESCREEN
+	dbw 10, EMBER
+	dbw 13, QUICK_ATTACK
+	dbw 19, FLAME_WHEEL
+	dbw 22, DEFENSE_CURL
 	dbw 36, SWIFT
 	dbw 46, FLAMETHROWER
 	db 0 ; no more level-up moves
