@@ -296,6 +296,9 @@ BattleAnimations::
 	dw BattleAnim_DragonPulse
 	dw BattleAnim_DrainPunch
 	dw BattleAnim_DrainingKiss
+	dw BattleAnim_DarkPulse
+	dw BattleAnim_IceShard
+	dw BattleAnim_AquaTail
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -5054,6 +5057,7 @@ BattleAnim_DragonClaw:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_DarkPulse:
 BattleAnim_DragonPulse:
 	anim_1gfx BATTLE_ANIM_GFX_BEAM
 	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $40
@@ -5081,3 +5085,36 @@ BattleAnim_DrainingKiss:
 	anim_obj BATTLE_ANIM_OBJ_HEART, 128, 40, $0
 	anim_wait 40
 	anim_ret
+
+BattleAnim_IceShard:
+	anim_2gfx BATTLE_ANIM_GFX_SPEED, BATTLE_ANIM_GFX_ICE
+	anim_sound 0, 0, SFX_SHINE
+	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 24, 88, $2
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 32, 88, $1
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 40, 88, $0
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 48, 88, $80
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 56, 88, $81
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 64, 88, $82
+	anim_wait 12
+	anim_sound 0, 1, SFX_SHINE
+	anim_call BattleAnimSub_Ice
+	anim_wait 8
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
+	anim_wait 16
+	anim_ret
+
+BattleAnim_AquaTail:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_BUBBLE
+	anim_sound 0, 1, SFX_SURF
+	anim_call BattleAnim_TargetObj_1Row
+	anim_bgeffect BATTLE_BG_EFFECT_SURF, $0, $0, $0
+	anim_obj BATTLE_ANIM_OBJ_SURF, 88, 104, $8
+	anim_wait 12
+	anim_bgeffect BATTLE_BG_EFFECT_TACKLE, $0, BG_EFFECT_USER, $0
+	anim_wait 4
+	anim_sound 0, 1, SFX_TACKLE
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
+	anim_call BattleAnim_ShowMon_0
+	anim_ret
+	

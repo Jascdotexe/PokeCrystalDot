@@ -273,6 +273,9 @@ MoveDescriptions1:
 	dw DragonPulseDescription
 	dw DrainPunchDescription
 	dw DrainingKissDescription
+	dw DarkPulseDescription
+	dw IceShardDescription
+	dw AquaTailDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1349,3 +1352,16 @@ DrainPunchDescription:
 DrainingKissDescription:
 	db   "Drains health with"
 	next "a lovely kiss.@"
+
+DarkPulseDescription:
+	db   "Releases an aura"
+	next "of ill intent.@"
+
+IceShardDescription:
+	db   "Quickly tosses"
+	next "an ice shard.@"
+
+AquaTailDescription:
+	db   "Swins tail in a"
+	next "vicious wave.@"
+	

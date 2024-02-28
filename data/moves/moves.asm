@@ -221,7 +221,7 @@ Moves1:
 	move EFFECT_SANDSTORM,           0, ROCK,          STATUS,   100, 10,   0
 	move EFFECT_LEECH_HIT,          60, GRASS,         SPECIAL,  100,  5,   0
 	move EFFECT_ENDURE,              0, NORMAL,        STATUS,   100, 10,   0
-	move EFFECT_ATTACK_DOWN_2,       0, FAIRY,        STATUS,   100, 20,   0
+	move EFFECT_ATTACK_DOWN_2,       0, FAIRY,         STATUS,   100, 20,   0
 	move EFFECT_ROLLOUT,            30, ROCK,          PHYSICAL,  90, 20,   0
 	move EFFECT_FALSE_SWIPE,        40, NORMAL,        PHYSICAL, 100, 40,   0
 	move EFFECT_SWAGGER,             0, NORMAL,        STATUS,    90, 15, 100
@@ -286,4 +286,7 @@ Moves1:
 	move EFFECT_NORMAL_HIT,         85, DRAGON,        SPECIAL,    100, 10,   0       ; DRAGON_PULSE
 	move EFFECT_LEECH_HIT,          75, FIGHTING,      PHYSICAL,   100, 10,   0       ; DRAIN_PUNCH
 	move EFFECT_LEECH_HIT,          50, FAIRY,         SPECIAL,    100, 10,   0       ; DRAINING_KISS
+	move EFFECT_FLINCH_HIT,         80, DARK,          SPECIAL,    100, 15,  20       ; DARK_PULSE
+	move EFFECT_PRIORITY_HIT,       40, ICE,           PHYSICAL,   100, 30,   0       ; ICE_SHARD
+	move EFFECT_NORMAL_HIT,         90, WATER,         PHYSICAL,    90, 10,   0       ; AQUA_TAIL
 .IndirectEnd::

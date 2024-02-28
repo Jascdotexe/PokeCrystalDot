@@ -202,14 +202,18 @@ TotodileEvosAttacks:
 	dbbw EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
-	dbw 1, LEER
-	dbw 1, WATER_GUN
-	dbw 8, RAGE
-	dbw 14, BITE
-	dbw 25, SCARY_FACE
-	dbw 33, SLASH
-	dbw 43, SCREECH
-	dbw 52, HYDRO_PUMP
+	dbw 1, AQUA_TAIL
+	dbw 6, WATER_GUN
+	dbw 9, BITE
+	dbw 13, SCARY_FACE
+	dbw 19, ICE_FANG
+	dbw 22, FLAIL
+	dbw 27, CRUNCH
+	dbw 30, SLASH
+	dbw 33, SCREECH
+	dbw 37, THRASH
+	dbw 41, AQUA_TAIL
+	dbw 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:

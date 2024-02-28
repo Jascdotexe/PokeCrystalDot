@@ -268,4 +268,7 @@ MoveNames::
 	li "DRAGON PULSE"
 	li "DRAIN PUNCH"
 	li "DRAIN KISS"
+	li "DARK PULSE"
+	li "ICE SHARD"
+	li "AQUA TAIL"
 	assert_list_length NUM_ATTACKS
