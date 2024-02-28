@@ -277,6 +277,7 @@ MoveDescriptions1:
 	dw IceShardDescription
 	dw AquaTailDescription
 	dw FlameChargeDescription
+	dw LavaPlumeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1369,3 +1370,7 @@ AquaTailDescription:
 FlameChargeDescription:
 	db   "Cloak in flames"
 	next "and attack.@"
+
+LavaPlumeDescription:
+	db   "Torches and may"
+	next "leave a burn.@"

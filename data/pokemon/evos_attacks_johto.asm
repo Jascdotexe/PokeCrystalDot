@@ -174,6 +174,7 @@ CyndaquilEvosAttacks:
 	dbw 22, DEFENSE_CURL
 	dbw 28, FLAME_CHARGE
 	dbw 31, SWIFT
+	dbw 37, LAVA_PLUME
 	dbw 40, FLAMETHROWER
 	dbw 49, ROLLOUT
 	dbw 55, DOUBLE_EDGE
@@ -191,6 +192,7 @@ QuilavaEvosAttacks:
 	dbw 24, DEFENSE_CURL
 	dbw 31, SWIFT
 	dbw 35, FLAME_CHARGE
+	dbw 42, LAVA_PLUME
 	dbw 46, FLAMETHROWER
 	dbw 57, ROLLOUT
 	dbw 64, DOUBLE_EDGE
@@ -208,6 +210,7 @@ TyphlosionEvosAttacks:
 	dbw 24, DEFENSE_CURL
 	dbw 31, SWIFT
 	dbw 35, FLAME_CHARGE
+	dbw 43, LAVA_PLUME
 	dbw 48, FLAMETHROWER
 	dbw 61, ROLLOUT
 	db 0 ; no more level-up moves
