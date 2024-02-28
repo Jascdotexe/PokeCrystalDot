@@ -165,8 +165,8 @@ MeganiumEvosAttacks:
 CyndaquilEvosAttacks:
 	dbbw EVOLVE_LEVEL, 14, QUILAVA
 	db 0 ; no more evolutions
-	dbw 1, INFERNO
-	dbw 1, OVERHEAT
+	dbw 1, TACKLE
+	dbw 1, LEER
 	dbw 6, SMOKESCREEN
 	dbw 10, EMBER
 	dbw 13, QUICK_ATTACK
@@ -179,7 +179,6 @@ CyndaquilEvosAttacks:
 	dbw 46, INFERNO
 	dbw 49, ROLLOUT
 	dbw 55, DOUBLE_EDGE
-	dbw 58, OVERHEAT
 	db 0 ; no more level-up moves
 
 QuilavaEvosAttacks:
@@ -199,7 +198,6 @@ QuilavaEvosAttacks:
 	dbw 53, INFERNO
 	dbw 57, ROLLOUT
 	dbw 64, DOUBLE_EDGE
-	dbw 68, OVERHEAT
 	db 0 ; no more level-up moves
 
 TyphlosionEvosAttacks:
@@ -218,7 +216,7 @@ TyphlosionEvosAttacks:
 	dbw 48, FLAMETHROWER
 	dbw 56, INFERNO
 	dbw 61, ROLLOUT
-	dbw 74, OVERHEAT
+	dbw 66, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 TotodileEvosAttacks:
