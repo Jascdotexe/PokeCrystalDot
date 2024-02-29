@@ -158,7 +158,7 @@ Moves1:
 	move EFFECT_DREAM_EATER,       100, PSYCHIC_TYPE,  SPECIAL,  100, 15,   0
 	move EFFECT_POISON,              0, POISON,        STATUS,    55, 40,   0
 	move EFFECT_MULTI_HIT,          15, NORMAL,        PHYSICAL,  85, 20,   0
-	move EFFECT_LEECH_HIT,          20, BUG,           PHYSICAL, 100, 15,   0
+	move EFFECT_LEECH_HIT,          80, BUG,           PHYSICAL, 100, 10,   0
 	move EFFECT_SLEEP,               0, NORMAL,        STATUS,    75, 10,   0
 	move EFFECT_SKY_ATTACK,        140, FLYING,        PHYSICAL,  90,  5,   0
 	move EFFECT_TRANSFORM,           0, NORMAL,        STATUS,   100, 10,   0

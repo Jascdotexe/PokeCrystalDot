@@ -430,29 +430,41 @@ AriadosEvosAttacks:
 
 CrobatEvosAttacks:
 	db 0 ; no more evolutions
+	; dbw 1, CROSS_POISON
+	; dbw 1, TAILWIND
+	; dbw 1, ASTONISH
+	dbw 1, MEAN_LOOK
+	dbw 1, TOXIC
 	dbw 1, SCREECH
-	dbw 1, LEECH_LIFE
+	dbw 1, ABSORB
 	dbw 1, SUPERSONIC
-	dbw 6, SUPERSONIC
-	dbw 12, BITE
-	dbw 19, CONFUSE_RAY
-	dbw 30, WING_ATTACK
-	dbw 42, MEAN_LOOK
-	dbw 55, HAZE
+	; dbw 15, POISON_FANG
+	; dbw 27, AIR_CUTTER
+	dbw 24, WING_ATTACK
+	dbw 34, BITE
+	dbw 41, HAZE
+	; dbw 48, VENOSHOCK
+	dbw 55, CONFUSE_RAY
+	; dbw 62, AIR_SLASH
+	dbw 69, LEECH_LIFE
 	db 0 ; no more level-up moves
 
 ChinchouEvosAttacks:
 	dbbw EVOLVE_LEVEL, 27, LANTURN
 	db 0 ; no more evolutions
-	dbw 1, BUBBLE
-	dbw 1, THUNDER_WAVE
-	dbw 5, SUPERSONIC
-	dbw 13, FLAIL
-	dbw 17, WATER_GUN
-	dbw 25, SPARK
-	dbw 29, CONFUSE_RAY
-	dbw 37, TAKE_DOWN
-	dbw 41, HYDRO_PUMP
+	dbw 1, WATER_GUN
+	dbw 1, SUPERSONIC
+	; dbw 4, ELECTRO_BALL
+	dbw 8, THUNDER_WAVE
+	dbw 12, BUBBLEBEAM
+	dbw 16, CONFUSE_RAY
+	dbw 20, SPARK
+	; dbw 24, CHARGE
+	; dbw 28, DISCHARGE
+	; dbw 32, AQUA_RING
+	dbw 36, FLAIL
+	dbw 40, TAKE_DOWN
+	dbw 44, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 LanturnEvosAttacks:
