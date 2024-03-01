@@ -7,6 +7,6 @@
 
 Just a pesonal project to learn how to use decomps and GitHub, using the PokeCrystal16-NewBox version as a base.
 
-Credit to pret & everyone involved in making the decomps, and the 16-bit Newbox version specifically, as well as the tutorials made for PokeCrystal.
+Credit to pret, aaaaaa123456789 & everyone involved in making the decomps, and the 16-bit Newbox version specifically, as well as the tutorials made for PokeCrystal.
 
 Credit to @nuukiie for the sprites for new Pokemon.
