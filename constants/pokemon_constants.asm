@@ -278,6 +278,7 @@ DEF NEW_POKEMON EQU const_value
 	const AZURILL
 	const PORYGONZ
 	const HONCHKROW
+	const MAMOSWINE
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

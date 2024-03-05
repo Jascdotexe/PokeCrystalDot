@@ -261,4 +261,5 @@ PokemonNames::
 	db "AZURILL@@@"
 	db "PORYGON Z@"
 	db "HONCHKROW@"
+	db "MAMOSWINE@"
 	assert_table_length NUM_POKEMON

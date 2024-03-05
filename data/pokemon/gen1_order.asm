@@ -259,4 +259,5 @@ Pokered_MonIndices:
 	db AZURILL
 	db PORYGONZ
 	db HONCHKROW 
+	db MAMOSWINE
 	assert_table_length NUM_POKEMON + 1

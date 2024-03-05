@@ -7,6 +7,7 @@ EggMovePointers3::
 	dw AzurillEggMoves
 	dw NoEggMoves3
     dw NoEggMoves3
+    dw NoEggMoves3
 .IndirectEnd::
 
 AzurillEggMoves:

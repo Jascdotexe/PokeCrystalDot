@@ -1443,6 +1443,7 @@ SwinubEvosAttacks:
 	db 0 ; no more level-up moves
 
 PiloswineEvosAttacks:
+	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, MAMOSWINE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	; dbw 1, MUD_SLAP

@@ -1713,29 +1713,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons LITTLE_GARDEN
 	db 8 percent, 8 percent, 8 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 20, SYLVEON
-	dbw 20, ARCEUS
-	dbw 20, AZURILL
-	dbw 20, HONCHKROW
-	dbw 20, PORYGONZ
-	dbw 20, TOGEKISS
-	dbw 20, SYLVEON
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
 	; day
-	dbw 20, SYLVEON
-	dbw 20, ARCEUS
-	dbw 20, AZURILL
-	dbw 20, HONCHKROW
-	dbw 20, PORYGONZ
-	dbw 20, TOGEKISS
-	dbw 20, SYLVEON
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
 	; nite
-	dbw 20, SYLVEON
-	dbw 20, ARCEUS
-	dbw 20, AZURILL
-	dbw 20, HONCHKROW
-	dbw 20, PORYGONZ
-	dbw 20, TOGEKISS
-	dbw 20, SYLVEON
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
+	dbw 10, MAMOSWINE
 	end_grass_wildmons
 
 	db -1 ; end

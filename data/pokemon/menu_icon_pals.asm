@@ -267,4 +267,5 @@ MonMenuIconPals:
 	icon_pals BLUE,   GREEN  ; AZURILL
 	icon_pals BLUE,   BLUE   ; PORYGONZ
 	icon_pals BLUE,   PINK   ; HONCHKROW
+	icon_pals BROWN,  GREEN  ; MAMOSWINE
 	assert_table_length NUM_POKEMON

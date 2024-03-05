@@ -284,4 +284,5 @@ INCLUDE "data/pokemon/base_stats/togekiss.asm"
 INCLUDE "data/pokemon/base_stats/azurill.asm"
 INCLUDE "data/pokemon/base_stats/porygonz.asm"
 INCLUDE "data/pokemon/base_stats/honchkrow.asm"
+INCLUDE "data/pokemon/base_stats/mamoswine.asm"
 .IndirectEnd::

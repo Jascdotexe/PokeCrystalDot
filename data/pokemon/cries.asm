@@ -261,6 +261,7 @@ PokemonCries::
 	mon_cry CRY_VENONAT,      333, 220 ; SYLVEON
 	mon_cry CRY_TOGETIC,      159, 226 ; TOGETIC
 	mon_cry CRY_MARILL,       400, 120 ; AZURILL
-	mon_cry CRY_GIRAFARIG,    333,  576 ; PORYGON2
+	mon_cry CRY_GIRAFARIG,    333,  576 ; PORYGONZ
 	mon_cry CRY_MARILL,      -231,  358 ; MURKROW
+	mon_cry CRY_MAGCARGO,    -365,  412 ; PILOSWINE
 	assert_table_length NUM_POKEMON

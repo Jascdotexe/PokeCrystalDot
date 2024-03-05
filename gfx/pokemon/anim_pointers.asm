@@ -257,4 +257,5 @@ AnimationPointers:
 	dw AzurillAnimation
 	dw PorygonZAnimation
 	dw HonchkrowAnimation
+	dw MamoswineAnimation
 	assert_table_length NUM_POKEMON

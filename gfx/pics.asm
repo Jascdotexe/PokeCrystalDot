@@ -723,4 +723,6 @@ PorygonZFrontpic:    INCBIN "gfx/pokemon/porygonz/front.animated.2bpp.lz"
 PorygonZBackpic:     INCBIN "gfx/pokemon/porygonz/back.2bpp.lz"
 HonchkrowFrontpic:   INCBIN "gfx/pokemon/honchkrow/front.animated.2bpp.lz"
 HonchkrowBackpic:    INCBIN "gfx/pokemon/honchkrow/back.2bpp.lz"
+MamoswineFrontpic:   INCBIN "gfx/pokemon/mamoswine/front.animated.2bpp.lz"
+MamoswineBackpic:    INCBIN "gfx/pokemon/mamoswine/back.2bpp.lz"
 

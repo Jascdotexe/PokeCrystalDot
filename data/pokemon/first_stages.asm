@@ -258,4 +258,5 @@ FirstEvoStages::
 	dw AZURILL
 	dw PORYGON
 	dw MURKROW
+	dw SWINUB
 	assert_table_length NUM_POKEMON

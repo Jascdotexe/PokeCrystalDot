@@ -7,6 +7,7 @@ EvosAttacksPointers3::
 	dw AzurillEvosAttacks
 	dw PorygonZEvosAttacks
     dw HonchkrowEvosAttacks
+    dw MamoswineEvosAttacks
 .IndirectEnd::
 
 
@@ -113,3 +114,23 @@ HonchkrowEvosAttacks:
 	; dbw 55, DARK_PULSE
 	; dbw 65, COMEUPPANCE
     db 0 ; no more level-up moves
+
+MamoswineEvosAttacks:
+    db 0 ; no more evolutions
+    ; dbw 1, DOUBLE_HIT
+	dbw 1, TACKLE
+	; dbw 1, MUD_SLAP
+	dbw 1, POWDER_SNOW
+	dbw 1, FLAIL
+	dbw 1, ANCIENTPOWER
+	dbw 1, ICE_FANG ; EVOMOVE
+	dbw 15, ICE_SHARD
+	dbw 20, MIST
+	dbw 25, ENDURE
+	; dbw 30, ICY_WIND
+	dbw 37, AMNESIA
+	dbw 44, TAKE_DOWN
+	dbw 51, EARTHQUAKE
+	dbw 58, BLIZZARD
+	dbw 65, THRASH
+	db 0 ; no more level-up moves
