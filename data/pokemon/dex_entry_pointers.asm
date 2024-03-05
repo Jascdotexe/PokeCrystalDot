@@ -259,4 +259,5 @@ PokedexDataPointerTable:
 	dba PorygonZPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba MamoswinePokedexEntry
+	dba ElectivirePokedexEntry
 	assert_table_length NUM_POKEMON

@@ -1837,16 +1837,22 @@ JynxEvosAttacks:
 	db 0 ; no more level-up moves
 
 ElectabuzzEvosAttacks:
-	db 0 ; no more evolutions
+	dbbw EVOLVE_ITEM, LINK_CABLE, ELECTIVIRE; no more evolutions
 	dbw 1, QUICK_ATTACK
 	dbw 1, LEER
-	dbw 1, THUNDERPUNCH
-	dbw 9, THUNDERPUNCH
-	dbw 17, LIGHT_SCREEN
-	dbw 25, SWIFT
-	dbw 36, SCREECH
-	dbw 47, THUNDERBOLT
+	dbw 1, THUNDERSHOCK
+	; dbw 1, CHARGE
+	dbw 12, SWIFT
+	; dbw 16, SHOCK_WAVE
+	dbw 20, THUNDER_WAVE
+	dbw 24, SCREECH
+	dbw 28, THUNDERPUNCH
+	; dbw 34, DISCHARGE
+	dbw 40, LOW_KICK
+	dbw 46, THUNDERBOLT
+	dbw 52, LIGHT_SCREEN
 	dbw 58, THUNDER
+	; dbw 64, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
 MagmarEvosAttacks:

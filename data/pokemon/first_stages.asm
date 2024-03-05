@@ -259,4 +259,5 @@ FirstEvoStages::
 	dw PORYGON
 	dw MURKROW
 	dw SWINUB
+	dw ELEKID
 	assert_table_length NUM_POKEMON

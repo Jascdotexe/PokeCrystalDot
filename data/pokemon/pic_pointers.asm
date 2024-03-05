@@ -532,4 +532,6 @@ PokemonPicPointers::
 	dba HonchkrowBackpic
 	dba MamoswineFrontpic
 	dba MamoswineBackpic
+	dba ElectivireFrontpic
+	dba ElectivireBackpic
 	assert_table_length NUM_POKEMON + 1

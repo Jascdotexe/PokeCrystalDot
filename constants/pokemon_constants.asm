@@ -279,6 +279,7 @@ DEF NEW_POKEMON EQU const_value
 	const PORYGONZ
 	const HONCHKROW
 	const MAMOSWINE
+	const ELECTIVIRE
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

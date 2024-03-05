@@ -159,6 +159,7 @@ NewPokedexOrder:
 	dw JYNX
 	dw ELEKID
 	dw ELECTABUZZ
+	dw ELECTIVIRE
 	dw MR__MIME
 	dw SMEARGLE
 	dw FARFETCH_D

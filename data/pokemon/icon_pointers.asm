@@ -263,4 +263,5 @@ IconPointers:
 	dw PorygonZIcon
 	dw HonchkrowIcon
 	dw MamoswineIcon
+	dw ElectivireIcon
 	assert_table_length NUM_POKEMON + 1

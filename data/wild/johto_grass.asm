@@ -1713,29 +1713,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons LITTLE_GARDEN
 	db 8 percent, 8 percent, 8 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
 	; day
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
 	; nite
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
-	dbw 10, MAMOSWINE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
+	dbw 10, ELECTIVIRE
 	end_grass_wildmons
 
 	db -1 ; end

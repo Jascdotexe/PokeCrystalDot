@@ -260,4 +260,5 @@ Pokered_MonIndices:
 	db PORYGONZ
 	db HONCHKROW 
 	db MAMOSWINE
+	db ELECTIVIRE
 	assert_table_length NUM_POKEMON + 1

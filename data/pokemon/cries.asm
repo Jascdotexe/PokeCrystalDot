@@ -264,4 +264,5 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,    333,  576 ; PORYGONZ
 	mon_cry CRY_MARILL,      -231,  358 ; MURKROW
 	mon_cry CRY_MAGCARGO,    -365,  412 ; PILOSWINE
+	mon_cry CRY_VOLTORB,     -143,  328 ; ELECTIVIRE
 	assert_table_length NUM_POKEMON
