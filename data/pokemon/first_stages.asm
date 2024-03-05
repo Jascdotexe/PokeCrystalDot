@@ -261,4 +261,5 @@ FirstEvoStages::
 	dw SWINUB
 	dw ELEKID
 	dw MAGBY
+	dw SNEASEL
 	assert_table_length NUM_POKEMON

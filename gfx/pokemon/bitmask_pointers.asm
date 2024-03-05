@@ -260,4 +260,5 @@ BitmasksPointers:
 	dw MamoswineBitmasks
 	dw ElectivireBitmasks
 	dw MagmortarBitmasks
+	dw WeavileBitmasks
 	assert_table_length NUM_POKEMON

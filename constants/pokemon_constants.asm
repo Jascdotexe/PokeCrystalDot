@@ -281,6 +281,7 @@ DEF NEW_POKEMON EQU const_value
 	const MAMOSWINE
 	const ELECTIVIRE
 	const MAGMORTAR
+	const WEAVILE
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

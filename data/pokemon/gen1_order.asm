@@ -262,4 +262,5 @@ Pokered_MonIndices:
 	db MAMOSWINE
 	db ELECTIVIRE
 	db MAGMORTAR
+	db WEAVILE
 	assert_table_length NUM_POKEMON + 1

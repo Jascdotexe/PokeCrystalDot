@@ -287,4 +287,5 @@ INCLUDE "data/pokemon/base_stats/honchkrow.asm"
 INCLUDE "data/pokemon/base_stats/mamoswine.asm"
 INCLUDE "data/pokemon/base_stats/electivire.asm"
 INCLUDE "data/pokemon/base_stats/magmortar.asm"
+INCLUDE "data/pokemon/base_stats/weavile.asm"
 .IndirectEnd::

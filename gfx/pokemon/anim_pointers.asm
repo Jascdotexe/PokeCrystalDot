@@ -260,4 +260,5 @@ AnimationPointers:
 	dw MamoswineAnimation
 	dw ElectivireAnimation
 	dw MagmortarAnimation
+	dw WeavileAnimation
 	assert_table_length NUM_POKEMON

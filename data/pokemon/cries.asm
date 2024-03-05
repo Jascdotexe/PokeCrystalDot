@@ -266,4 +266,5 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,    -365,  412 ; PILOSWINE
 	mon_cry CRY_VOLTORB,     -143,  328 ; ELECTIVIRE
 	mon_cry CRY_CHARMANDER,  -180,  222 ; MAGMORTAR
+	mon_cry CRY_WOOPER,       183,  246 ; SNEASEL
 	assert_table_length NUM_POKEMON

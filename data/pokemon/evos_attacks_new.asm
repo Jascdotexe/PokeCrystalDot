@@ -10,6 +10,7 @@ EvosAttacksPointers3::
     dw MamoswineEvosAttacks
     dw ElectivireEvosAttacks
     dw MagmortarEvosAttacks
+    dw WeavileEvosAttacks
 .IndirectEnd::
 
 
@@ -158,7 +159,7 @@ ElectivireEvosAttacks:
 
 MagmortarEvosAttacks:
     db 0 ; no more evolutions
-    	dbw 1, EMBER
+    dbw 1, EMBER
 	dbw 1, LEER
 	dbw 1, SMOG
 	dbw 1, SMOKESCREEN
@@ -174,3 +175,27 @@ MagmortarEvosAttacks:
 	dbw 58, FIRE_BLAST
 	dbw 64, HYPER_BEAM
 	db 0 ; no more level-up moves
+
+WeavileEvosAttacks:
+    db 0 ; no more evolutions
+    dbw 1, SCRATCH
+	dbw 1, LEER
+    dbw 1, AGILITY
+    ; dbw 1, ASSURANCE
+    ; dbw 1, TAUNT
+    dbw 1, SLASH
+    dbw 1, BEAT_UP
+    dbw 1, ICE_SHARD
+	dbw 1, QUICK_ATTACK
+	dbw 18, METAL_CLAW
+	; dbw 24, ICY_WIND
+	dbw 25, FAINT_ATTACK ; REMOVE
+	dbw 30, FURY_SWIPES
+	; dbw 36, HONE_CLAW
+	; dbw 42, FLING
+	; dbw 48, NASTY_PLOT
+	dbw 54, SCREECH
+	; dbw 60, NIGHT_SLASH
+    ; dbw 66, DARK_PULSE
+	db 0 ; no more level-up moves
+    
