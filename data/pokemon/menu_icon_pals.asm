@@ -268,5 +268,6 @@ MonMenuIconPals:
 	icon_pals BLUE,   BLUE   ; PORYGONZ
 	icon_pals BLUE,   PINK   ; HONCHKROW
 	icon_pals BROWN,  GREEN  ; MAMOSWINE
-	icon_pals BROWN,  GREEN, ; ELECTIVIRE
+	icon_pals BROWN,  GREEN  ; ELECTIVIRE
+	icon_pals RED,    PINK   ; MAGMORTAR
 	assert_table_length NUM_POKEMON

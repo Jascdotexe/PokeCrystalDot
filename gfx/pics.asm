@@ -727,4 +727,5 @@ MamoswineFrontpic:   INCBIN "gfx/pokemon/mamoswine/front.animated.2bpp.lz"
 MamoswineBackpic:    INCBIN "gfx/pokemon/mamoswine/back.2bpp.lz"
 ElectivireFrontpic:  INCBIN "gfx/pokemon/electivire/front.animated.2bpp.lz"
 ElectivireBackpic:   INCBIN "gfx/pokemon/electivire/back.2bpp.lz"
-
+MagmortarFrontpic:   INCBIN "gfx/pokemon/magmortar/front.animated.2bpp.lz"
+MagmortarBackpic:    INCBIN "gfx/pokemon/magmortar/back.2bpp.lz"

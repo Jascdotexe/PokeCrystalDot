@@ -259,4 +259,5 @@ FramesPointers:
 	dba HonchkrowFrames
 	dba MamoswineFrames
 	dba ElectivireFrames
+	dba MagmortarFrames
 	assert_table_length NUM_POKEMON

@@ -260,4 +260,5 @@ FirstEvoStages::
 	dw MURKROW
 	dw SWINUB
 	dw ELEKID
+	dw MAGBY
 	assert_table_length NUM_POKEMON

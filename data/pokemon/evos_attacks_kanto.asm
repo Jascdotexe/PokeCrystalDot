@@ -1860,15 +1860,18 @@ MagmarEvosAttacks:
 	dbw 1, EMBER
 	dbw 1, LEER
 	dbw 1, SMOG
-	dbw 1, FIRE_PUNCH
-	dbw 7, LEER
-	dbw 13, SMOG
-	dbw 19, FIRE_PUNCH
-	dbw 25, SMOKESCREEN
-	dbw 33, SUNNY_DAY
-	dbw 41, FLAMETHROWER
-	dbw 49, CONFUSE_RAY
-	dbw 57, FIRE_BLAST
+	dbw 1, SMOKESCREEN
+	; dbw 12, CLEAR_SMOG
+	dbw 16, FLAME_WHEEL
+	dbw 20, CONFUSE_RAY
+	dbw 24, SCARY_FACE
+	dbw 28, FIRE_PUNCH
+	dbw 34, LAVA_PLUME
+	dbw 40, LOW_KICK
+	dbw 46, FLAMETHROWER
+	dbw 52, SUNNY_DAY
+	dbw 58, FIRE_BLAST
+	dbw 64, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 PinsirEvosAttacks:

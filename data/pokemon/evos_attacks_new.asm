@@ -9,6 +9,7 @@ EvosAttacksPointers3::
     dw HonchkrowEvosAttacks
     dw MamoswineEvosAttacks
     dw ElectivireEvosAttacks
+    dw MagmortarEvosAttacks
 .IndirectEnd::
 
 
@@ -154,3 +155,22 @@ ElectivireEvosAttacks:
 	dbw 58, THUNDER
 	; dbw 64, GIGA_IMPACT
     db 0 ; no more level-up moves
+
+MagmortarEvosAttacks:
+    db 0 ; no more evolutions
+    	dbw 1, EMBER
+	dbw 1, LEER
+	dbw 1, SMOG
+	dbw 1, SMOKESCREEN
+	; dbw 12, CLEAR_SMOG
+	dbw 16, FLAME_WHEEL
+	dbw 20, CONFUSE_RAY
+	dbw 24, SCARY_FACE
+	dbw 28, FIRE_PUNCH
+	dbw 34, LAVA_PLUME
+	dbw 40, LOW_KICK
+	dbw 46, FLAMETHROWER
+	dbw 52, SUNNY_DAY
+	dbw 58, FIRE_BLAST
+	dbw 64, HYPER_BEAM
+	db 0 ; no more level-up moves

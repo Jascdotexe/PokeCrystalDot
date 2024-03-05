@@ -259,4 +259,5 @@ AnimationPointers:
 	dw HonchkrowAnimation
 	dw MamoswineAnimation
 	dw ElectivireAnimation
+	dw MagmortarAnimation
 	assert_table_length NUM_POKEMON
