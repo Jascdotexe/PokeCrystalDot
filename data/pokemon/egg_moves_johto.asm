@@ -101,12 +101,6 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
-	dw NoEggMoves2
-	dw NoEggMoves2
-	dw NoEggMoves2
-	dw AzurillEggMoves
-	dw NoEggMoves2
-	dw NoEggMoves2
 .IndirectEnd::
 
 ChikoritaEggMoves:
@@ -219,17 +213,6 @@ MareepEggMoves:
 	dw SAFEGUARD
 	dw SCREECH
 	dw REFLECT
-	dw -1 ; end
-
-AzurillEggMoves:
-	dw LIGHT_SCREEN
-	dw PRESENT
-	dw AMNESIA
-	dw FUTURE_SIGHT
-	dw BELLY_DRUM
-	dw PERISH_SONG
-	dw SUPERSONIC
-	dw FORESIGHT
 	dw -1 ; end
 
 SudowoodoEggMoves:

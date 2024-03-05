@@ -292,5 +292,5 @@ Moves1:
 	move EFFECT_SPEED_UP_HIT,       50, FIRE,          PHYSICAL,   100, 20, 100       ; FLAME_CHARGE      
 	move EFFECT_BURN_HIT,           80, FIRE,          SPECIAL,    100, 15,  30       ; LAVA_PLUME
 	move EFFECT_BURN_HIT,          100, FIRE,          SPECIAL,    100,  5, 100       ; INFERNO              
-	move EFFECT_SP_ATK_DOWN_2_HIT, 130, FIRE,          SPECIAL,     90,  5, 100       ; OVERHEAT
+	move EFFECT_SP_ATK_DOWN_2,     130, FIRE,          SPECIAL,     90,  5, 100       ; OVERHEAT
 .IndirectEnd::

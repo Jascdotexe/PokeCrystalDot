@@ -110,12 +110,9 @@ INCLUDE "engine/pokemon/mon_submenu.asm"
 INCLUDE "engine/battle/menu.asm"
 INCLUDE "engine/items/buy_sell_toss.asm"
 INCLUDE "engine/menus/trainer_card.asm"
-INCLUDE "engine/events/prof_oaks_pc.asm"
-INCLUDE "engine/overworld/decorations.asm"
 INCLUDE "engine/pokemon/level_up_happiness.asm"
 INCLUDE "engine/battle/read_trainer_dvs.asm"
 INCLUDE "engine/battle/returntobattle_useball.asm"
-INCLUDE "engine/battle/consume_held_item.asm"
 INCLUDE "data/moves/effects.asm"
 INCLUDE "engine/events/kurt_selectquantity_interpretjoypad.asm"
 
@@ -123,7 +120,9 @@ INCLUDE "engine/events/kurt_selectquantity_interpretjoypad.asm"
 SECTION "bankA", ROMX
 
 INCLUDE "engine/overworld/wildmons.asm"
-
+INCLUDE "engine/battle/consume_held_item.asm"
+INCLUDE "engine/overworld/decorations.asm"
+INCLUDE "engine/events/prof_oaks_pc.asm"
 
 SECTION "bankB", ROMX
 

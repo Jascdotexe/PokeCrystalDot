@@ -271,6 +271,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb
+DEF NEW_POKEMON EQU const_value
 	const ARCEUS
 	const SYLVEON
 	const TOGEKISS

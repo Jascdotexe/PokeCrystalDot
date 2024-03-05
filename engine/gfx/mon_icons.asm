@@ -515,14 +515,23 @@ GetIconBank:
 	ld a, [wCurIcon]
 	call GetPokemonIndexFromID
 	ld a, h
-	cp HIGH(MAGIKARP) ; first species in "Mon Icons 2"
+	jr c, .check_arceus
+	cp HIGH(MAGIKARP) ; First species in "Mon Icons 2"
 	lb bc, BANK("Mon Icons 1"), 8
-	jr c, .return
 	ld a, l
 	cp LOW(MAGIKARP)
 	jr c, .return
 	ld b, BANK("Mon Icons 2")
-.return
+
+.check_arceus:
+	cp HIGH(ARCEUS) ; ARCEUS is the new Pokémon
+	lb bc, BANK("Mon Icons 2"), 8
+	ld a, l
+	cp LOW(ARCEUS)
+	jr c, .return
+	ld b, BANK("Mon Icons 3") ; Set the bank for the new section
+
+.return:
 	pop hl
 	ret
 

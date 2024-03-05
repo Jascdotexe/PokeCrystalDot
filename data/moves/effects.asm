@@ -636,7 +636,6 @@ SpecialAttackDown2Hit:
 	damagecalc
 	stab
 	damagevariation
-	specialattackdown2
 	checkhit
 	effectchance
 	moveanim
@@ -646,6 +645,7 @@ SpecialAttackDown2Hit:
 	supereffectivetext
 	checkfaint
 	buildopponentrage
+	specialattackdown2
 	statdownmessage
 	endmove
 

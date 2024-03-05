@@ -1713,29 +1713,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons LITTLE_GARDEN
 	db 8 percent, 8 percent, 8 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, CHARMANDER
-	dbw 5, BULBASAUR
-	dbw 5, SQUIRTLE
-	dbw 5, CHIKORITA
-	dbw 5, CYNDAQUIL
-	dbw 5, TOTODILE
-	dbw 5, PIKACHU
+	dbw 20, SYLVEON
+	dbw 20, ARCEUS
+	dbw 20, AZURILL
+	dbw 20, HONCHKROW
+	dbw 20, PORYGONZ
+	dbw 20, TOGEKISS
+	dbw 20, SYLVEON
 	; day
-	dbw 5, CHARMANDER
-	dbw 5, BULBASAUR
-	dbw 5, SQUIRTLE
-	dbw 5, CHIKORITA
-	dbw 5, CYNDAQUIL
-	dbw 5, TOTODILE
-	dbw 5, PIKACHU
+	dbw 20, SYLVEON
+	dbw 20, ARCEUS
+	dbw 20, AZURILL
+	dbw 20, HONCHKROW
+	dbw 20, PORYGONZ
+	dbw 20, TOGEKISS
+	dbw 20, SYLVEON
 	; nite
-	dbw 5, CHARMANDER
-	dbw 5, BULBASAUR
-	dbw 5, SQUIRTLE
-	dbw 5, CHIKORITA
-	dbw 5, CYNDAQUIL
-	dbw 5, TOTODILE
-	dbw 5, PIKACHU
+	dbw 20, SYLVEON
+	dbw 20, ARCEUS
+	dbw 20, AZURILL
+	dbw 20, HONCHKROW
+	dbw 20, PORYGONZ
+	dbw 20, TOGEKISS
+	dbw 20, SYLVEON
 	end_grass_wildmons
 
 	db -1 ; end

@@ -256,13 +256,13 @@ TyranitarIcon::  INCBIN "gfx/icons/tyranitar.2bpp"
 LugiaIcon::      INCBIN "gfx/icons/lugia.2bpp"
 HoOhIcon::       INCBIN "gfx/icons/ho_oh.2bpp"
 CelebiIcon::     INCBIN "gfx/icons/celebi.2bpp"
+
+SECTION "Mon Icons 3", ROMX
+
 ArceusIcon::     INCBIN "gfx/icons/arceus.2bpp"
 SylveonIcon::    INCBIN "gfx/icons/sylveon.2bpp"
 TogekissIcon::   INCBIN "gfx/icons/togekiss.2bpp"
 AzurillIcon::    INCBIN "gfx/icons/azurill.2bpp"
-
-SECTION "Mon Icons 3", ROMX
-
 PorygonZIcon::   INCBIN "gfx/icons/porygonz.2bpp"
 HonchkrowIcon::  INCBIN "gfx/icons/honchkrow.2bpp"
 EggIcon::        INCBIN "gfx/icons/egg.2bpp"
