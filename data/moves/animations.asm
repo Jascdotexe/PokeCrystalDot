@@ -309,6 +309,7 @@ BattleAnimations::
 	dw BattleAnim_EarthPower
 	dw BattleAnim_XScissor
 	dw BattleAnim_ZenHeadbutt
+	dw BattleAnim_Howl
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1890,6 +1891,7 @@ BattleAnim_Growl:
 	anim_wait 8
 	anim_ret
 
+BattleAnim_Howl:
 BattleAnim_Roar:
 	anim_1gfx BATTLE_ANIM_GFX_NOISE
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0

@@ -1270,7 +1270,7 @@ GrowlitheEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, EMBER
 	dbw 1, LEER
-	; dbw 4, HOWL
+	dbw 4, HOWL
 	dbw 8, BITE
 	dbw 12, FLAME_WHEEL
 	; dbw 16, HELPING_HAND
@@ -1291,7 +1291,7 @@ ArcanineEvosAttacks:
 	dbw 1, EXTREMESPEED
 	dbw 1, EMBER
 	dbw 1, LEER
-	; dbw 1, HOWL
+	dbw 1, HOWL
 	dbw 1, BITE
 	dbw 1, FLAME_WHEEL
 	; dbw 1, HELPING_HAND

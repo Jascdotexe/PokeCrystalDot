@@ -299,4 +299,5 @@ Moves1:
 	move EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,        SPECIAL,    100, 10,  10       ; EARTH_POWER
 	move EFFECT_NORMAL_HIT,         80, BUG,           PHYSICAL,   100, 15,   0       ; X_SCISSOR
 	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,  PHYSICAL,    90, 15,  20       ; ZEN_HEADBUTT
+	move EFFECT_ATTACK_UP,           0, NORMAL,        STATUS,     100, 40, 100       ; HOWL 
 .IndirectEnd::

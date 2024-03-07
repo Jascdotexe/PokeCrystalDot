@@ -1571,7 +1571,7 @@ HoundourEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, LEER
 	dbw 1, EMBER
-	; dbw 4, HOWL
+	dbw 4, HOWL
 	dbw 8, SMOG
 	dbw 13, ROAR
 	dbw 16, BITE
@@ -1592,7 +1592,7 @@ HoundoomEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, LEER
 	dbw 1, EMBER
-	; dbw 1, HOWL
+	dbw 1, HOWL
 	dbw 1, SMOG
 	; dbw 1, NASTY_PLOT
 	dbw 1, THUNDER_FANG
@@ -1860,7 +1860,7 @@ RaikouEvosAttacks:
 	; dbw 18, CALM_MIND
 	dbw 24, ROAR
 	dbw 30, THUNDER_FANG
-	; dbw 36, HOWL
+	dbw 36, HOWL
 	dbw 42, CRUNCH
 	; dbw 48, EXTRASENSORY
 	; dbw 54, DISCHARGE

@@ -286,6 +286,7 @@ MoveDescriptions1:
 	dw EarthPowerDescription
 	dw XScissorDescription
 	dw ZenHeadbuttDescription
+	dw HowlDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1414,4 +1415,7 @@ XScissorDescription:
 ZenHeadbuttDescription:
 	db    "Channels power"
 	next  "in the headbutt.@"
-	
+
+HowlDescription:
+	db    "Raise ATK with"
+	next  "a piercing howl.@"
