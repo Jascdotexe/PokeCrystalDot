@@ -297,6 +297,7 @@
 	const HYPER_VOICE
 	const DISARMING_VOICE
 	const AIR_SLASH
+	const EERIE_IMPULSE
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

@@ -296,6 +296,7 @@ MoveDescriptions1:
 	dw HyperVoiceDescription
 	dw DisarmingVoiceDescription
 	dw AirSlashDescription
+	dw EerieImpulseDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1464,4 +1465,7 @@ DisarmingVoiceDescription:
 AirSlashDescription:
 	db    "Sharp winds"
 	next  "strike target.@"
-	
+
+EerieImpulseDescription:
+	db    "A strange sound"
+	next  "lowers SP.ATK.@"

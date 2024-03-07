@@ -291,4 +291,5 @@ MoveNames::
 	li "HYPER VOICE"
 	li "DISARM VOICE"
 	li "AIR_SLASH"
+	li "EERIEIMPULSE"
 	assert_list_length NUM_ATTACKS

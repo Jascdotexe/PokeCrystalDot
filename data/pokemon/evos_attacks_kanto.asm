@@ -2103,7 +2103,7 @@ VoltorbEvosAttacks:
 	dbw 1, TACKLE
 	; dbw 1, CHARGE
 	dbw 4, THUNDERSHOCK
-	; dbw 6, EERIE_IMPULSE
+	dbw 6, EERIE_IMPULSE
 	dbw 9, SPARK
 	dbw 11, ROLLOUT
 	dbw 13, SCREECH
@@ -2125,7 +2125,7 @@ ElectrodeEvosAttacks:
 	dbw 1, TACKLE
 	; dbw 1, CHARGE
 	dbw 1, THUNDERSHOCK
-	; dbw 1, EERIE_IMPULSE
+	dbw 1, EERIE_IMPULSE
 	; dbw 1, MAGNETIC_FLUX
 	dbw 9, SPARK
 	dbw 11, ROLLOUT

@@ -468,7 +468,7 @@ LanturnEvosAttacks:
 	; dbw 1, SWALLOW
 	; dbw 1, SPIT_UP
 	; dbw 1, STOCKPILE
-	; dbw 1, EERIE_IMPLUSE
+	dbw 1, EERIE_IMPULSE
 	dbw 1, WATER_GUN
 	dbw 1, SUPERSONIC
 	; dbw 1, ELECTRO_BALL

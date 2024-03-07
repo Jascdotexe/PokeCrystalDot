@@ -319,6 +319,7 @@ BattleAnimations::
 	dw BattleAnim_HyperVoice
 	dw BattleAnim_DisarmingVoice
 	dw BattleAnim_AirSlash
+	dw BattleAnim_EerieImpulse
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1918,6 +1919,7 @@ BattleAnim_Roar:
 .done
 	anim_ret
 
+BattleAnim_EerieImpulse:
 BattleAnim_HyperVoice:
 BattleAnim_Supersonic:
 	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC

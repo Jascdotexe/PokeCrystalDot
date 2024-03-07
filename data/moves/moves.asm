@@ -309,4 +309,5 @@ Moves1:
 	move EFFECT_NORMAL_HIT,         90, NORMAL,        SPECIAL,    100, 10,  90       ; HYPER_VOICE
 	move EFFECT_ALWAYS_HIT,         40, FAIRY,         SPECIAL,    100, 15,   0       ; DISARMING_VOICE
 	move EFFECT_FLINCH_HIT,         75, FLYING,        SPECIAL,     95, 15,  30       ; AIR_SLASH
+	move EFFECT_SP_ATK_DOWN_2,       0, ELECTRIC,      STATUS,     100, 15, 100       ; EERIE_IMPLUSE
 .IndirectEnd::
