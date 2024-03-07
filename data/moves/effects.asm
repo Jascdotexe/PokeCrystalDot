@@ -2125,3 +2125,27 @@ DefenseCurl:
 	statupmessage
 	statupfailtext
 	endmove
+
+Quiver:
+	checkobedience
+	usedmovetext
+	doturn
+	speedup
+	lowersub
+	statupanim
+	raisesub
+	statupmessage
+	statupfailtext
+	specialattackup
+	lowersub
+	statupanim
+	raisesub
+	statupmessage
+	statupfailtext
+	specialdefenseup
+	lowersub
+	statupanim
+	raisesub
+	statupmessage
+	statupfailtext
+	endmove

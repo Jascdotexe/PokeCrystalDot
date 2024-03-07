@@ -160,4 +160,5 @@ MoveEffectsPointers:
 	dw BeatUp
 	dw Fly
 	dw DefenseCurl
+	dw Quiver
 	assert_table_length NUM_MOVE_EFFECTS

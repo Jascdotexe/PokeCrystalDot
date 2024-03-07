@@ -652,7 +652,7 @@ AmpharosEvosAttacks:
 	dbw 29, CONFUSE_RAY
 	dbw 35, DRAGON_PULSE
 	; dbw 35, POWER_GEM
-	dbw 40, DISCHARGE
+	; dbw 40, DISCHARGE
 	dbw 46, COTTON_SPORE
 	; dbw 51, DAZZLING_GLEAM
 	dbw 57, LIGHT_SCREEN
@@ -674,7 +674,7 @@ BellossomEvosAttacks:
 	dbw 1, TOXIC
 	dbw 1, GIGA_DRAIN
 	dbw 1, MOONLIGHT
-	; dbw 1, QUIVER_DANCE
+	dbw 1, QUIVER_DANCE
 	; dbw 1, GRASSY_TERRAIN
 	dbw 1, MOONBLAST
 	dbw 1, SOLARBEAM

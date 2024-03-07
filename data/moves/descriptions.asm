@@ -289,6 +289,7 @@ MoveDescriptions1:
 	dw HowlDescription
 	dw WaterPulseDescription
 	dw DischargeDescription
+	dw QuiverDanceDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1429,3 +1430,8 @@ WaterPulseDescription:
 DischargeDescription:
 	db    "Releases elect-"
 	next  "ricty all around.@"
+
+QuiverDanceDescription:
+	db    "A beautiful dance"
+	next  "raises stats.@"
+	

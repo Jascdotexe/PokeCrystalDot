@@ -284,4 +284,5 @@ MoveNames::
 	li "HOWL"
 	li "WATER PULSE"
 	li "DISCHARGE"
+	li "QUIVER DANCE"
 	assert_list_length NUM_ATTACKS
