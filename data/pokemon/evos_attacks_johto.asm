@@ -428,7 +428,7 @@ CrobatEvosAttacks:
 	db 0 ; no more evolutions
 	; dbw 1, CROSS_POISON
 	; dbw 1, TAILWIND
-	; dbw 1, ASTONISH
+	dbw 1, ASTONISH
 	dbw 1, MEAN_LOOK
 	dbw 1, TOXIC
 	dbw 1, SCREECH
@@ -830,7 +830,7 @@ AipomEvosAttacks:
 	dbw 1, SCRATCH
 	dbw 1, TAIL_WHIP
 	dbw 4, SAND_ATTACK
-	; dbw 8, ASTONISH
+	dbw 8, ASTONISH
 	dbw 11, BATON_PASS
 	; dbw 15, TICKLE
 	dbw 18, FURY_SWIPES
@@ -995,7 +995,7 @@ UmbreonEvosAttacks:
 MurkrowEvosAttacks:
 	dbbw EVOLVE_ITEM, MOON_STONE, HONCHKROW
 	dbw 1, PECK
-	; dbw 1, ASTONISH
+	dbw 1, ASTONISH
 	dbw 5, GUST
 	dbw 8, PURSUIT ; REMOVE
 	dbw 11, HAZE
@@ -1039,7 +1039,7 @@ MisdreavusEvosAttacks:
 	dbw 1, GROWL
 	dbw 1, CONFUSION
 	dbw 6, SPITE ; REMOVE
-	; dbw 10, ASTONISH
+	dbw 10, ASTONISH
 	dbw 14, CONFUSE_RAY
 	dbw 19, MEAN_LOOK
 	; dbw 23, HEX
@@ -1072,7 +1072,7 @@ GirafarigEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, GROWL
-	; dbw 1, ASTONISH
+	dbw 1, ASTONISH
 	; dbw 1, POWER_SWAP
 	; dbw 1, GUARD_SWAP
 	dbw 5, CONFUSION
@@ -1335,7 +1335,7 @@ SneaselEvosAttacks:
 	; dbw 6, TAUNT
 	dbw 12, QUICK_ATTACK
 	dbw 18, METAL_CLAW
-	; dbw 24, ICY_WIND
+	dbw 24, ICY_WIND
 	dbw 25, FAINT_ATTACK ; REMOVE
 	dbw 30, FURY_SWIPES
 	; dbw 36, HONE_CLAW
@@ -1436,7 +1436,7 @@ SwinubEvosAttacks:
 	dbw 15, ICE_SHARD
 	dbw 20, MIST
 	dbw 25, ENDURE
-	; dbw 30, ICY_WIND
+	dbw 30, ICY_WIND
 	dbw 35, AMNESIA
 	dbw 40, TAKE_DOWN
 	dbw 45, EARTHQUAKE
@@ -1455,7 +1455,7 @@ PiloswineEvosAttacks:
 	dbw 15, ICE_SHARD
 	dbw 20, MIST
 	dbw 25, ENDURE
-	; dbw 30, ICY_WIND
+	dbw 30, ICY_WIND
 	dbw 37, AMNESIA
 	dbw 44, TAKE_DOWN
 	dbw 51, EARTHQUAKE
@@ -1689,7 +1689,7 @@ StantlerEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 3, LEER
-	; dbw 7, ASTONISH
+	dbw 7, ASTONISH
 	dbw 10, HYPNOSIS
 	dbw 13, STOMP
 	dbw 16, SAND_ATTACK

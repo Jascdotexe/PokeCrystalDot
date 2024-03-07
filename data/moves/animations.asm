@@ -303,6 +303,7 @@ BattleAnimations::
 	dw BattleAnim_LavaPlume
 	dw BattleAnim_Inferno
 	dw BattleAnim_Overheat
+	dw BattleAnim_Astonish
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -5003,6 +5004,7 @@ BattleAnim_ElectroWeb:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_Astonish:
 BattleAnim_Snarl:
 	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $8, $1, $20
@@ -5125,4 +5127,3 @@ BattleAnim_AquaTail:
 	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
-	

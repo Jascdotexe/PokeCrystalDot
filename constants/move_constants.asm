@@ -281,6 +281,7 @@
 	const LAVA_PLUME
 	const INFERNO
 	const OVERHEAT
+	const ASTONISH
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

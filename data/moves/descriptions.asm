@@ -280,6 +280,7 @@ MoveDescriptions1:
 	dw LavaPlumeDescription
 	dw InfernoDescription
 	dw OverheatDescription
+	dw AstonishDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1384,3 +1385,8 @@ InfernoDescription:
 OverheatDescription:
 	db   "Recoil harshly"
 	next "lowers SP.ATK@"
+
+AstonishDescription:
+	db   "Cry out in a"
+	next "startling way.@"
+	

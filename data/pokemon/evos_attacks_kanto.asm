@@ -937,7 +937,7 @@ ZubatEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, ABSORB
 	dbw 1, SUPERSONIC
-	; dbw 5, ASTONISH
+	dbw 5, ASTONISH
 	dbw 10, MEAN_LOOK
 	; dbw 15, POISON_FANG
 	; dbw 20, QUICK_GUARD
@@ -956,7 +956,7 @@ GolbatEvosAttacks:
 	dbw 1, SCREECH
 	dbw 1, ABSORB
 	dbw 1, SUPERSONIC
-	; dbw 1, ASTONISH
+	dbw 1, ASTONISH
 	dbw 1, MEAN_LOOK
 	; dbw 15, POISON_FANG
 	; dbw 20, QUICK_GUARD
@@ -1112,7 +1112,7 @@ DiglettEvosAttacks:
 	dbw 1, SCRATCH
 	dbw 1, SAND_ATTACK
 	dbw 4, GROWL
-	; dbw 8, ASTONISH
+	dbw 8, ASTONISH
 	dbw 9, MAGNITUDE ; REMOVE
 	dbw 12, MUD_SLAP
 	; dbw 16, BULLDOZE
@@ -1130,7 +1130,7 @@ DugtrioEvosAttacks:
 	dbw 1, SCRATCH
 	dbw 1, SAND_ATTACK
 	dbw 1, GROWL
-	; dbw 1, ASTONISH
+	dbw 1, ASTONISH
 	dbw 1, TRI_ATTACK
 	; dbw 1, NIGHT_SLASH 
 	dbw 1, MAGNITUDE ; REMOVE
@@ -1810,7 +1810,7 @@ SeelEvosAttacks:
 	dbw 1, HEADBUTT
 	dbw 3, GROWL
 	dbw 7, CHARM
-	; dbw 11, ICY_WIND
+	dbw 11, ICY_WIND
 	dbw 13, ENCORE
 	dbw 17, ICE_SHARD
 	dbw 21, REST
@@ -1832,7 +1832,7 @@ DewgongEvosAttacks:
 	; dbw 1, SHEER_COLD ; EVOMOVE
 	dbw 1, GROWL
 	dbw 1, CHARM
-	; dbw 1, ICY_WIND
+	dbw 1, ICY_WIND
 	dbw 13, ENCORE
 	dbw 17, ICE_SHARD
 	dbw 21, REST

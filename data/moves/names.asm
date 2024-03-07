@@ -275,4 +275,5 @@ MoveNames::
 	li "LAVA PLUME"
 	li "INFERNO"
 	li "OVERHEAT"
+	li "ASTONISH"
 	assert_list_length NUM_ATTACKS

@@ -107,7 +107,7 @@ HonchkrowEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, WING_ATTACK
 	dbw 1, HAZE
-	; dbw 1, ASTONISH
+	dbw 1, ASTONISH
 	; dbw 1, SUCKER_PUNCH
 	; dbw 1, NIGHT_SLASH
 	; dbw 1, QUASH
@@ -130,7 +130,7 @@ MamoswineEvosAttacks:
 	dbw 15, ICE_SHARD
 	dbw 20, MIST
 	dbw 25, ENDURE
-	; dbw 30, ICY_WIND
+	dbw 30, ICY_WIND
 	dbw 37, AMNESIA
 	dbw 44, TAKE_DOWN
 	dbw 51, EARTHQUAKE
@@ -188,7 +188,7 @@ WeavileEvosAttacks:
     dbw 1, ICE_SHARD
 	dbw 1, QUICK_ATTACK
 	dbw 18, METAL_CLAW
-	; dbw 24, ICY_WIND
+	dbw 24, ICY_WIND
 	dbw 25, FAINT_ATTACK ; REMOVE
 	dbw 30, FURY_SWIPES
 	; dbw 36, HONE_CLAW
