@@ -277,4 +277,5 @@ MoveNames::
 	li "OVERHEAT"
 	li "ASTONISH"
 	li "POISON FANG"
+	li "BULLDOZE"
 	assert_list_length NUM_ATTACKS

@@ -643,7 +643,7 @@ SandshrewEvosAttacks:
 	dbw 9, ROLLOUT
 	dbw 12, FURY_CUTTER
 	dbw 15, RAPID_SPIN
-	; dbw 18, BULLDOZE
+	dbw 18, BULLDOZE
 	dbw 21, SWIFT
 	dbw 24, FURY_SWIPES
 	dbw 30, SLASH
@@ -664,7 +664,7 @@ SandslashEvosAttacks:
 	dbw 9, ROLLOUT
 	dbw 12, FURY_CUTTER
 	dbw 15, RAPID_SPIN
-	; dbw 18, BULLDOZE
+	dbw 18, BULLDOZE
 	dbw 21, SWIFT
 	dbw 26, FURY_SWIPES
 	; dbw 31, SAND_TOMB
@@ -1115,7 +1115,7 @@ DiglettEvosAttacks:
 	dbw 8, ASTONISH
 	dbw 9, MAGNITUDE ; REMOVE
 	dbw 12, MUD_SLAP
-	; dbw 16, BULLDOZE
+	dbw 16, BULLDOZE
 	; dbw 20, SUCKER_PUNCH
 	dbw 24, SLASH
 	dbw 28, SANDSTORM
@@ -1135,7 +1135,7 @@ DugtrioEvosAttacks:
 	; dbw 1, NIGHT_SLASH 
 	dbw 1, MAGNITUDE ; REMOVE
 	dbw 12, MUD_SLAP
-	; dbw 16, BULLDOZE
+	dbw 16, BULLDOZE
 	; dbw 20, SUCKER_PUNCH
 	dbw 24, SLASH
 	dbw 30, SANDSTORM
@@ -1567,7 +1567,7 @@ GeodudeEvosAttacks:
 	dbw 1, DEFENSE_CURL
 	; dbw 6, ROCK_POLISH
 	dbw 10, ROLLOUT
-	; dbw 12, BULLDOZE
+	dbw 12, BULLDOZE
 	dbw 16, ROCK_THROW
 	; dbw 18, SMACK_DOWN
 	dbw 18, MAGNITUDE ; REMOVE
@@ -1587,7 +1587,7 @@ GravelerEvosAttacks:
 	dbw 1, DEFENSE_CURL
 	; dbw 1, ROCK_POLISH
 	dbw 10, ROLLOUT
-	; dbw 12, BULLDOZE
+	dbw 12, BULLDOZE
 	dbw 16, ROCK_THROW
 	; dbw 18, SMACK_DOWN
 	dbw 18, MAGNITUDE ; REMOVE
@@ -1610,7 +1610,7 @@ GolemEvosAttacks:
 	dbw 16, ROCK_THROW
 	; dbw 18, SMACK_DOWN
 	dbw 18, MAGNITUDE ; REMOVE
-	; dbw 22, BULLDOZE
+	dbw 22, BULLDOZE
 	dbw 24, SELFDESTRUCT
 	; dbw 30, STEALTH_ROCK
 	; dbw 34, ROCK_BLAST
@@ -2337,8 +2337,7 @@ RhyhornEvosAttacks:
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
 	; dbw 5, SMACK_DOWN
-	; dbw 10, BULLDOZE
-	dbw 10, FURY_ATTACK ; REMOVE
+	dbw 10, BULLDOZE
 	dbw 15, HORN_ATTACK
 	dbw 20, SCARY_FACE
 	dbw 25, STOMP
@@ -2357,8 +2356,7 @@ RhydonEvosAttacks:
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
 	; dbw 1, SMACK_DOWN
-	; dbw 1, BULLDOZE
-	dbw 1, FURY_ATTACK ; REMOVE
+	dbw 1, BULLDOZE
 	dbw 15, HORN_ATTACK
 	dbw 20, SCARY_FACE
 	dbw 25, STOMP

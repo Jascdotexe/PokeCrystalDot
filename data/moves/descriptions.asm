@@ -282,6 +282,7 @@ MoveDescriptions1:
 	dw OverheatDescription
 	dw AstonishDescription
 	dw PoisonFangDescription
+	dw BulldozeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1394,3 +1395,8 @@ AstonishDescription:
 PoisonFangDescription:
 	db   "Chomp down with"
 	next "poison fangs.@"
+
+BulldozeDescription:
+	db   "Shake the ground"
+	next "lowering SPD.@"
+	

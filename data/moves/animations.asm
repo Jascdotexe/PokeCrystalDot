@@ -305,6 +305,7 @@ BattleAnimations::
 	dw BattleAnim_Overheat
 	dw BattleAnim_Astonish
 	dw BattleAnim_PoisonFang
+	dw BattleAnim_Bulldoze
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1845,6 +1846,7 @@ BattleAnim_Constrict:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_Bulldoze:
 BattleAnim_Earthquake:
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $4, $10
 .loop

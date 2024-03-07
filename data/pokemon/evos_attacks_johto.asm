@@ -1638,7 +1638,7 @@ PhanpyEvosAttacks:
 	dbw 1, DEFENSE_CURL
 	dbw 6, FLAIL
 	dbw 10, ROLLOUT
-	; dbw 15, BULLDOZE
+	dbw 15, BULLDOZE
 	dbw 19, ENDURE
 	dbw 24, SLAM
 	dbw 28, TAKE_DOWN
@@ -1654,7 +1654,7 @@ DonphanEvosAttacks:
 	dbw 1, GROWL
 	dbw 1, DEFENSE_CURL
 	dbw 1, THUNDER_FANG
-	; dbw 1, BULLDOZE
+	dbw 1, BULLDOZE
 	dbw 6, RAPID_SPIN
 	dbw 10, ROLLOUT
 	; dbw 15, ASSURANCE

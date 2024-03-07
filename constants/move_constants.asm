@@ -283,6 +283,7 @@
 	const OVERHEAT
 	const ASTONISH
 	const POISON_FANG
+	const BULLDOZE
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff
