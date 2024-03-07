@@ -280,4 +280,5 @@ MoveNames::
 	li "BULLDOZE"
 	li "EARTH POWER"
 	li "X SCISSOR"
+	li "ZEN HEADBUTT"
 	assert_list_length NUM_ATTACKS

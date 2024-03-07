@@ -1697,7 +1697,7 @@ StantlerEvosAttacks:
 	dbw 23, CONFUSE_RAY
 	; dbw 27, CALM_MIND
 	; dbw 32, ROLE_PLAY
-	; dbw 37, ZEN_HEADBUTT
+	dbw 37, ZEN_HEADBUTT
 	; dbw 49, IMPRISON
 	dbw 55, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -1816,7 +1816,7 @@ MiltankEvosAttacks:
 	dbw 20, HEAL_BELL
 	dbw 25, HEADBUTT
 	dbw 30, BIDE ; REMOVE
-	; dbw 30, ZEN_HEADBUTT
+	dbw 30, ZEN_HEADBUTT
 	dbw 35, MILK_DRINK
 	dbw 40, BODY_SLAM
 	dbw 45, PLAY_ROUGH

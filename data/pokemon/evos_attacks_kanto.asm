@@ -1076,7 +1076,7 @@ VenonatEvosAttacks:
 	dbw 25, MEGA_DRAIN
 	dbw 29, SLEEP_POWDER
 	dbw 35, LEECH_LIFE
-	; dbw 37, ZEN_HEADBUTT
+	dbw 37, ZEN_HEADBUTT
 	dbw 41, POISON_FANG
 	dbw 47, PSYCHIC_M
 	db 0 ; no more level-up moves
@@ -1099,7 +1099,7 @@ VenomothEvosAttacks:
 	dbw 25, MEGA_DRAIN
 	dbw 29, SLEEP_POWDER
 	dbw 37, LEECH_LIFE
-	; dbw 41, ZEN_HEADBUTT
+	dbw 41, ZEN_HEADBUTT
 	dbw 47, POISON_FANG
 	dbw 55, PSYCHIC_M
 	; dbw 59, BUG_BUZZ
@@ -1192,7 +1192,7 @@ PsyduckEvosAttacks:
 	dbw 9, FURY_SWIPES
 	; dbw 12, WATER_PULSE
 	dbw 15, DISABLE
-	; dbw 18, ZEN_HEADBUTT
+	dbw 18, ZEN_HEADBUTT
 	dbw 21, SCREECH
 	dbw 24, AQUA_TAIL
 	; dbw 27, SOAK
@@ -1211,7 +1211,7 @@ GolduckEvosAttacks:
 	dbw 9, FURY_SWIPES
 	; dbw 12, WATER_PULSE
 	dbw 15, DISABLE
-	; dbw 18, ZEN_HEADBUTT
+	dbw 18, ZEN_HEADBUTT
 	dbw 21, SCREECH
 	dbw 24, AQUA_TAIL
 	; dbw 27, SOAK
@@ -1672,7 +1672,7 @@ SlowpokeEvosAttacks:
 	dbw 15, DISABLE
 	; dbw 18, WATER_PULSE
 	dbw 21, HEADBUTT
-	; dbw 24, ZEN_HEADBUTT
+	dbw 24, ZEN_HEADBUTT
 	dbw 27, AMNESIA
 	dbw 30, SURF
 	; dbw 33, SLACK_OFF
@@ -1694,7 +1694,7 @@ SlowbroEvosAttacks:
 	dbw 15, DISABLE
 	; dbw 18, WATER_PULSE
 	dbw 21, HEADBUTT
-	; dbw 24, ZEN_HEADBUTT
+	dbw 24, ZEN_HEADBUTT
 	dbw 27, AMNESIA
 	dbw 30, SURF
 	; dbw 33, SLACK_OFF
@@ -1979,7 +1979,7 @@ GengarEvosAttacks:
 	dbw 1, LICK
 	dbw 1, HYPNOSIS
 	dbw 1, MEAN_LOOK
-	; dbw 1, PERISH_SONG
+	dbw 1, PERISH_SONG
 	; dbw 1, REFLECT_TYPE
 	; dbw 12, PAYBACK
 	dbw 16, SPITE
@@ -2028,7 +2028,7 @@ DrowzeeEvosAttacks:
 	dbw 17, POISON_GAS
 	dbw 21, PSYBEAM
 	dbw 25, PSYCH_UP
-	; dbw 29, ZEN_HEADBUTT
+	dbw 29, ZEN_HEADBUTT
 	; dbw 33, SWAGGER
 	dbw 37, PSYCHIC_M
 	dbw 42, MEDITATE
@@ -2049,7 +2049,7 @@ HypnoEvosAttacks:
 	dbw 17, POISON_GAS
 	dbw 21, PSYBEAM
 	dbw 25, PSYCH_UP
-	; dbw 32, ZEN_HEADBUTT
+	dbw 32, ZEN_HEADBUTT
 	; dbw 37, SWAGGER
 	dbw 42, PSYCHIC_M
 	dbw 47, MEDITATE
@@ -2683,7 +2683,7 @@ TaurosEvosAttacks:
 	dbw 20, HORN_ATTACK
 	dbw 25, SCARY_FACE
 	dbw 34, PURSUIT ; REMOVE
-	; dbw 30, ZEN_HEADBUTT
+	dbw 30, ZEN_HEADBUTT
 	; dbw 35, RAGING_BULL
 	; dbw 40, REST
 	; dbw 45, SWAGGER

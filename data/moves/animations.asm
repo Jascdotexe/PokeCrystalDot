@@ -308,6 +308,7 @@ BattleAnimations::
 	dw BattleAnim_Bulldoze
 	dw BattleAnim_EarthPower
 	dw BattleAnim_XScissor
+	dw BattleAnim_ZenHeadbutt
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -2100,6 +2101,7 @@ BattleAnim_StringShot:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_ZenHeadbutt:
 BattleAnim_Headbutt:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $14, $2, $0

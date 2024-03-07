@@ -285,6 +285,7 @@ MoveDescriptions1:
 	dw BulldozeDescription
 	dw EarthPowerDescription
 	dw XScissorDescription
+	dw ZenHeadbuttDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1409,3 +1410,8 @@ EarthPowerDescription:
 XScissorDescription:
 	db   "Cuts like sharp"
 	next "scissors.@"
+
+ZenHeadbuttDescription:
+	db    "Channels power"
+	next  "in the headbutt.@"
+	
