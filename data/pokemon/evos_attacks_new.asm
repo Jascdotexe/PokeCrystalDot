@@ -114,7 +114,7 @@ HonchkrowEvosAttacks:
 	; dbw 25, SWAGGER
 	; dbw 35, NASTY_PLOT
 	; dbw 45, FOUL_PLAY
-	; dbw 55, DARK_PULSE
+	dbw 55, DARK_PULSE
 	; dbw 65, COMEUPPANCE
     db 0 ; no more level-up moves
 
@@ -196,5 +196,5 @@ WeavileEvosAttacks:
 	; dbw 48, NASTY_PLOT
 	dbw 54, SCREECH
 	; dbw 60, NIGHT_SLASH
-    ; dbw 66, DARK_PULSE
+    dbw 66, DARK_PULSE
 	db 0 ; no more level-up moves

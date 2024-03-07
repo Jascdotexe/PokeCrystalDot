@@ -1946,7 +1946,7 @@ GastlyEvosAttacks:
 	; dbw 24, HEX
 	dbw 28, NIGHT_SHADE
 	; dbw 32, SUCKER_PUNCH
-	; dbw 36, DARK_PULSE
+	dbw 36, DARK_PULSE
 	dbw 40, SHADOW_BALL
 	dbw 44, DESTINY_BOND
 	dbw 48, DREAM_EATER
@@ -1966,7 +1966,7 @@ HaunterEvosAttacks:
 	; dbw 24, HEX
 	dbw 30, NIGHT_SHADE
 	; dbw 36, SUCKER_PUNCH
-	; dbw 42, DARK_PULSE
+	dbw 42, DARK_PULSE
 	dbw 48, SHADOW_BALL
 	dbw 54, DESTINY_BOND
 	dbw 60, DREAM_EATER
@@ -1987,7 +1987,7 @@ GengarEvosAttacks:
 	; dbw 24, HEX
 	dbw 30, NIGHT_SHADE
 	; dbw 36, SUCKER_PUNCH
-	; dbw 42, DARK_PULSE
+	dbw 42, DARK_PULSE
 	dbw 48, SHADOW_BALL
 	dbw 54, DESTINY_BOND
 	dbw 60, DREAM_EATER

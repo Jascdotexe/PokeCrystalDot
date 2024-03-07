@@ -987,7 +987,7 @@ UmbreonEvosAttacks:
 	dbw 25, FAINT_ATTACK ; REMOVE
 	dbw 30, MOONLIGHT
 	; dbw 35, GUARD_SWAP
-	; dbw 40, DARK_PULSE
+	dbw 40, DARK_PULSE
 	dbw 50, MEAN_LOOK
 	dbw 55, SCREECH
 	db 0 ; no more level-up moves
@@ -1963,7 +1963,7 @@ TyranitarEvosAttacks:
 	dbw 1, THUNDER_FANG
 	dbw 1, ROCK_THROW
 	dbw 1, ICE_FANG
-	; dbw 1, DARK_PULSE
+	dbw 1, DARK_PULSE
 	; dbw 1, IRON_DEFENSE
 	; dbw 1, PAYBACK
 	dbw 9, BITE
