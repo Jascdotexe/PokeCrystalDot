@@ -250,7 +250,7 @@ CharmeleonEvosAttacks:
 
 CharizardEvosAttacks:
 	db 0 ; no more evolutions
-	; dbw 1, AIR_SLASH ; EVOMOVE
+	dbw 1, AIR_SLASH ; EVOMOVE
 	dbw 1, SCRATCH
 	dbw 1, GROWL
 	dbw 1, EMBER
@@ -353,7 +353,7 @@ ButterfreeEvosAttacks:
 	dbw 12, SLEEP_POWDER
 	dbw 16, PSYBEAM
 	dbw 20, WHIRLWIND
-	; dbw 24, AIR_SLASH
+	dbw 24, AIR_SLASH
 	dbw 28, SAFEGUARD
 	dbw 32, BUG_BUZZ
 	; dbw 36, TAILWIND
@@ -414,7 +414,7 @@ PidgeyEvosAttacks:
 	; dbw 41, TAILWIND
 	; dbw 45, AERIAL_ACE
 	dbw 47, MIRROR_MOVE ; REMOVE
-	; dbw 49, AIR_SLASH
+	dbw 49, AIR_SLASH
 	; dbw 53, HURRICANE
 	db 0 ; no more level-up moves
 
@@ -434,7 +434,7 @@ PidgeottoEvosAttacks:
 	; dbw 47, TAILWIND
 	; dbw 52, AERIAL_ACE
 	dbw 47, MIRROR_MOVE ; REMOVE
-	; dbw 57, AIR_SLASH
+	dbw 57, AIR_SLASH
 	; dbw 62, HURRICANE
 	db 0 ; no more level-up moves
 
@@ -454,7 +454,7 @@ PidgeotEvosAttacks:
 	; dbw 50, TAILWIND
 	; dbw 56, AERIAL_ACE
 	dbw 48, MIRROR_MOVE ; REMOVE
-	; dbw 62, AIR_SLASH
+	dbw 62, AIR_SLASH
 	; dbw 68, HURRICANE
 	db 0 ; no more level-up moves
 
@@ -794,7 +794,7 @@ ClefairyEvosAttacks:
 	dbw 1, SPLASH
 	dbw 1, SWEET_KISS
 	dbw 1, CHARM
-	; dbw 1, DISARMING_VOICE
+	dbw 1, DISARMING_VOICE
 	; dbw 1, COPYCAT
 	; dbw 4, STORED_POWER
 	dbw 8, ENCORE
@@ -819,7 +819,7 @@ ClefableEvosAttacks:
 	dbw 1, SPLASH
 	dbw 1, SWEET_KISS
 	dbw 1, CHARM
-	; dbw 1, DISARMING_VOICE
+	dbw 1, DISARMING_VOICE
 	; dbw 1, COPYCAT
 	; dbw 1, STORED_POWER
 	dbw 1, ENCORE
@@ -883,7 +883,7 @@ JigglypuffEvosAttacks:
 	dbw 1, DISABLE
 	dbw 1, CHARM
 	; dbw 1, COPYCAT
-	; dbw 1, DISARMING_VOICE
+	dbw 1, DISARMING_VOICE
 	; dbw 4, ECHOED_VOICE
 	; dbw 8, COVET
 	; dbw 12, STOCKPILE
@@ -911,7 +911,7 @@ WigglytuffEvosAttacks:
 	dbw 1, DISABLE
 	dbw 1, CHARM
 	; dbw 1, COPYCAT
-	; dbw 1, DISARMING_VOICE
+	dbw 1, DISARMING_VOICE
 	; dbw 1, ECHOED_VOICE
 	; dbw 1, COVET
 	; dbw 1, STOCKPILE
@@ -946,7 +946,7 @@ ZubatEvosAttacks:
 	dbw 35, HAZE
 	; dbw 40, VENOSHOCK
 	dbw 45, CONFUSE_RAY
-	; dbw 50, AIR_SLASH
+	dbw 50, AIR_SLASH
 	dbw 55, LEECH_LIFE
 	db 0 ; no more level-up moves
 
@@ -965,7 +965,7 @@ GolbatEvosAttacks:
 	dbw 41, HAZE
 	; dbw 48, VENOSHOCK
 	dbw 55, CONFUSE_RAY
-	; dbw 62, AIR_SLASH
+	dbw 62, AIR_SLASH
 	dbw 69, LEECH_LIFE
 	db 0 ; no more level-up moves
 
@@ -1761,7 +1761,7 @@ FarfetchDEvosAttacks:
 	dbw 35, FALSE_SWIPE
 	dbw 40, SLASH
 	dbw 45, SWORDS_DANCE
-	; dbw 50, AIR_SLASH
+	dbw 50, AIR_SLASH
 	; dbw 55, LEAF_BLADE
 	dbw 60, AGILITY
 	; dbw 65, BRAVE_BIRD
@@ -2375,7 +2375,7 @@ ChanseyEvosAttacks:
 	dbw 1, CHARM
 	; dbw 1, COPYCAT
 	; dbw 1, COVET
-	; dbw 1, DISARMING_VOICE
+	dbw 1, DISARMING_VOICE
 	dbw 1, SWEET_KISS
 	dbw 1, POUND
 	dbw 1, DEFENSE_CURL
@@ -2590,7 +2590,7 @@ ScytherEvosAttacks:
 	dbw 24, SLASH
 	dbw 28, FOCUS_ENERGY
 	dbw 32, AGILITY
-	; dbw 36, AIR_SLASH
+	dbw 36, AIR_SLASH
 	dbw 40, X_SCISSOR
 	dbw 44, SWORDS_DANCE
 	db 0 ; no more level-up moves
@@ -3068,7 +3068,7 @@ MoltresEvosAttacks:
 	dbw 30, FIRE_SPIN ; REMOVE
 	dbw 35, FLAMETHROWER ; REMOVE
 	; dbw 30, INCINERATE
-	; dbw 35, AIR_SLASH
+	dbw 35, AIR_SLASH
 	; dbw 40, ROOST
 	; dbw 45, HEAT_WAVE
 	dbw 50, SUNNY_DAY

@@ -294,6 +294,8 @@ MoveDescriptions1:
 	; dw CloseCombatDescription
 	dw RockBlastDescription
 	dw HyperVoiceDescription
+	dw DisarmingVoiceDescription
+	dw AirSlashDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1454,4 +1456,12 @@ RockBlastDescription:
 HyperVoiceDescription:
 	db    "Let loose a"
 	next  "resounding cry.@"
+
+DisarmingVoiceDescription:
+	db    "Catches enemy off"
+	next  "guard. Always hits.@"
+
+AirSlashDescription:
+	db    "Sharp winds"
+	next  "strike target.@"
 	

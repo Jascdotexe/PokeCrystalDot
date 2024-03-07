@@ -289,4 +289,6 @@ MoveNames::
 	; li "CLOSE COMBAT"
 	li "ROCK BLAST"
 	li "HYPER VOICE"
+	li "DISARM VOICE"
+	li "AIR_SLASH"
 	assert_list_length NUM_ATTACKS

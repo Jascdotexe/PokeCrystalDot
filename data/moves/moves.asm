@@ -307,4 +307,6 @@ Moves1:
 	; move EFFECT_CLOSE_COMBAT,      120, FIGHTING,      PHYSICAL,   100,  5, 100       ; CLOSE_COMBAT   
 	move EFFECT_MULTI_HIT,          25, ROCK,          PHYSICAL,    90, 10,   0       ; ROCK_BLAST
 	move EFFECT_NORMAL_HIT,         90, NORMAL,        SPECIAL,    100, 10,  90       ; HYPER_VOICE
+	move EFFECT_ALWAYS_HIT,         40, FAIRY,         SPECIAL,    100, 15,   0       ; DISARMING_VOICE
+	move EFFECT_FLINCH_HIT,         75, FLYING,        SPECIAL,     95, 15,  30       ; AIR_SLASH
 .IndirectEnd::

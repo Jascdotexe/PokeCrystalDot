@@ -317,6 +317,8 @@ BattleAnimations::
 	; dw BattleAnim_CloseCombat
 	dw BattleAnim_RockBlast
 	dw BattleAnim_HyperVoice
+	dw BattleAnim_DisarmingVoice
+	dw BattleAnim_AirSlash
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1927,6 +1929,7 @@ BattleAnim_Supersonic:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_DisarmingVoice:
 BattleAnim_BugBuzz:
 BattleAnim_Screech:
 	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
@@ -5162,6 +5165,7 @@ BattleAnim_PoisonFang:
 	anim_wait 22
 	anim_ret 
 
+BattleAnim_AirSlash:
 BattleAnim_XScissor:
 	anim_1gfx BATTLE_ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT

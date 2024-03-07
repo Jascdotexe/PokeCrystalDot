@@ -295,6 +295,8 @@
 	; const CLOSE_COMBAT
 	const ROCK_BLAST
 	const HYPER_VOICE
+	const DISARMING_VOICE
+	const AIR_SLASH
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

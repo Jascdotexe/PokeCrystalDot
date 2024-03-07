@@ -30,7 +30,7 @@ SylveonEvosAttacks:
 	dbw 1, BITE
 	dbw 1, GROWL
 	dbw 1, CHARM
-	; dbw 1, DISARMING_VOICE
+	dbw 1, DISARMING_VOICE
 	; dbw 1, COPYCAT
 	; dbw 1, COVET
 	; dbw 1, HELPING_HAND
@@ -49,7 +49,7 @@ SylveonEvosAttacks:
 
 TogekissEvosAttacks:
 	db 0 ; no more evolutions
-	; dbw 1, AIR_SLASH ; EVOMOVE
+	dbw 1, AIR_SLASH ; EVOMOVE
 	dbw 1, FAIRY_WIND
 	dbw 1, SKY_ATTACK
 	dbw 1, EXTREMESPEED

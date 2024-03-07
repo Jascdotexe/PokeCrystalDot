@@ -218,8 +218,8 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	dbbw EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	dbw 1, X_SCISSOR
-	dbw 1, ROCK_BLAST
+	dbw 1, DISARMING_VOICE
+	dbw 1, HYPER_VOICE
 	dbw 6, WATER_GUN
 	dbw 9, BITE
 	dbw 13, SCARY_FACE
@@ -308,7 +308,7 @@ HoothootEvosAttacks:
 	dbw 9, CONFUSION
 	dbw 12, REFLECT
 	; dbw 15, DEFOG
-	; dbw 18, AIR_SLASH
+	dbw 18, AIR_SLASH
 	dbw 16, HYPNOSIS
 	; dbw 22, EXTRASENSORY
 	dbw 24, TAKE_DOWN
@@ -328,7 +328,7 @@ NoctowlEvosAttacks:
 	dbw 9, CONFUSION
 	dbw 12, REFLECT
 	; dbw 15, DEFOG
-	; dbw 18, AIR_SLASH
+	dbw 18, AIR_SLASH
 	dbw 16, HYPNOSIS
 	; dbw 23, EXTRASENSORY
 	dbw 28, TAKE_DOWN
@@ -354,7 +354,7 @@ LedybaEvosAttacks:
 	dbw 26, BATON_PASS
 	dbw 29, AGILITY
 	dbw 33, BUG_BUZZ
-	; dbw 36, AIR_SLASH
+	dbw 36, AIR_SLASH
 	dbw 40, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
@@ -373,7 +373,7 @@ LedianEvosAttacks:
 	dbw 29, BATON_PASS
 	dbw 33, AGILITY
 	dbw 38, BUG_BUZZ
-	; dbw 42, AIR_SLASH
+	dbw 42, AIR_SLASH
 	dbw 47, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
@@ -441,7 +441,7 @@ CrobatEvosAttacks:
 	dbw 41, HAZE
 	; dbw 48, VENOSHOCK
 	dbw 55, CONFUSE_RAY
-	; dbw 62, AIR_SLASH
+	dbw 62, AIR_SLASH
 	dbw 69, LEECH_LIFE
 	db 0 ; no more level-up moves
 
@@ -504,7 +504,7 @@ CleffaEvosAttacks:
 	; dbw 1, COPYCAT
 	dbw 4, SING
 	dbw 8, SWEET_KISS
-	; dbw 12, DISARMING_VOICE
+	dbw 12, DISARMING_VOICE
 	dbw 16, ENCORE
 	dbw 20, CHARM
 	db 0 ; no more level-up moves
@@ -517,7 +517,7 @@ IgglybuffEvosAttacks:
 	; dbw 1, COPYCAT
 	dbw 4, DEFENSE_CURL
 	dbw 8, SWEET_KISS
-	; dbw 12, DISARMING_VOICE
+	dbw 12, DISARMING_VOICE
 	dbw 16, DISABLE
 	dbw 20, CHARM
 	db 0 ; no more level-up moves
@@ -583,7 +583,7 @@ XatuEvosAttacks:
 	dbw 1, LEER
 	; dbw 1, STORED_POWER
 	dbw 1, TELEPORT
-	; dbw 1, AIR_SLASH ; EVOMOVE
+	dbw 1, AIR_SLASH ; EVOMOVE
 	dbw 15, CONFUSE_RAY
 	dbw 20, NIGHT_SHADE
 	; dbw 28, PSYCHO_SHIFT
@@ -899,7 +899,7 @@ YanmaEvosAttacks:
 	dbw 43, WING_ATTACK
 	dbw 46, SCREECH
 	; dbw 39, U_TURN
-	; dbw 54, AIR_SLASH
+	dbw 54, AIR_SLASH
 	dbw 57, BUG_BUZZ
 	db 0 ; no more level-up moves
 
@@ -1272,7 +1272,7 @@ ScizorEvosAttacks:
 	dbw 1, LEER
 	dbw 1, WING_ATTACK
 	dbw 1, AGILITY
-	; dbw 1, AIR_SLASH
+	dbw 1, AIR_SLASH
 	; dbw 1, FURY_CUTTER
 	dbw 10, PURSUIT ; REMOVE
 	dbw 12, METAL_CLAW
@@ -1541,7 +1541,7 @@ MantineEvosAttacks:
 	dbw 24, BUBBLEBEAM
 	dbw 28, HEADBUTT
 	dbw 34, CONFUSE_RAY ;
-	; dbw 32, AIR_SLASH
+	dbw 32, AIR_SLASH
 	; dbw 36, AQUA_RING
 	; dbw 40, BOUNCE
 	dbw 44, HYDRO_PUMP
@@ -1830,7 +1830,7 @@ BlisseyEvosAttacks:
 	dbw 1, POUND
 	; dbw 1, COVET
 	; dbw 1, COPYCAT
-	; dbw 1, DISARMING_VOICE
+	dbw 1, DISARMING_VOICE
 	dbw 1, DEFENSE_CURL
 	dbw 1, SWEET_KISS
 	dbw 4, TAIL_WHIP
