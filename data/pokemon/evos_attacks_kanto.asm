@@ -894,7 +894,7 @@ JigglypuffEvosAttacks:
 	dbw 24, BODY_SLAM
 	dbw 28, MIMIC
 	; dbw 32, GYRO_BALL
-	; dbw 36, HYPER_VOICE
+	dbw 36, HYPER_VOICE
 	dbw 44, DOUBLE_EDGE
 	dbw 19, ROLLOUT
 	dbw 24, DOUBLESLAP
@@ -922,7 +922,7 @@ WigglytuffEvosAttacks:
 	dbw 1, BODY_SLAM
 	dbw 1, MIMIC
 	; dbw 1, GYRO_BALL
-	; dbw 1, HYPER_VOICE
+	dbw 1, HYPER_VOICE
 	dbw 1, DOUBLE_EDGE
 	dbw 1, ROLLOUT
 	dbw 1, DOUBLESLAP

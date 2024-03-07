@@ -288,4 +288,5 @@ MoveNames::
 	li "BUG BUZZ"
 	; li "CLOSE COMBAT"
 	li "ROCK BLAST"
+	li "HYPER VOICE"
 	assert_list_length NUM_ATTACKS

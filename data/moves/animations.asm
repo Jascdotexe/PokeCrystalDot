@@ -314,8 +314,9 @@ BattleAnimations::
 	dw BattleAnim_Discharge
 	dw BattleAnim_QuiverDance
 	dw BattleAnim_BugBuzz
-	dw BattleAnim_RockBlast
 	; dw BattleAnim_CloseCombat
+	dw BattleAnim_RockBlast
+	dw BattleAnim_HyperVoice
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1915,6 +1916,7 @@ BattleAnim_Roar:
 .done
 	anim_ret
 
+BattleAnim_HyperVoice:
 BattleAnim_Supersonic:
 	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
 .loop

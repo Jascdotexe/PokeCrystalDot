@@ -293,6 +293,7 @@ MoveDescriptions1:
 	dw BugBuzzDescription
 	; dw CloseCombatDescription
 	dw RockBlastDescription
+	dw HyperVoiceDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1449,3 +1450,8 @@ BugBuzzDescription:
 RockBlastDescription:
 	db    "Blasts rocks"
 	next  "up to 5 times.@"
+
+HyperVoiceDescription:
+	db    "Let loose a"
+	next  "resounding cry.@"
+	

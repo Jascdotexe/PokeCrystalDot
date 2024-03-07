@@ -218,8 +218,8 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	dbbw EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	dbw 1, SCRATCH
-	dbw 1, LEER
+	dbw 1, X_SCISSOR
+	dbw 1, ROCK_BLAST
 	dbw 6, WATER_GUN
 	dbw 9, BITE
 	dbw 13, SCARY_FACE
@@ -281,7 +281,7 @@ SentretEvosAttacks:
 	dbw 36, AMNESIA
 	dbw 39, BATON_PASS
 	dbw 42, DOUBLE_EDGE
-	; dbw 47, HYPER_VOICE
+	dbw 47, HYPER_VOICE
 	db 0 ; no more level-up moves
 
 FurretEvosAttacks:
@@ -295,7 +295,7 @@ FurretEvosAttacks:
 	dbw 42, AMNESIA
 	dbw 46, BATON_PASS
 	dbw 50, DOUBLE_EDGE
-	; dbw 56, HYPER_VOICE
+	dbw 56, HYPER_VOICE
 	db 0 ; no more level-up moves
 
 HoothootEvosAttacks:
