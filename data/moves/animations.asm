@@ -314,7 +314,8 @@ BattleAnimations::
 	dw BattleAnim_Discharge
 	dw BattleAnim_QuiverDance
 	dw BattleAnim_BugBuzz
-	dw BattleAnim_CloseCombat
+	dw BattleAnim_RockBlast
+	; dw BattleAnim_CloseCombat
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -748,7 +749,7 @@ BattleAnim_CometPunch:
 	anim_wait 8
 	anim_ret
 
-BattleAnim_CloseCombat:
+; BattleAnim_CloseCombat:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
@@ -4586,6 +4587,7 @@ BattleAnim_FutureSight:
 	anim_incbgeffect BATTLE_BG_EFFECT_PSYCHIC
 	anim_ret
 
+BattleAnim_RockBlast:
 BattleAnim_RockSmash:
 	anim_2gfx BATTLE_ANIM_GFX_ROCKS, BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_SPARK
@@ -5161,11 +5163,11 @@ BattleAnim_PoisonFang:
 BattleAnim_XScissor:
 	anim_1gfx BATTLE_ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT
-	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_RIGHT, 148, 36, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 142, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_RIGHT, 128, 36, $0
 	anim_wait 16
 	anim_sound 0, 1, SFX_CUT
-	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_RIGHT, 148, 36, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 142, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_RIGHT, 128, 36, $0
 	anim_wait 16
 	anim_ret

@@ -292,7 +292,8 @@
 	const DISCHARGE
 	const QUIVER_DANCE
 	const BUG_BUZZ
-	const CLOSE_COMBAT
+	; const CLOSE_COMBAT
+	const ROCK_BLAST
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

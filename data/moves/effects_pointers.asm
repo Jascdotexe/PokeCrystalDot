@@ -161,5 +161,5 @@ MoveEffectsPointers:
 	dw Fly
 	dw DefenseCurl
 	dw Quiver
-	dw CloseCombat
+	; dw CloseCombat
 	assert_table_length NUM_MOVE_EFFECTS

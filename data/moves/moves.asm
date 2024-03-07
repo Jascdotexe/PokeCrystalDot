@@ -304,5 +304,6 @@ Moves1:
 	move EFFECT_PARALYZE_HIT,       80, ELECTRIC,      SPECIAL,    100, 15,  30       ; DISCHARGE
 	move EFFECT_QUIVER,              0, BUG,           STATUS,     100, 20, 100       ; QUIVER_DANCE
 	move EFFECT_SP_DEF_DOWN_HIT,    90, BUG,           SPECIAL,    100, 15,  10       ; BUG_BUZZ
-	move EFFECT_CLOSE_COMBAT,      120, FIGHTING,      PHYSICAL,   100,  5, 100       ; CLOSE_COMBAT   
+	; move EFFECT_CLOSE_COMBAT,      120, FIGHTING,      PHYSICAL,   100,  5, 100       ; CLOSE_COMBAT   
+	move EFFECT_MULTI_HIT,          25, ROCK,          PHYSICAL,      90, 10,   0       ; ROCK_BLAST
 .IndirectEnd::
