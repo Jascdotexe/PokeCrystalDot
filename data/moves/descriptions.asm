@@ -287,6 +287,8 @@ MoveDescriptions1:
 	dw XScissorDescription
 	dw ZenHeadbuttDescription
 	dw HowlDescription
+	dw WaterPulseDescription
+	dw DischargeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1419,3 +1421,11 @@ ZenHeadbuttDescription:
 HowlDescription:
 	db    "Raise ATK with"
 	next  "a piercing howl.@"
+
+WaterPulseDescription:
+	db    "Water pulses may"
+	next  "confuse target.@"
+
+DischargeDescription:
+	db    "Releases elect-"
+	next  "ricty all around.@"

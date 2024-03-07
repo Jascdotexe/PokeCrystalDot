@@ -282,4 +282,6 @@ MoveNames::
 	li "X SCISSOR"
 	li "ZEN HEADBUTT"
 	li "HOWL"
+	li "WATER PULSE"
+	li "DISCHARGE"
 	assert_list_length NUM_ATTACKS

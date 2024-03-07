@@ -276,7 +276,7 @@ SquirtleEvosAttacks:
 	dbw 6, WITHDRAW
 	dbw 9, RAPID_SPIN
 	dbw 12, BITE
-	; dbw 15, WATER_PULSE
+	dbw 15, WATER_PULSE
 	dbw 18, PROTECT
 	dbw 21, RAIN_DANCE
 	dbw 24, AQUA_TAIL
@@ -295,7 +295,7 @@ WartortleEvosAttacks:
 	dbw 1, WITHDRAW
 	dbw 9, RAPID_SPIN
 	dbw 12, BITE
-	; dbw 15, WATER_PULSE
+	dbw 15, WATER_PULSE
 	dbw 20, PROTECT
 	dbw 25, RAIN_DANCE
 	dbw 30, AQUA_TAIL
@@ -314,7 +314,7 @@ BlastoiseEvosAttacks:
 	dbw 1, WITHDRAW
 	dbw 9, RAPID_SPIN
 	dbw 12, BITE
-	; dbw 15, WATER_PULSE
+	dbw 15, WATER_PULSE
 	dbw 20, PROTECT
 	dbw 25, RAIN_DANCE
 	dbw 30, AQUA_TAIL
@@ -601,7 +601,7 @@ PikachuEvosAttacks:
 	dbw 17, SLAM ; REMOVE
 	dbw 24, AGILITY
 	dbw 28, IRON_TAIL
-	; dbw 32, DISCHARGE
+	dbw 32, DISCHARGE
 	dbw 36, THUNDERBOLT
 	dbw 50, LIGHT_SCREEN
 	dbw 41, THUNDER
@@ -627,7 +627,7 @@ RaichuEvosAttacks:
 	dbw 1, SLAM ; REMOVE
 	dbw 1, AGILITY
 	dbw 1, IRON_TAIL
-	; dbw 1, DISCHARGE
+	dbw 1, DISCHARGE
 	dbw 1, LIGHT_SCREEN
 	dbw 1, THUNDER
 	dbw 5, THUNDERBOLT
@@ -1190,7 +1190,7 @@ PsyduckEvosAttacks:
 	dbw 1, WATER_GUN
 	dbw 6, CONFUSION
 	dbw 9, FURY_SWIPES
-	; dbw 12, WATER_PULSE
+	dbw 12, WATER_PULSE
 	dbw 15, DISABLE
 	dbw 18, ZEN_HEADBUTT
 	dbw 21, SCREECH
@@ -1209,7 +1209,7 @@ GolduckEvosAttacks:
 	dbw 1, CONFUSION
 	dbw 1, AQUA_JET
 	dbw 9, FURY_SWIPES
-	; dbw 12, WATER_PULSE
+	dbw 12, WATER_PULSE
 	dbw 15, DISABLE
 	dbw 18, ZEN_HEADBUTT
 	dbw 21, SCREECH
@@ -1530,7 +1530,7 @@ TentacoolEvosAttacks:
 	dbw 4, ACID
 	dbw 8, WRAP
 	dbw 12, SUPERSONIC
-	; dbw 16, WATER_PULSE
+	dbw 16, WATER_PULSE
 	dbw 20, SCREECH
 	dbw 24, BUBBLEBEAM
 	; dbw 28, HEX
@@ -1549,7 +1549,7 @@ TentacruelEvosAttacks:
 	dbw 1, WRAP
 	; dbw 1, REFLECT_TYPE
 	dbw 12, SUPERSONIC
-	; dbw 16, WATER_PULSE
+	dbw 16, WATER_PULSE
 	dbw 20, SCREECH
 	dbw 24, BUBBLEBEAM
 	; dbw 28, HEX
@@ -1670,7 +1670,7 @@ SlowpokeEvosAttacks:
 	; dbw 9, YAWN
 	dbw 12, CONFUSION
 	dbw 15, DISABLE
-	; dbw 18, WATER_PULSE
+	dbw 18, WATER_PULSE
 	dbw 21, HEADBUTT
 	dbw 24, ZEN_HEADBUTT
 	dbw 27, AMNESIA
@@ -1692,7 +1692,7 @@ SlowbroEvosAttacks:
 	; dbw 9, YAWN
 	dbw 12, CONFUSION
 	dbw 15, DISABLE
-	; dbw 18, WATER_PULSE
+	dbw 18, WATER_PULSE
 	dbw 21, HEADBUTT
 	dbw 24, ZEN_HEADBUTT
 	dbw 27, AMNESIA
@@ -1718,7 +1718,7 @@ MagnemiteEvosAttacks:
 	dbw 24, SCREECH
 	; dbw 28, MAGNET_RISE
 	; dbw 32, FLASH_CANNON
-	; dbw 36, DISCHARGE
+	dbw 36, DISCHARGE
 	; dbw 40, METAL_SOUND
 	dbw 44, LIGHT_SCREEN
 	dbw 48, LOCK_ON
@@ -1740,7 +1740,7 @@ MagnetonEvosAttacks:
 	dbw 24, SCREECH
 	; dbw 28, MAGNET_RISE
 	; dbw 34, FLASH_CANNON
-	; dbw 40, DISCHARGE
+	dbw 40, DISCHARGE
 	; dbw 46, METAL_SOUND
 	dbw 52, LIGHT_SCREEN
 	dbw 58, LOCK_ON
@@ -2114,7 +2114,7 @@ VoltorbEvosAttacks:
 	dbw 26, SELFDESTRUCT
 	dbw 29, LIGHT_SCREEN
 	; dbw 34, MAGNET_RISE
-	; dbw 37, DISCHARGE
+	dbw 37, DISCHARGE
 	dbw 41, EXPLOSION
 	; dbw 46, GYRO_BALL
 	dbw 50, MIRROR_COAT
@@ -2137,7 +2137,7 @@ ElectrodeEvosAttacks:
 	dbw 26, SELFDESTRUCT
 	dbw 29, LIGHT_SCREEN
 	; dbw 36, MAGNET_RISE
-	; dbw 41, DISCHARGE
+	dbw 41, DISCHARGE
 	dbw 47, EXPLOSION
 	; dbw 54, GYRO_BALL
 	dbw 58, MIRROR_COAT
@@ -2446,7 +2446,7 @@ HorseaEvosAttacks:
 	dbw 20, DRAGONBREATH
 	dbw 25, BUBBLEBEAM
 	dbw 30, AGILITY
-	; dbw 35, WATER_PULSE
+	dbw 35, WATER_PULSE
 	dbw 40, DRAGON_PULSE
 	dbw 45, HYDRO_PUMP
 	; dbw 50, DRAGON_DANCE
@@ -2464,7 +2464,7 @@ SeadraEvosAttacks:
 	dbw 20, DRAGONBREATH
 	dbw 25, BUBBLEBEAM
 	dbw 30, AGILITY
-	; dbw 37, WATER_PULSE
+	dbw 37, WATER_PULSE
 	dbw 44, DRAGON_PULSE
 	dbw 51, HYDRO_PUMP
 	; dbw 58, DRAGON_DANCE
@@ -2477,7 +2477,7 @@ GoldeenEvosAttacks:
 	dbw 1, PECK
 	dbw 1, TAIL_WHIP
 	dbw 5, SUPERSONIC
-	; dbw 10, WATER_PULSE
+	dbw 10, WATER_PULSE
 	dbw 15, HORN_ATTACK
 	dbw 20, AGILITY
 	; dbw 25, AQUA_RING
@@ -2494,7 +2494,7 @@ SeakingEvosAttacks:
 	dbw 1, PECK
 	dbw 1, TAIL_WHIP
 	dbw 1, SUPERSONIC
-	; dbw 1, WATER_PULSE
+	dbw 1, WATER_PULSE
 	dbw 15, HORN_ATTACK
 	dbw 20, AGILITY
 	; dbw 25, AQUA_RING
@@ -2626,7 +2626,7 @@ ElectabuzzEvosAttacks:
 	dbw 20, THUNDER_WAVE
 	dbw 24, SCREECH
 	dbw 28, THUNDERPUNCH
-	; dbw 34, DISCHARGE
+	dbw 34, DISCHARGE
 	dbw 40, LOW_KICK
 	dbw 46, THUNDERBOLT
 	dbw 52, LIGHT_SCREEN
@@ -2734,7 +2734,7 @@ LaprasEvosAttacks:
 	; dbw 15, LIFE_DEW
 	dbw 20, ICE_SHARD
 	dbw 25, CONFUSE_RAY
-	; dbw 30, WATER_PULSE
+	dbw 30, WATER_PULSE
 	dbw 32, SAFEGUARD
 	; dbw 35, BRINE
 	dbw 40, BODY_SLAM
@@ -2794,7 +2794,7 @@ VaporeonEvosAttacks:
 	dbw 10, QUICK_ATTACK
 	; dbw 15, BABY_DOLL_EYES
 	dbw 20, HAZE
-	; dbw 25, WATER_PULSE
+	dbw 25, WATER_PULSE
 	dbw 30, AURORA_BEAM
 	; dbw 35, AQUA_RING
 	; dbw 40, MUDDY_WATER
@@ -2825,7 +2825,7 @@ JolteonEvosAttacks:
 	dbw 25, DOUBLE_KICK
 	dbw 30, THUNDER_FANG
 	dbw 35, PIN_MISSILE
-	; dbw 40, DISCHARGE
+	dbw 40, DISCHARGE
 	dbw 45, AGILITY
 	dbw 50, THUNDER
 	; dbw 55, LAST_RESORT
@@ -2872,7 +2872,7 @@ PorygonEvosAttacks:
 	dbw 25, CONVERSION2
 	dbw 30, AGILITY
 	dbw 35, RECOVER
-	; dbw 40, DISCHARGE
+	dbw 40, DISCHARGE
 	dbw 45, TRI_ATTACK
 	; dbw 50, DOUBLE_EDGE
 	dbw 55, LOCK_ON
@@ -3048,7 +3048,7 @@ ZapdosEvosAttacks:
 	; dbw 30, CHARGE
 	dbw 35, DRILL_PECK
 	; dbw 40, ROOST
-	; dbw 45, DISCHARGE
+	dbw 45, DISCHARGE
 	dbw 50, RAIN_DANCE
 	dbw 55, THUNDER
 	dbw 60, DETECT

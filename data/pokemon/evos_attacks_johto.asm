@@ -456,7 +456,7 @@ ChinchouEvosAttacks:
 	dbw 16, CONFUSE_RAY
 	dbw 20, SPARK
 	; dbw 24, CHARGE
-	; dbw 28, DISCHARGE
+	dbw 28, DISCHARGE
 	; dbw 32, AQUA_RING
 	dbw 36, FLAIL
 	dbw 40, TAKE_DOWN
@@ -477,7 +477,7 @@ LanturnEvosAttacks:
 	dbw 16, CONFUSE_RAY
 	dbw 20, SPARK
 	; dbw 24, CHARGE
-	; dbw 30, DISCHARGE
+	dbw 30, DISCHARGE
 	; dbw 36, AQUA_RING
 	dbw 42, FLAIL
 	dbw 48, TAKE_DOWN
@@ -607,7 +607,7 @@ MareepEvosAttacks:
 	; dbw 22, ELECTRO_BALL
 	dbw 25, CONFUSE_RAY
 	; dbw 29, POWER_GEM
-	; dbw 32, DISCHARGE
+	dbw 32, DISCHARGE
 	dbw 36, COTTON_SPORE
 	; dbw 39, DAZZLING_GLEAM
 	dbw 43, LIGHT_SCREEN
@@ -627,7 +627,7 @@ FlaaffyEvosAttacks:
 	; dbw 25, ELECTRO_BALL
 	dbw 29, CONFUSE_RAY
 	; dbw 34, POWER_GEM
-	; dbw 38, DISCHARGE
+	dbw 38, DISCHARGE
 	dbw 43, COTTON_SPORE
 	; dbw 47, DAZZLING_GLEAM
 	dbw 52, LIGHT_SCREEN
@@ -652,7 +652,7 @@ AmpharosEvosAttacks:
 	dbw 29, CONFUSE_RAY
 	dbw 35, DRAGON_PULSE
 	; dbw 35, POWER_GEM
-	; dbw 40, DISCHARGE
+	dbw 40, DISCHARGE
 	dbw 46, COTTON_SPORE
 	; dbw 51, DAZZLING_GLEAM
 	dbw 57, LIGHT_SCREEN
@@ -1023,7 +1023,7 @@ SlowkingEvosAttacks:
 	; dbw 9, YAWN
 	dbw 12, CONFUSION
 	dbw 15, DISABLE
-	; dbw 18, WATER_PULSE
+	dbw 18, WATER_PULSE
 	dbw 21, HEADBUTT
 	dbw 27, AMNESIA
 	dbw 30, SURF
@@ -1486,7 +1486,7 @@ RemoraidEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, WATER_GUN
 	; dbw 1, HELPING_HAND
-	; dbw 4, WATER_PULSE
+	dbw 4, WATER_PULSE
 	dbw 8, FOCUS_ENERGY
 	dbw 12, PSYBEAM
 	dbw 16, AURORA_BEAM
@@ -1506,7 +1506,7 @@ OctilleryEvosAttacks:
 	; dbw 1, ROCK_BLAST
 	dbw 1, WATER_GUN
 	; dbw 1, HELPING_HAND
-	; dbw 1, WATER_PULSE
+	dbw 1, WATER_PULSE
 	dbw 1, WRAP
 	dbw 1, FOCUS_ENERGY
 	dbw 12, PSYBEAM
@@ -1535,7 +1535,7 @@ MantineEvosAttacks:
 	dbw 1, WATER_GUN
 	dbw 1, SUPERSONIC
 	dbw 1, WING_ATTACK
-	; dbw 12, WATER_PULSE
+	dbw 12, WATER_PULSE
 	; dbw 16, WIDE_GUARD
 	dbw 20, AGILITY	
 	dbw 24, BUBBLEBEAM
@@ -1622,7 +1622,7 @@ KingdraEvosAttacks:
 	dbw 20, DRAGONBREATH
 	dbw 25, BUBBLEBEAM
 	dbw 30, AGILITY
-	; dbw 37, WATER_PULSE
+	dbw 37, WATER_PULSE
 	dbw 44, DRAGON_PULSE
 	dbw 51, HYDRO_PUMP
 	; dbw 58, DRAGON_DANCE
@@ -1678,7 +1678,7 @@ Porygon2EvosAttacks:
 	dbw 25, CONVERSION2
 	dbw 30, AGILITY
 	dbw 35, RECOVER
-	; dbw 40, DISCHARGE
+	dbw 40, DISCHARGE
 	dbw 45, TRI_ATTACK
 	dbw 50, LOCK_ON
 	dbw 55, ZAP_CANNON
@@ -1780,7 +1780,7 @@ ElekidEvosAttacks:
 	dbw 20, THUNDER_WAVE
 	dbw 24, SCREECH
 	dbw 28, THUNDERPUNCH
-	; dbw 32, DISCHARGE
+	dbw 32, DISCHARGE
 	dbw 36, LOW_KICK
 	dbw 40, THUNDERBOLT
 	dbw 44, LIGHT_SCREEN
@@ -1863,7 +1863,7 @@ RaikouEvosAttacks:
 	dbw 36, HOWL
 	dbw 42, CRUNCH
 	; dbw 48, EXTRASENSORY
-	; dbw 54, DISCHARGE
+	dbw 54, DISCHARGE
 	dbw 60, REFLECT
 	dbw 66, RAIN_DANCE
 	dbw 72, THUNDER
@@ -1897,7 +1897,7 @@ SuicuneEvosAttacks:
 	dbw 1, MIST
 	dbw 1, LEER
 	dbw 1, WATER_GUN
-	; dbw 6, WATER_PULSE
+	dbw 6, WATER_PULSE
 	dbw 12, BITE
 	; dbw 18, CALM_MIND
 	dbw 24, ROAR

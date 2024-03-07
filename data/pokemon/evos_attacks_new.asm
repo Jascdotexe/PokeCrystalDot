@@ -95,7 +95,7 @@ PorygonZEvosAttacks:
 	dbw 25, CONVERSION2
 	dbw 30, AGILITY
 	dbw 35, RECOVER
-	; dbw 40, DISCHARGE
+	dbw 40, DISCHARGE
 	dbw 45, TRI_ATTACK
 	dbw 50, DOUBLE_EDGE
 	dbw 55, LOCK_ON
@@ -149,7 +149,7 @@ ElectivireEvosAttacks:
 	dbw 20, THUNDER_WAVE
 	dbw 24, SCREECH
 	dbw 28, THUNDERPUNCH
-	; dbw 34, DISCHARGE
+	dbw 34, DISCHARGE
 	dbw 40, LOW_KICK
 	dbw 46, THUNDERBOLT
 	dbw 52, LIGHT_SCREEN

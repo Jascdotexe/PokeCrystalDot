@@ -288,6 +288,8 @@
 	const X_SCISSOR
 	const ZEN_HEADBUTT
 	const HOWL
+	const WATER_PULSE
+	const DISCHARGE
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

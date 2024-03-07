@@ -310,6 +310,8 @@ BattleAnimations::
 	dw BattleAnim_XScissor
 	dw BattleAnim_ZenHeadbutt
 	dw BattleAnim_Howl
+	dw BattleAnim_WaterPulse
+	dw BattleAnim_Discharge
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1297,6 +1299,7 @@ BattleAnim_Thunderbolt:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_Discharge:
 BattleAnim_ThunderWave:
 	anim_1gfx BATTLE_ANIM_GFX_LIGHTNING
 	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $3
@@ -5077,6 +5080,7 @@ BattleAnim_DragonClaw:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_WaterPulse:
 BattleAnim_DarkPulse:
 BattleAnim_DragonPulse:
 	anim_1gfx BATTLE_ANIM_GFX_BEAM
