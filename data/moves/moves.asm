@@ -296,4 +296,6 @@ Moves1:
 	move EFFECT_FLINCH_HIT,         30, GHOST,         PHYSICAL,   100, 15,  30       ; ASTONISH 
 	move EFFECT_POISON_HIT,         50, POISON,        PHYSICAL,   100, 15,  50       ; POISON_FANG ; Look into a TOXIC_HIT effect
 	move EFFECT_SPEED_DOWN_HIT,     60, GROUND,        PHYSICAL,   100, 20, 100       ; BULLDOZE
+	move EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,        SPECIAL,    100, 10,  10       ; EARTH_POWER
+	move EFFECT_NORMAL_HIT,         80, BUG,           PHYSICAL,   100, 15,   0       ; X_SCISSOR
 .IndirectEnd::

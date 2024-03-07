@@ -284,6 +284,8 @@
 	const ASTONISH
 	const POISON_FANG
 	const BULLDOZE
+	const EARTH_POWER
+	const X_SCISSOR
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

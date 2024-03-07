@@ -1166,7 +1166,7 @@ GligarEvosAttacks:
 	dbw 28, FAINT_ATTACK ; REMOVE
 	; dbw 30, U_TURN
 	dbw 30, SCREECH
-	; dbw 40, X_SCISSOR
+	dbw 40, X_SCISSOR
 	dbw 45, CRABHAMMER
 	dbw 48, SWORDS_DANCE
 	dbw 52, GUILLOTINE ; REMOVE
@@ -1282,7 +1282,7 @@ ScizorEvosAttacks:
 	dbw 28, FOCUS_ENERGY
 	; dbw 32, IRON_DEFENSE
 	; dbw 36, IRON_HEAD	
-	; dbw 40, X_SCISSOR
+	dbw 40, X_SCISSOR
 	dbw 44, SWORDS_DANCE
 	db 0 ; no more level-up moves
 

@@ -283,6 +283,8 @@ MoveDescriptions1:
 	dw AstonishDescription
 	dw PoisonFangDescription
 	dw BulldozeDescription
+	dw EarthPowerDescription
+	dw XScissorDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1399,4 +1401,11 @@ PoisonFangDescription:
 BulldozeDescription:
 	db   "Shake the ground"
 	next "lowering SPD.@"
-	
+
+EarthPowerDescription:
+	db   "Erupts the ground"
+	next "with great power.@"
+
+XScissorDescription:
+	db   "Cuts like sharp"
+	next "scissors.@"

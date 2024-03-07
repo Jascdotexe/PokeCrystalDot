@@ -691,7 +691,7 @@ NidoranFEvosAttacks:
 	dbw 40, TOXIC
 	; dbw 45, FLATTER
 	dbw 50, CRUNCH
-	; dbw 55, EARTH_POWER
+	dbw 55, EARTH_POWER
 	db 0 ; no more level-up moves
 
 NidorinaEvosAttacks:
@@ -709,7 +709,7 @@ NidorinaEvosAttacks:
 	dbw 50, TOXIC
 	; dbw 57, FLATTER
 	dbw 64, CRUNCH
-	; dbw 71, EARTH_POWER
+	dbw 71, EARTH_POWER
 	db 0 ; no more level-up moves
 
 NidoqueenEvosAttacks:
@@ -726,7 +726,7 @@ NidoqueenEvosAttacks:
 	dbw 1, TOXIC
 	; dbw 1, FLATTER
 	dbw 1, CRUNCH
-	; dbw 1, EARTH_POWER
+	dbw 1, EARTH_POWER
 	; dbw 1, SUPERPOWER ; EVOMOVE
 	db 0 ; no more level-up moves
 
@@ -745,7 +745,7 @@ NidoranMEvosAttacks:
 	dbw 40, TOXIC
 	; dbw 45, FLATTER
 	; dbw 50, POISON_JAB
-	; dbw 55, EARTH_POWER
+	dbw 55, EARTH_POWER
 	db 0 ; no more level-up moves
 
 NidorinoEvosAttacks:
@@ -763,7 +763,7 @@ NidorinoEvosAttacks:
 	dbw 50, TOXIC
 	; dbw 57, FLATTER
 	; dbw 64, POISON_JAB
-	; dbw 71, EARTH_POWER
+	dbw 71, EARTH_POWER
 	db 0 ; no more level-up moves
 
 NidokingEvosAttacks:
@@ -780,7 +780,7 @@ NidokingEvosAttacks:
 	dbw 1, TOXIC
 	; dbw 1, FLATTER
 	; dbw 1, POISON_JAB
-	; dbw 1, EARTH_POWER
+	dbw 1, EARTH_POWER
 	dbw 1, MEGAHORN ; EVOMOVE
 	db 0 ; no more level-up moves
 
@@ -1041,7 +1041,7 @@ ParasEvosAttacks:
 	dbw 38, GIGA_DRAIN
 	; dbw 43, AROMATHERAPY
 	; dbw 49, RAGE_POWDER
-	; dbw 54, X_SCISSOR
+	dbw 54, X_SCISSOR
 	db 0 ; no more level-up moves
 
 ParasectEvosAttacks:
@@ -1058,7 +1058,7 @@ ParasectEvosAttacks:
 	dbw 44, GIGA_DRAIN
 	; dbw 51, AROMATHERAPY
 	; dbw 59, RAGE_POWDER
-	; dbw 66, X_SCISSOR
+	dbw 66, X_SCISSOR
 	db 0 ; no more level-up moves
 
 VenonatEvosAttacks:
@@ -1120,7 +1120,7 @@ DiglettEvosAttacks:
 	dbw 24, SLASH
 	dbw 28, SANDSTORM
 	dbw 32, DIG
-	; dbw 36, EARTH_POWER
+	dbw 36, EARTH_POWER
 	dbw 40, EARTHQUAKE
 	dbw 44, FISSURE
 	db 0 ; no more level-up moves
@@ -1140,7 +1140,7 @@ DugtrioEvosAttacks:
 	dbw 24, SLASH
 	dbw 30, SANDSTORM
 	dbw 36, DIG
-	; dbw 42, EARTH_POWER
+	dbw 42, EARTH_POWER
 	dbw 48, EARTHQUAKE
 	dbw 54, FISSURE
 	db 0 ; no more level-up moves
@@ -1317,7 +1317,7 @@ PoliwagEvosAttacks:
 	dbw 18, BUBBLEBEAM
 	dbw 24, RAIN_DANCE
 	dbw 30, BODY_SLAM
-	; dbw 36, EARTH_POWER
+	dbw 36, EARTH_POWER
 	dbw 42, HYDRO_PUMP
 	dbw 48, BELLY_DRUM
 	dbw 54, DOUBLE_EDGE
@@ -1334,7 +1334,7 @@ PoliwhirlEvosAttacks:
 	dbw 18, BUBBLEBEAM
 	dbw 24, RAIN_DANCE
 	dbw 32, BODY_SLAM
-	; dbw 40, EARTH_POWER
+	dbw 40, EARTH_POWER
 	dbw 48, HYDRO_PUMP
 	dbw 56, BELLY_DRUM
 	dbw 66, DOUBLE_EDGE
@@ -1350,7 +1350,7 @@ PoliwrathEvosAttacks:
 	dbw 1, BUBBLEBEAM
 	dbw 1, RAIN_DANCE
 	dbw 1, BODY_SLAM
-	; dbw 1, EARTH_POWER
+	dbw 1, EARTH_POWER
 	dbw 1, HYDRO_PUMP
 	dbw 1, BELLY_DRUM
 	dbw 1, DOUBLE_EDGE
@@ -2591,7 +2591,7 @@ ScytherEvosAttacks:
 	dbw 28, FOCUS_ENERGY
 	dbw 32, AGILITY
 	; dbw 36, AIR_SLASH
-	; dbw 40, X_SCISSOR
+	dbw 40, X_SCISSOR
 	dbw 44, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
@@ -2664,7 +2664,7 @@ PinsirEvosAttacks:
 	; dbw 20, STORM_THROW
 	; dbw 24, DOUBLE_HIT
 	dbw 28, VITAL_THROW
-	; dbw 32, X_SCISSOR
+	dbw 32, X_SCISSOR
 	dbw 36, STRENGTH
 	dbw 40, SWORDS_DANCE
 	dbw 44, SUBMISSION

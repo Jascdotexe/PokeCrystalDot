@@ -278,4 +278,6 @@ MoveNames::
 	li "ASTONISH"
 	li "POISON FANG"
 	li "BULLDOZE"
+	li "EARTH POWER"
+	li "X SCISSOR"
 	assert_list_length NUM_ATTACKS

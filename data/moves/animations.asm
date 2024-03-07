@@ -306,6 +306,8 @@ BattleAnimations::
 	dw BattleAnim_Astonish
 	dw BattleAnim_PoisonFang
 	dw BattleAnim_Bulldoze
+	dw BattleAnim_EarthPower
+	dw BattleAnim_XScissor
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1846,6 +1848,7 @@ BattleAnim_Constrict:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_EarthPower:
 BattleAnim_Bulldoze:
 BattleAnim_Earthquake:
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $4, $10
@@ -5140,3 +5143,15 @@ BattleAnim_PoisonFang:
 	anim_call BattleAnimSub_Acid
 	anim_wait 22
 	anim_ret 
+
+BattleAnim_XScissor:
+	anim_1gfx BATTLE_ANIM_GFX_CUT
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_RIGHT, 148, 36, $0
+	anim_wait 16
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_RIGHT, 148, 36, $0
+	anim_wait 16
+	anim_ret
