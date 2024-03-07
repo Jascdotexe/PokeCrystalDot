@@ -291,6 +291,7 @@ MoveDescriptions1:
 	dw DischargeDescription
 	dw QuiverDanceDescription
 	dw BugBuzzDescription
+	dw CloseCombatDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1439,4 +1440,7 @@ QuiverDanceDescription:
 BugBuzzDescription:
 	db    "Generates a"
 	next  "damaging sound.@"
-	
+
+CloseCombatDescription:
+	db    "Strong attack but"
+	next  "lowers guard.@"

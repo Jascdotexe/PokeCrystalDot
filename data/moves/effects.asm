@@ -2149,3 +2149,22 @@ Quiver:
 	statupmessage
 	statupfailtext
 	endmove
+
+CloseCombat:
+	checkobedience
+	usedmovetext
+	doturn
+	defensedown
+	lowersub
+	statdownanim
+	raisesub
+	statdownmessage
+	statdownfailtext
+	specialdefensedown
+	lowersub
+	statdownanim
+	raisesub
+	statdownmessage
+	statdownfailtext
+	endmove
+	

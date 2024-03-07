@@ -1324,7 +1324,7 @@ HeracrossEvosAttacks:
 	dbw 42, THRASH
 	dbw 50, SWORDS_DANCE
 	dbw 55, MEGAHORN
-	; dbw 60, CLOSE_COMBAT
+	dbw 60, CLOSE_COMBAT
 	db 0 ; no more level-up moves
 
 SneaselEvosAttacks:
@@ -1745,7 +1745,7 @@ HitmontopEvosAttacks:
 	; dbw 24, SUCKER_PUNCH
 	dbw 28, AGILITY
 	dbw 32, DIG
-	; dbw 36, CLOSE_COMBAT
+	dbw 36, CLOSE_COMBAT
 	dbw 40, COUNTER
 	; dbw 44, ENDEAVOR
 	db 0 ; no more level-up moves

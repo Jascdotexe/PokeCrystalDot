@@ -286,4 +286,5 @@ MoveNames::
 	li "DISCHARGE"
 	li "QUIVER DANCE"
 	li "BUG BUZZ"
+	li "CLOSE COMBAT"
 	assert_list_length NUM_ATTACKS

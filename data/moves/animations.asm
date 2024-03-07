@@ -314,6 +314,7 @@ BattleAnimations::
 	dw BattleAnim_Discharge
 	dw BattleAnim_QuiverDance
 	dw BattleAnim_BugBuzz
+	dw BattleAnim_CloseCombat
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -747,6 +748,7 @@ BattleAnim_CometPunch:
 	anim_wait 8
 	anim_ret
 
+BattleAnim_CloseCombat:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

@@ -1236,7 +1236,7 @@ MankeyEvosAttacks:
 	dbw 22, CROSS_CHOP
 	; dbw 26, ASSURANCE
 	dbw 29, THRASH
-	; dbw 33, CLOSE_COMBAT
+	dbw 33, CLOSE_COMBAT
 	dbw 36, SCREECH
 	; dbw 40, STOMPING_TANTRUM
 	dbw 41, OUTRAGE
@@ -1258,7 +1258,7 @@ PrimeapeEvosAttacks:
 	; dbw 26, ASSURANCE
 	dbw 30, THRASH
 	; dbw 35, RAGE_FIST
-	; dbw 39, CLOSE_COMBAT
+	dbw 39, CLOSE_COMBAT
 	dbw 44, SCREECH
 	; dbw 48, STOMPING_TANTRUM
 	dbw 53, OUTRAGE
@@ -2243,7 +2243,7 @@ HitmonleeEvosAttacks:
 	; dbw 24, BLAZE_KICK
 	; dbw 28, FEINT
 	dbw 32, MEGA_KICK
-	; dbw 36, CLOSE_COMBAT
+	dbw 36, CLOSE_COMBAT
 	dbw 40, REVERSAL
 	dbw 44, HI_JUMP_KICK
 	; dbw 50, AXE_KICK
@@ -2270,7 +2270,7 @@ HitmonchanEvosAttacks:
 	dbw 24, FIRE_PUNCH
 	dbw 28, AGILITY
 	dbw 32, MEGA_PUNCH
-	; dbw 36, CLOSE_COMBAT
+	dbw 36, CLOSE_COMBAT
 	dbw 40, COUNTER
 	; dbw 44, FOCUS_PUNCH
 	db 0 ; no more level-up moves
