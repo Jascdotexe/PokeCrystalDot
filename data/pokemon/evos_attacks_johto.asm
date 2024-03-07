@@ -1136,7 +1136,7 @@ DunsparceEvosAttacks:
 	dbw 1, RAGE ; REMOVE
 	dbw 1, DEFENSE_CURL
 	dbw 1, FLAIL
-	; dbw 4, MUD_SLAP
+	dbw 4, MUD_SLAP
 	dbw 8, ROLLOUT	
 	dbw 12, GLARE
 	dbw 16, SCREECH
@@ -1429,7 +1429,7 @@ SwinubEvosAttacks:
 	dbbw EVOLVE_LEVEL, 33, PILOSWINE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	; dbw 1, MUD_SLAP
+	dbw 1, MUD_SLAP
 	dbw 5, POWDER_SNOW
 	dbw 10, FLAIL
 	dbw 15, ICE_SHARD
@@ -1446,7 +1446,7 @@ PiloswineEvosAttacks:
 	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, MAMOSWINE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	; dbw 1, MUD_SLAP
+	dbw 1, MUD_SLAP
 	dbw 1, POWDER_SNOW
 	dbw 1, FLAIL
 	dbw 1, ANCIENTPOWER

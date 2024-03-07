@@ -122,7 +122,7 @@ MamoswineEvosAttacks:
     db 0 ; no more evolutions
     ; dbw 1, DOUBLE_HIT
 	dbw 1, TACKLE
-	; dbw 1, MUD_SLAP
+	dbw 1, MUD_SLAP
 	dbw 1, POWDER_SNOW
 	dbw 1, FLAIL
 	dbw 1, ANCIENTPOWER
@@ -198,4 +198,3 @@ WeavileEvosAttacks:
 	; dbw 60, NIGHT_SLASH
     ; dbw 66, DARK_PULSE
 	db 0 ; no more level-up moves
-    
