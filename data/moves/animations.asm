@@ -304,6 +304,7 @@ BattleAnimations::
 	dw BattleAnim_Inferno
 	dw BattleAnim_Overheat
 	dw BattleAnim_Astonish
+	dw BattleAnim_PoisonFang
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -5127,3 +5128,13 @@ BattleAnim_AquaTail:
 	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
+
+BattleAnim_PoisonFang:
+	anim_2gfx BATTLE_ANIM_GFX_CUT, BATTLE_ANIM_GFX_POISON
+	anim_obj BATTLE_ANIM_OBJ_BITE, 136, 56, $98
+	anim_obj BATTLE_ANIM_OBJ_BITE, 136, 56, $18
+	anim_wait 8
+	anim_sound 0, 1, SFX_BITE
+	anim_call BattleAnimSub_Acid
+	anim_wait 22
+	anim_ret 

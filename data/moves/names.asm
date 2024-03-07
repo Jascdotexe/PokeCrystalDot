@@ -276,4 +276,5 @@ MoveNames::
 	li "INFERNO"
 	li "OVERHEAT"
 	li "ASTONISH"
+	li "POISON FANG"
 	assert_list_length NUM_ATTACKS

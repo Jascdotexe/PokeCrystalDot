@@ -939,7 +939,7 @@ ZubatEvosAttacks:
 	dbw 1, SUPERSONIC
 	dbw 5, ASTONISH
 	dbw 10, MEAN_LOOK
-	; dbw 15, POISON_FANG
+	dbw 15, POISON_FANG
 	; dbw 20, QUICK_GUARD
 	; dbw 25, AIR_CUTTER
 	dbw 30, BITE
@@ -958,7 +958,7 @@ GolbatEvosAttacks:
 	dbw 1, SUPERSONIC
 	dbw 1, ASTONISH
 	dbw 1, MEAN_LOOK
-	; dbw 15, POISON_FANG
+	dbw 15, POISON_FANG
 	; dbw 20, QUICK_GUARD
 	; dbw 27, AIR_CUTTER
 	dbw 34, BITE
@@ -1077,7 +1077,7 @@ VenonatEvosAttacks:
 	dbw 29, SLEEP_POWDER
 	dbw 35, LEECH_LIFE
 	; dbw 37, ZEN_HEADBUTT
-	; dbw 41, POISON_FANG
+	dbw 41, POISON_FANG
 	dbw 47, PSYCHIC_M
 	db 0 ; no more level-up moves
 
@@ -1100,7 +1100,7 @@ VenomothEvosAttacks:
 	dbw 29, SLEEP_POWDER
 	dbw 37, LEECH_LIFE
 	; dbw 41, ZEN_HEADBUTT
-	; dbw 47, POISON_FANG
+	dbw 47, POISON_FANG
 	dbw 55, PSYCHIC_M
 	; dbw 59, BUG_BUZZ
 	; dbw 63, QUIVER_DANCE

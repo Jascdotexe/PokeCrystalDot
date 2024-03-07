@@ -434,7 +434,7 @@ CrobatEvosAttacks:
 	dbw 1, SCREECH
 	dbw 1, ABSORB
 	dbw 1, SUPERSONIC
-	; dbw 15, POISON_FANG
+	dbw 15, POISON_FANG
 	; dbw 27, AIR_CUTTER
 	dbw 24, WING_ATTACK
 	dbw 34, BITE

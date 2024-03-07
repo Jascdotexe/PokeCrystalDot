@@ -294,4 +294,5 @@ Moves1:
 	move EFFECT_BURN_HIT,          100, FIRE,          SPECIAL,    100,  5, 100       ; INFERNO              
 	move EFFECT_SP_ATK_DOWN_2,     130, FIRE,          SPECIAL,     90,  5, 100       ; OVERHEAT
 	move EFFECT_FLINCH_HIT,         30, GHOST,         PHYSICAL,   100, 15,  30       ; ASTONISH 
+	move EFFECT_POISON_HIT,         50, POISON,        PHYSICAL,   100, 15,  50       ; POISON_FANG ; Look into a TOXIC_HIT effect
 .IndirectEnd::

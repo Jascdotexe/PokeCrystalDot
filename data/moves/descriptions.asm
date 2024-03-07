@@ -281,6 +281,7 @@ MoveDescriptions1:
 	dw InfernoDescription
 	dw OverheatDescription
 	dw AstonishDescription
+	dw PoisonFangDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1389,4 +1390,7 @@ OverheatDescription:
 AstonishDescription:
 	db   "Cry out in a"
 	next "startling way.@"
-	
+
+PoisonFangDescription:
+	db   "Chomp down with"
+	next "poison fangs.@"
