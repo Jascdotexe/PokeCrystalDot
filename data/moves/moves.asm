@@ -303,4 +303,5 @@ Moves1:
 	move EFFECT_CONFUSE_HIT,        60, WATER,         SPECIAL,    100, 20,  20       ; WATER_PULSE
 	move EFFECT_PARALYZE_HIT,       80, ELECTRIC,      SPECIAL,    100, 15,  30       ; DISCHARGE
 	move EFFECT_QUIVER,              0, BUG,           STATUS,     100, 20, 100       ; QUIVER_DANCE
+	move EFFECT_SP_DEF_DOWN_HIT,    90, BUG,           SPECIAL,    100, 15,  10       ; BUG_BUZZ
 .IndirectEnd::

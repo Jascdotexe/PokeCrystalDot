@@ -353,7 +353,7 @@ LedybaEvosAttacks:
 	; dbw 22, STRUGGLE_BUG
 	dbw 26, BATON_PASS
 	dbw 29, AGILITY
-	; dbw 33, BUG_BUZZ
+	dbw 33, BUG_BUZZ
 	; dbw 36, AIR_SLASH
 	dbw 40, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -372,7 +372,7 @@ LedianEvosAttacks:
 	; dbw 24, STRUGGLE_BUG
 	dbw 29, BATON_PASS
 	dbw 33, AGILITY
-	; dbw 38, BUG_BUZZ
+	dbw 38, BUG_BUZZ
 	; dbw 42, AIR_SLASH
 	dbw 47, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -900,7 +900,7 @@ YanmaEvosAttacks:
 	dbw 46, SCREECH
 	; dbw 39, U_TURN
 	; dbw 54, AIR_SLASH
-	; dbw 57, BUG_BUZZ
+	dbw 57, BUG_BUZZ
 	db 0 ; no more level-up moves
 
 WooperEvosAttacks:

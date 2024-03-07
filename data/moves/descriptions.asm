@@ -290,6 +290,7 @@ MoveDescriptions1:
 	dw WaterPulseDescription
 	dw DischargeDescription
 	dw QuiverDanceDescription
+	dw BugBuzzDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1434,4 +1435,8 @@ DischargeDescription:
 QuiverDanceDescription:
 	db    "A beautiful dance"
 	next  "raises stats.@"
+
+BugBuzzDescription:
+	db    "Generates a"
+	next  "damaging sound.@"
 	

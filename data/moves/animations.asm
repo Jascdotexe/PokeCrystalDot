@@ -313,6 +313,7 @@ BattleAnimations::
 	dw BattleAnim_WaterPulse
 	dw BattleAnim_Discharge
 	dw BattleAnim_QuiverDance
+	dw BattleAnim_BugBuzz
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1921,6 +1922,7 @@ BattleAnim_Supersonic:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_BugBuzz:
 BattleAnim_Screech:
 	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $8, $1, $20

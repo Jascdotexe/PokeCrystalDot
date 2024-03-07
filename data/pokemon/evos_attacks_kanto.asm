@@ -355,7 +355,7 @@ ButterfreeEvosAttacks:
 	dbw 20, WHIRLWIND
 	; dbw 24, AIR_SLASH
 	dbw 28, SAFEGUARD
-	; dbw 32, BUG_BUZZ
+	dbw 32, BUG_BUZZ
 	; dbw 36, TAILWIND
 	; dbw 40, RAGE_POWDER
 	dbw 44, QUIVER_DANCE
@@ -1085,7 +1085,7 @@ VenomothEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, DISABLE
-	; dbw 1, BUG_BUZZ
+	dbw 1, BUG_BUZZ
 	dbw 1, QUIVER_DANCE
 	; dbw 1, STRUGGLE_BUG
 	dbw 1, WHIRLWIND
@@ -1102,7 +1102,7 @@ VenomothEvosAttacks:
 	dbw 41, ZEN_HEADBUTT
 	dbw 47, POISON_FANG
 	dbw 55, PSYCHIC_M
-	; dbw 59, BUG_BUZZ
+	dbw 59, BUG_BUZZ
 	dbw 63, QUIVER_DANCE
 	db 0 ; no more level-up moves
 

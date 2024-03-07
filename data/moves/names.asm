@@ -285,4 +285,5 @@ MoveNames::
 	li "WATER PULSE"
 	li "DISCHARGE"
 	li "QUIVER DANCE"
+	li "BUG BUZZ"
 	assert_list_length NUM_ATTACKS
