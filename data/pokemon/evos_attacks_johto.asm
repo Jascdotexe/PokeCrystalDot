@@ -1776,7 +1776,7 @@ ElekidEvosAttacks:
 	dbw 4, THUNDERSHOCK
 	; dbw 8, CHARGE
 	dbw 12, SWIFT
-	; dbw 16, SHOCK_WAVE
+	dbw 16, SHOCK_WAVE
 	dbw 20, THUNDER_WAVE
 	dbw 24, SCREECH
 	dbw 28, THUNDERPUNCH

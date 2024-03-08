@@ -323,6 +323,7 @@ BattleAnimations::
 	dw BattleAnim_Extrasensory
 	dw BattleAnim_MudShot
 	dw BattleAnim_MuddyWater
+	dw BattleAnim_ShockWave
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1362,7 +1363,7 @@ BattleAnim_RazorWind:
 	anim_wait 24
 	anim_ret
 
-BattleAnim_Sonicboom_JP: ; unreferenced
+BattleAnim_ShockWave ; formerly unreferenced Sonicboom 
 	anim_2gfx BATTLE_ANIM_GFX_WHIP, BATTLE_ANIM_GFX_HIT
 .loop
 	anim_sound 3, 0, SFX_RAZOR_WIND

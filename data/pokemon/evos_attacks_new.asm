@@ -145,7 +145,7 @@ ElectivireEvosAttacks:
 	dbw 1, THUNDERSHOCK
 	; dbw 1, CHARGE
 	dbw 12, SWIFT
-	; dbw 16, SHOCK_WAVE
+	dbw 16, SHOCK_WAVE
 	dbw 20, THUNDER_WAVE
 	dbw 24, SCREECH
 	dbw 28, THUNDERPUNCH

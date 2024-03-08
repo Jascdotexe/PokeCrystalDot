@@ -300,6 +300,7 @@ MoveDescriptions1:
 	dw ExtrasensoryDescription
 	dw MudShotDescription
 	dw MuddyWaterDescription
+	dw ShockWaveDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1484,4 +1485,8 @@ MudShotDescription:
 MuddyWaterDescription:
 	db    "Muddy water may"
 	next  "lower accuracy.@"
+
+ShockWaveDescription:
+	db    "Electric jolt"
+	next  "that won't miss.@"
 	

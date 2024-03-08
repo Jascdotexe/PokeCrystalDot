@@ -295,4 +295,5 @@ MoveNames::
 	li "EXTRASENSORY"
 	li "MUD SHOT"
 	li "MUDDY WATER"
+	li "SHOCK WAVE"
 	assert_list_length NUM_ATTACKS

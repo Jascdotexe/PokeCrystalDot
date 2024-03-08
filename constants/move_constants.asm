@@ -301,6 +301,7 @@
 	const EXTRASENSORY
 	const MUD_SHOT
 	const MUDDY_WATER
+	const SHOCK_WAVE
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff
