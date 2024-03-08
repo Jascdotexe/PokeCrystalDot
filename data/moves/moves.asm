@@ -314,4 +314,5 @@ Moves1:
 	move EFFECT_SPEED_DOWN_HIT,     55, GROUND,        SPECIAL,     95, 15, 100     ; MUD_SHOT
 	move EFFECT_ACCURACY_DOWN_HIT,  90, WATER,         SPECIAL,     85, 10,  30     ; MUDDY_WATER
 	move EFFECT_ALWAYS_HIT,         60, ELECTRIC,      SPECIAL,    100, 20, 100     ; SHOCK_WAVE
+	move EFFECT_HONE_CLAWS,          0, DARK,          STATUS,     100, 15, 100     ; HONE_CLAWS
 .IndirectEnd::

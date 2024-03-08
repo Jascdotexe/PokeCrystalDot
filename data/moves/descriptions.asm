@@ -301,6 +301,7 @@ MoveDescriptions1:
 	dw MudShotDescription
 	dw MuddyWaterDescription
 	dw ShockWaveDescription
+	dw HoneClawsDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1489,4 +1490,7 @@ MuddyWaterDescription:
 ShockWaveDescription:
 	db    "Electric jolt"
 	next  "that won't miss.@"
-	
+
+HoneClawsDescription:
+	db    "Sharpens claws"
+	next  "to attack.@"

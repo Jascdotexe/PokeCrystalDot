@@ -218,10 +218,10 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	dbbw EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	dbw 1, DISARMING_VOICE
-	dbw 1, HYPER_VOICE
-	dbw 6, WATER_GUN
-	dbw 9, BITE
+	dbw 1, HONE_CLAWS
+	dbw 1, SHOCK_WAVE
+	dbw 1, EXTRASENSORY
+	dbw 1, MUDDY_WATER
 	dbw 13, SCARY_FACE
 	dbw 19, ICE_FANG
 	dbw 22, FLAIL
@@ -1338,7 +1338,7 @@ SneaselEvosAttacks:
 	dbw 24, ICY_WIND
 	dbw 25, FAINT_ATTACK ; REMOVE
 	dbw 30, FURY_SWIPES
-	; dbw 36, HONE_CLAWS
+	dbw 36, HONE_CLAWS
 	dbw 42, BEAT_UP
 	dbw 48, AGILITY
 	dbw 54, SCREECH

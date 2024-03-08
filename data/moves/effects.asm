@@ -2138,13 +2138,11 @@ Quiver:
 	statupfailtext
 	specialattackup
 	lowersub
-	statupanim
 	raisesub
 	statupmessage
 	statupfailtext
 	specialdefenseup
 	lowersub
-	statupanim
 	raisesub
 	statupmessage
 	statupfailtext
@@ -2167,3 +2165,20 @@ Quiver:
 ;	statdownmessage
 ;	statdownfailtext
 ;	endmove
+
+HoneClaws:
+	checkobedience
+	usedmovetext
+	doturn
+	attackup
+	lowersub
+	statupanim
+	raisesub
+	statupmessage
+	statupfailtext
+	accuracyup
+	lowersub
+	raisesub
+	statupmessage
+	statupfailtext
+	endmove

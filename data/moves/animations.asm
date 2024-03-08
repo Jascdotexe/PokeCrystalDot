@@ -324,6 +324,7 @@ BattleAnimations::
 	dw BattleAnim_MudShot
 	dw BattleAnim_MuddyWater
 	dw BattleAnim_ShockWave
+	dw BattleAnim_HoneClaws
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1363,7 +1364,7 @@ BattleAnim_RazorWind:
 	anim_wait 24
 	anim_ret
 
-BattleAnim_ShockWave ; formerly unreferenced Sonicboom 
+BattleAnim_Sonicboom_JP: ; unreferenced
 	anim_2gfx BATTLE_ANIM_GFX_WHIP, BATTLE_ANIM_GFX_HIT
 .loop
 	anim_sound 3, 0, SFX_RAZOR_WIND
@@ -1387,6 +1388,7 @@ BattleAnim_ShockWave ; formerly unreferenced Sonicboom
 	anim_wait 16
 	anim_ret
 
+BattleAnim_ShockWave:
 BattleAnim_Gust:
 BattleAnim_Sonicboom:
 	anim_2gfx BATTLE_ANIM_GFX_WIND, BATTLE_ANIM_GFX_HIT
@@ -5185,4 +5187,19 @@ BattleAnim_XScissor:
 	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 142, 40, $0
 	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_RIGHT, 128, 36, $0
 	anim_wait 16
+	anim_ret
+
+BattleAnim_HoneClaws:
+	anim_1gfx BATTLE_ANIM_GFX_CUT
+	anim_obp0 $e4
+	anim_call BattleAnim_TargetObj_1Row
+	anim_sound 0, 0, SFX_SHARPEN
+	anim_bgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT_REPEATING, $0, BG_EFFECT_USER, $40
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 58, 88, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 54, 84, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 50, 80, $0
+	anim_wait 96
+	anim_incobj 2
+	anim_incbgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT_REPEATING
+	anim_call BattleAnim_ShowMon_0
 	anim_ret

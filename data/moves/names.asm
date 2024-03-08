@@ -296,4 +296,5 @@ MoveNames::
 	li "MUD SHOT"
 	li "MUDDY WATER"
 	li "SHOCK WAVE"
+	li "HONE CLAWS"
 	assert_list_length NUM_ATTACKS

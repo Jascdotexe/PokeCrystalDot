@@ -162,4 +162,5 @@ MoveEffectsPointers:
 	dw DefenseCurl
 	dw Quiver
 	; dw CloseCombat
+	dw HoneClaws
 	assert_table_length NUM_MOVE_EFFECTS

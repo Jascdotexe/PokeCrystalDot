@@ -191,7 +191,7 @@ WeavileEvosAttacks:
 	dbw 24, ICY_WIND
 	dbw 25, FAINT_ATTACK ; REMOVE
 	dbw 30, FURY_SWIPES
-	; dbw 36, HONE_CLAW
+    dbw 36, HONE_CLAWS
 	; dbw 42, FLING
 	; dbw 48, NASTY_PLOT
 	dbw 54, SCREECH
