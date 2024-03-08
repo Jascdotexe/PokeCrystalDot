@@ -310,7 +310,7 @@ HoothootEvosAttacks:
 	; dbw 15, DEFOG
 	dbw 18, AIR_SLASH
 	dbw 16, HYPNOSIS
-	; dbw 22, EXTRASENSORY
+	dbw 22, EXTRASENSORY
 	dbw 24, TAKE_DOWN
 	; dbw 27, UPROAR
 	; dbw 30, ROOST
@@ -330,7 +330,7 @@ NoctowlEvosAttacks:
 	; dbw 15, DEFOG
 	dbw 18, AIR_SLASH
 	dbw 16, HYPNOSIS
-	; dbw 23, EXTRASENSORY
+	dbw 23, EXTRASENSORY
 	dbw 28, TAKE_DOWN
 	; dbw 33, UPROAR
 	; dbw 38, ROOST
@@ -1862,7 +1862,7 @@ RaikouEvosAttacks:
 	dbw 30, THUNDER_FANG
 	dbw 36, HOWL
 	dbw 42, CRUNCH
-	; dbw 48, EXTRASENSORY
+	dbw 48, EXTRASENSORY
 	dbw 54, DISCHARGE
 	dbw 60, REFLECT
 	dbw 66, RAIN_DANCE
@@ -1883,7 +1883,7 @@ EnteiEvosAttacks:
 	dbw 30, FIRE_FANG
 	dbw 36, SCARY_FACE
 	dbw 42, CRUNCH
-	; dbw 48, EXTRASENSORY
+	dbw 48, EXTRASENSORY
 	dbw 54, LAVA_PLUME
 	; dbw 60, SWAGGER
 	dbw 66, SUNNY_DAY
@@ -1904,7 +1904,7 @@ SuicuneEvosAttacks:
 	dbw 30, ICE_FANG
 	; dbw 36, TAILWIND
 	dbw 42, CRUNCH
-	; dbw 48, EXTRASENSORY
+	dbw 48, EXTRASENSORY
 	dbw 54, SURF
 	dbw 60, MIRROR_COAT
 	dbw 66, RAIN_DANCE
@@ -1990,7 +1990,7 @@ LugiaEvosAttacks:
 	dbw 9, MIST
 	dbw 18, SAFEGUARD
 	; dbw 27, CALM_MIND
-	; dbw 36, EXTRASENSORY
+	dbw 36, EXTRASENSORY
 	dbw 45, RECOVER
 	dbw 54, AEROBLAST
 	dbw 63, RAIN_DANCE
@@ -2008,7 +2008,7 @@ HoOhEvosAttacks:
 	; dbw 9, LIFE_DEW
 	dbw 18, SAFEGUARD
 	; dbw 27, CALM_MIND
-	; dbw 36, EXTRASENSORY
+	dbw 36, EXTRASENSORY
 	dbw 45, RECOVER
 	dbw 54, SACRED_FIRE
 	dbw 63, SUNNY_DAY

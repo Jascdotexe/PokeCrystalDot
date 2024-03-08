@@ -297,6 +297,7 @@ MoveDescriptions1:
 	dw DisarmingVoiceDescription
 	dw AirSlashDescription
 	dw EerieImpulseDescription
+	dw ExtrasensoryDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1469,3 +1470,7 @@ AirSlashDescription:
 EerieImpulseDescription:
 	db    "A strange sound"
 	next  "lowers SP.ATK.@"
+
+ExtrasensoryDescription:
+	db    "Attacks with an"
+	next  "unseeable power.@"

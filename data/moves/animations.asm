@@ -320,6 +320,7 @@ BattleAnimations::
 	dw BattleAnim_DisarmingVoice
 	dw BattleAnim_AirSlash
 	dw BattleAnim_EerieImpulse
+	dw BattleAnim_Extrasensory
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -2671,6 +2672,7 @@ BattleAnim_SkyAttack:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_Extrasensory:
 BattleAnim_NightShade:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgp $1b

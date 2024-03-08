@@ -846,7 +846,7 @@ VulpixEvosAttacks:
 	; dbw 16, INCINERATE
 	dbw 20, CONFUSE_RAY
 	dbw 24, WILL_O_WISP
-	; dbw 28, EXTRASENSORY
+	dbw 28, EXTRASENSORY
 	dbw 32, FLAMETHROWER
 	; dbw 36, IMPRISON
 	dbw 40, FIRE_SPIN
@@ -865,7 +865,7 @@ NinetalesEvosAttacks:
 	; dbw 1, INCINERATE
 	dbw 1, CONFUSE_RAY
 	dbw 1, WILL_O_WISP
-	; dbw 1, EXTRASENSORY
+	dbw 1, EXTRASENSORY
 	dbw 1, FLAMETHROWER
 	; dbw 1, IMPRISON
 	dbw 1, FIRE_SPIN
@@ -2158,7 +2158,7 @@ ExeggcuteEvosAttacks:
 	; dbw 30, BULLET_SEED
 	dbw 35, GIGA_DRAIN
 	dbw 40, SLEEP_POWDER ; REMOVE
-	; dbw 40, EXTRASENSORY
+	dbw 40, EXTRASENSORY
 	; dbw 45, UPROAR
 	; dbw 50, WORRY_SEED
 	dbw 55, SOLARBEAM
@@ -2180,7 +2180,7 @@ ExeggutorEvosAttacks:
 	; dbw 1, BULLET_SEED
 	dbw 1, GIGA_DRAIN
 	dbw 1, SLEEP_POWDER ; REMOVE
-	; dbw 1, EXTRASENSORY
+	dbw 1, EXTRASENSORY
 	; dbw 1, UPROAR
 	; dbw 1, WORRY_SEED
 	dbw 1, SOLARBEAM
