@@ -292,4 +292,5 @@ MoveNames::
 	li "DISARM VOICE"
 	li "AIR SLASH"
 	li "EERIEIMPULSE"
+	li "EXTRASENSORY"
 	assert_list_length NUM_ATTACKS

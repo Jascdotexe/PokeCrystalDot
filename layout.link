@@ -75,7 +75,6 @@ ROMX $11
 	"Bill's PC Graphics"
 ROMX $12
 	"Crystal Features 1"
-	"Egg Moves 2"
 	"Evolutions and Attacks 2"
 ROMX $13
 	"bank13"
@@ -248,6 +247,7 @@ ROMX $5c
 	"mobile5C"
 ROMX $5d
 	"Crystal Phone Text 2"
+	"Egg Moves 2"
 ROMX $5e
 	"UpdateBattleHUDs"
 	"Songs 5"

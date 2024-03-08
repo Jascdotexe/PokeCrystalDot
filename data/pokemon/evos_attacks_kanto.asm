@@ -1877,7 +1877,7 @@ MukEvosAttacks:
 	dbw 1, MUD_SLAP
 	dbw 12, DISABLE
 	dbw 15, SLUDGE
-	dbw 18, MUD_SHOT
+	; dbw 18, MUD_SHOT
 	dbw 21, MINIMIZE
 	dbw 26, TOXIC
 	dbw 29, SLUDGE_BOMB
