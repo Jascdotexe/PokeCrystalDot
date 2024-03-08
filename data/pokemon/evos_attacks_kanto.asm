@@ -1066,7 +1066,7 @@ VenonatEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, DISABLE
-	; dbw 1, STRUGGLE_BUG
+	dbw 1, STRUGGLE_BUG
 	dbw 1, FORESIGHT ; REMOVE
 	dbw 5, SUPERSONIC
 	dbw 11, CONFUSION
@@ -1087,7 +1087,7 @@ VenomothEvosAttacks:
 	dbw 1, DISABLE
 	dbw 1, BUG_BUZZ
 	dbw 1, QUIVER_DANCE
-	; dbw 1, STRUGGLE_BUG
+	dbw 1, STRUGGLE_BUG
 	dbw 1, WHIRLWIND
 	dbw 1, FORESIGHT ; REMOVE
 	dbw 1, GUST ; EVOMOVE

@@ -315,4 +315,5 @@ Moves1:
 	move EFFECT_ACCURACY_DOWN_HIT,  90, WATER,         SPECIAL,     85, 10,  30     ; MUDDY_WATER
 	move EFFECT_ALWAYS_HIT,         60, ELECTRIC,      SPECIAL,    100, 20, 100     ; SHOCK_WAVE
 	move EFFECT_HONE_CLAWS,          0, DARK,          STATUS,     100, 15, 100     ; HONE_CLAWS
+	move EFFECT_SP_ATK_DOWN_HIT,    50, BUG,           SPECIAL,    100, 20, 100     ; STRUGGLE_BUG
 .IndirectEnd::

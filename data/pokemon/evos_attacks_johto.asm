@@ -350,7 +350,7 @@ LedybaEvosAttacks:
 	dbw 15, COMET_PUNCH
 	dbw 18, MACH_PUNCH
 	; dbw 19, ROOST
-	; dbw 22, STRUGGLE_BUG
+	dbw 22, STRUGGLE_BUG
 	dbw 26, BATON_PASS
 	dbw 29, AGILITY
 	dbw 33, BUG_BUZZ
@@ -369,7 +369,7 @@ LedianEvosAttacks:
 	dbw 15, COMET_PUNCH
 	dbw 18, MACH_PUNCH
 	; dbw 20, ROOST
-	; dbw 24, STRUGGLE_BUG
+	dbw 24, STRUGGLE_BUG
 	dbw 29, BATON_PASS
 	dbw 33, AGILITY
 	dbw 38, BUG_BUZZ
@@ -1291,7 +1291,7 @@ ShuckleEvosAttacks:
 	dbw 1, CONSTRICT ; REMOVE
 	dbw 1, WRAP
 	dbw 5, ROLLOUT
-	; dbw 10, STRUGGLE_BUG
+	dbw 10, STRUGGLE_BUG
 	dbw 14, ENCORE
 	dbw 15, ROCK_THROW
 	dbw 20, SAFEGUARD

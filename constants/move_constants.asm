@@ -303,6 +303,7 @@
 	const MUDDY_WATER
 	const SHOCK_WAVE
 	const HONE_CLAWS
+	const STRUGGLE_BUG
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

@@ -325,6 +325,7 @@ BattleAnimations::
 	dw BattleAnim_MuddyWater
 	dw BattleAnim_ShockWave
 	dw BattleAnim_HoneClaws
+	dw BattleAnim_StruggleBug
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -3156,6 +3157,7 @@ BattleAnim_TailWhip:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_StruggleBug:
 BattleAnim_Struggle:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_POUND

@@ -302,6 +302,7 @@ MoveDescriptions1:
 	dw MuddyWaterDescription
 	dw ShockWaveDescription
 	dw HoneClawsDescription
+	dw StruggleBugDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1494,3 +1495,8 @@ ShockWaveDescription:
 HoneClawsDescription:
 	db    "Sharpens claws"
 	next  "to attack.@"
+
+StruggleBugDescription:
+	db    "May lower"
+	next  "SP.ATCK.@"
+	
