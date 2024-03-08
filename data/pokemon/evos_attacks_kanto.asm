@@ -245,7 +245,7 @@ CharmeleonEvosAttacks:
 	dbw 30, FLAMETHROWER
 	dbw 37, SCARY_FACE
 	dbw 48, INFERNO
-	; dbw 54ioii, FLARE_BLITZ
+	; dbw 54, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
 CharizardEvosAttacks:
@@ -383,7 +383,7 @@ BeedrillEvosAttacks:
 	dbw 1, STRING_SHOT
 	dbw 1, HARDEN
 	; dbw 1, BUG_BITE
-	; dbw 11, FURY_CUTTER
+	dbw 11, FURY_CUTTER
 	; dbw 14, LASER_FOCUS
 	dbw 20, FOCUS_ENERGY
 	; dbw 23, VENOSHOCK
@@ -473,7 +473,7 @@ RattataEvosAttacks:
 	; dbw 25, SUCKER_PUNCH
 	dbw 25, PURSUIT ; REMOVE
 	dbw 28, SUPER_FANG
-	; dbw 31, DOUBLE_EDGE
+	dbw 31, DOUBLE_EDGE
 	; dbw 34, ENDEAVOR
 	db 0 ; no more level-up moves
 
@@ -493,7 +493,7 @@ RaticateEvosAttacks:
 	; dbw 29, SUCKER_PUNCH
 	dbw 29, PURSUIT ; REMOVE
 	dbw 34, SUPER_FANG
-	; dbw 39, DOUBLE_EDGE
+	dbw 39, DOUBLE_EDGE
 	; dbw 44, ENDEAVOR
 	db 0 ; no more level-up moves
 
@@ -552,7 +552,7 @@ EkansEvosAttacks:
 	dbw 33, SLUDGE_BOMB
 	; dbw 36, GASTRO_ACID
 	; dbw 38, BELCH
-	; dbw 41, HAZE
+	dbw 41, HAZE
 	; dbw 44, COIL
 	; dbw 49, GUNK_SHOT
 	db 0 ; no more level-up moves
@@ -576,7 +576,7 @@ ArbokEvosAttacks:
 	dbw 39, SLUDGE_BOMB
 	; dbw 44, GASTRO_ACID
 	; dbw 48, BELCH
-	; dbw 51, HAZE
+	dbw 51, HAZE
 	; dbw 56, COIL
 	; dbw 63, GUNK_SHOT
 	db 0 ; no more level-up moves
@@ -597,7 +597,7 @@ PikachuEvosAttacks:
 	dbw 8, DOUBLE_TEAM
 	; dbw 12, ELECTRO_BALL
 	; dbw 16, FEINT
-	; dbw 20, SPARK
+	dbw 20, SPARK
 	dbw 17, SLAM ; REMOVE
 	dbw 24, AGILITY
 	dbw 28, IRON_TAIL
@@ -623,7 +623,7 @@ RaichuEvosAttacks:
 	dbw 1, DOUBLE_TEAM
 	; dbw 1, ELECTRO_BALL
 	; dbw 1, FEINT
-	; dbw 1, SPARK
+	dbw 1, SPARK
 	dbw 1, SLAM ; REMOVE
 	dbw 1, AGILITY
 	dbw 1, IRON_TAIL
@@ -1232,7 +1232,7 @@ MankeyEvosAttacks:
 	dbw 8, LOW_KICK
 	dbw 12, SEISMIC_TOSS
 	dbw 15, KARATE_CHOP ; REMOVE
-	; dbw 17, SWAGGER
+	dbw 17, SWAGGER
 	dbw 22, CROSS_CHOP
 	; dbw 26, ASSURANCE
 	dbw 29, THRASH
@@ -1253,7 +1253,7 @@ PrimeapeEvosAttacks:
 	dbw 8, LOW_KICK
 	dbw 15, SEISMIC_TOSS
 	dbw 17, KARATE_CHOP ; REMOVE
-	; dbw 17, SWAGGER
+	dbw 17, SWAGGER
 	dbw 22, CROSS_CHOP
 	; dbw 26, ASSURANCE
 	dbw 30, THRASH
@@ -1417,7 +1417,7 @@ MachopEvosAttacks:
 	dbw 40, SEISMIC_TOSS
 	dbw 44, DYNAMICPUNCH
 	dbw 48, CROSS_CHOP
-	; dbw 52, DOUBLE_EDGE
+	dbw 52, DOUBLE_EDGE
 	dbw 52, SUBMISSION ; REMOVE
 	db 0 ; no more level-up moves
 
@@ -1439,7 +1439,7 @@ MachokeEvosAttacks:
 	dbw 48, SEISMIC_TOSS
 	dbw 54, DYNAMICPUNCH
 	dbw 60, CROSS_CHOP
-	; dbw 66, DOUBLE_EDGE
+	dbw 66, DOUBLE_EDGE
 	dbw 66, SUBMISSION ; REMOVE
 	db 0 ; no more level-up moves
 
@@ -1461,7 +1461,7 @@ MachampEvosAttacks:
 	dbw 48, SEISMIC_TOSS
 	dbw 54, DYNAMICPUNCH
 	dbw 60, CROSS_CHOP
-	; dbw 66, DOUBLE_EDGE
+	dbw 66, DOUBLE_EDGE
 	dbw 66, SUBMISSION ; REMOVE
 	db 0 ; no more level-up moves
 
@@ -1576,7 +1576,7 @@ GeodudeEvosAttacks:
 	dbw 30, ROCK_BLAST
 	dbw 24, EARTHQUAKE
 	dbw 36, EXPLOSION
-	; dbw 40, DOUBLE_EDGE
+	dbw 40, DOUBLE_EDGE
 	; dbw 42, STONE_EDGE
 	db 0 ; no more level-up moves
 
@@ -1596,7 +1596,7 @@ GravelerEvosAttacks:
 	dbw 34, ROCK_BLAST
 	dbw 40, EARTHQUAKE
 	dbw 44, EXPLOSION
-	; dbw 50, DOUBLE_EDGE
+	dbw 50, DOUBLE_EDGE
 	; dbw 54, STONE_EDGE
 	db 0 ; no more level-up moves
 
@@ -1616,7 +1616,7 @@ GolemEvosAttacks:
 	dbw 34, ROCK_BLAST
 	dbw 40, EARTHQUAKE
 	dbw 44, EXPLOSION
-	; dbw 50, DOUBLE_EDGE
+	dbw 50, DOUBLE_EDGE
 	; dbw 54, STONE_EDGE
 	db 0 ; no more level-up moves
 
@@ -1854,7 +1854,7 @@ GrimerEvosAttacks:
 	dbw 1, POISON_GAS
 	dbw 1, POUND
 	dbw 4, HARDEN
-	; dbw 7, MUD_SLAPl
+	dbw 7, MUD_SLAP
 	dbw 12, DISABLE
 	dbw 15, SLUDGE
 	; dbw 18, MUD_SHOT
@@ -1877,7 +1877,7 @@ MukEvosAttacks:
 	dbw 1, MUD_SLAP
 	dbw 12, DISABLE
 	dbw 15, SLUDGE
-	; dbw 18, MUD_SHOT
+	dbw 18, MUD_SHOT
 	dbw 21, MINIMIZE
 	dbw 26, TOXIC
 	dbw 29, SLUDGE_BOMB
@@ -1897,7 +1897,7 @@ ShellderEvosAttacks:
 	dbw 4, WITHDRAW
 	dbw 8, ICE_SHARD
 	dbw 12, LEER
-	; dbw 16, WHIRLPOOL
+	dbw 16, WHIRLPOOL
 	dbw 20, SUPERSONIC
 	dbw 24, AURORA_BEAM
 	dbw 28, PROTECT
@@ -1921,7 +1921,7 @@ CloysterEvosAttacks:
 	dbw 1, LEER
 	; dbw 1, TOXIC_SPIKES
 	dbw 1, SPIKES
-	; dbw 1, WHIRLPOOL
+	dbw 1, WHIRLPOOL
 	dbw 1, SUPERSONIC
 	dbw 1, AURORA_BEAM
 	dbw 1, PROTECT
@@ -2014,7 +2014,7 @@ OnixEvosAttacks:
 	dbw 44, DIG
 	dbw 48, IRON_TAIL
 	; dbw 52, STONE_EDGE
-	; dbw 56, DOUBLE_EDGE
+	dbw 56, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 DrowzeeEvosAttacks:
@@ -2029,7 +2029,7 @@ DrowzeeEvosAttacks:
 	dbw 21, PSYBEAM
 	dbw 25, PSYCH_UP
 	dbw 29, ZEN_HEADBUTT
-	; dbw 33, SWAGGER
+	dbw 33, SWAGGER
 	dbw 37, PSYCHIC_M
 	dbw 42, MEDITATE
 	; dbw 41, NASTY_PLOT
@@ -2050,7 +2050,7 @@ HypnoEvosAttacks:
 	dbw 21, PSYBEAM
 	dbw 25, PSYCH_UP
 	dbw 32, ZEN_HEADBUTT
-	; dbw 37, SWAGGER
+	dbw 37, SWAGGER
 	dbw 42, PSYCHIC_M
 	dbw 47, MEDITATE
 	; dbw 41, NASTY_PLOT
@@ -2202,7 +2202,7 @@ CuboneEvosAttacks:
 	; dbw 36, ENDEAVOR
 	dbw 40, BONEMERANG
 	dbw 44, THRASH
-	; dbw 48, DOUBLE_EDGE
+	dbw 48, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 MarowakEvosAttacks:
@@ -2221,7 +2221,7 @@ MarowakEvosAttacks:
 	; dbw 42, ENDEAVOR
 	dbw 48, BONEMERANG
 	dbw 54, THRASH
-	; dbw 60l, DOUBLE_EDGE
+	dbw 60, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 HitmonleeEvosAttacks:
@@ -2390,7 +2390,7 @@ ChanseyEvosAttacks:
 	; dbw 28, HEAL_PULSE
 	; dbw 32, HELPING_HAND
 	dbw 36, LIGHT_SCREEN
-	; dbw 40, DOUBLE_EDGE
+	dbw 40, DOUBLE_EDGE
 	dbw 44, SOFTBOILED
 	db 0 ; no more level-up moves
 
@@ -2689,7 +2689,7 @@ TaurosEvosAttacks:
 	; dbw 45, SWAGGER
 	dbw 50, THRASH
 	dbw 53, TAKE_DOWN ; REMOVE
-	; dbw 55, DOUBLE_EDGE
+	dbw 55, DOUBLE_EDGE
 	; dbw 60, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
@@ -2771,7 +2771,7 @@ EeveeEvosAttacks:
 	dbw 35, BATON_PASS
 	dbw 40, TAKE_DOWN
 	dbw 45, CHARM
-	; dbw 50, DOUBLE_EDGE
+	dbw 50, DOUBLE_EDGE
 	; dbw 55, LAST_RESORT
 	db 0 ; no more level-up moves
 
@@ -2780,7 +2780,7 @@ VaporeonEvosAttacks:
 	dbw 1, WATER_GUN ; EVOMOVE
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
-	; dbw 1, DOUBLE_EDGE
+	dbw 1, DOUBLE_EDGE
 	dbw 1, TAKE_DOWN
 	dbw 1, BITE
 	dbw 1, GROWL
@@ -2808,7 +2808,7 @@ JolteonEvosAttacks:
 	dbw 1, THUNDERSHOCK ; EVOMOVE
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
-	; dbw 1, DOUBLE_EDGE
+	dbw 1, DOUBLE_EDGE
 	dbw 1, TAKE_DOWN
 	dbw 1, BITE
 	dbw 1, GROWL
@@ -2836,7 +2836,7 @@ FlareonEvosAttacks:
 	dbw 1, EMBER ; EVOMOVE
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
-	; dbw 1, DOUBLE_EDGE
+	dbw 1, DOUBLE_EDGE
 	dbw 1, TAKE_DOWN
 	dbw 1, BITE
 	dbw 1, GROWL
@@ -2874,7 +2874,7 @@ PorygonEvosAttacks:
 	dbw 35, RECOVER
 	dbw 40, DISCHARGE
 	dbw 45, TRI_ATTACK
-	; dbw 50, DOUBLE_EDGE
+	dbw 50, DOUBLE_EDGE
 	dbw 55, LOCK_ON
 	dbw 60, ZAP_CANNON
 	db 0 ; no more level-up moves
@@ -2996,7 +2996,7 @@ SnorlaxEvosAttacks:
 	dbw 1, FLAIL
 	; dbw 1, COVET
 	; dbw 1, BLOCK
-	; dbw 12, YAWN
+	;  dbw 12, YAWN
 	dbw 16, BITE
 	dbw 18, HEADBUTT ; REMOVE
 	dbw 20, SNORE

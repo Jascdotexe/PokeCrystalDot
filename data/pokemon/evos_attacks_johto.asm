@@ -748,7 +748,7 @@ PolitoedEvosAttacks:
 	dbw 1, POUND
 	dbw 1, HYDRO_PUMP
 	dbw 1, RAIN_DANCE
-	; dbw 1, BELLY_DRUM
+	dbw 1, BELLY_DRUM
 	dbw 1, WATER_GUN ; REMOVE
 	dbw 1, HYPNOSIS ; REMOVE
 	dbw 1, DOUBLESLAP ; REMOVE
@@ -1046,7 +1046,7 @@ MisdreavusEvosAttacks:
 	dbw 28, PSYBEAM
 	dbw 32, PAIN_SPLIT
 	; dbw 37, PAYBACK
-	; dbw 41, SHADOW_BALL
+	dbw 41, SHADOW_BALL
 	dbw 46, PERISH_SONG
 	; ldbw 50, POWER_GEM
 	db 0 ; no more level-up moves
@@ -1159,7 +1159,7 @@ GligarEvosAttacks:
 	dbw 4, SAND_ATTACK
 	dbw 7, HARDEN
 	dbw 13, QUICK_ATTACK
-	; dbw 16, FURY_CUTTER
+	dbw 16, FURY_CUTTER
 	; dbw 19, POISON_TAIL
 	; dbw 22, ACROBATICS
 	dbw 27, SLASH
@@ -1186,7 +1186,7 @@ SteelixEvosAttacks:
 	; dbw 8, AUTOTOMIZE
 	dbw 12, DRAGONBREATH
 	dbw 16, CURSE
-	; dbw 20, ROCK_SLIDE
+	dbw 20, ROCK_SLIDE
 	dbw 24, SCREECH
 	dbw 27, RAGE ; REMOVE
 	; dbw 28, SAND_TOMB
@@ -1194,7 +1194,7 @@ SteelixEvosAttacks:
 	dbw 36, SLAM
 	dbw 40, SANDSTORM
 	dbw 44, DIG
-	; dbw 48, IRON_TAIL
+	dbw 48, IRON_TAIL
 	; dbw 52, STONE_EDGE
 	dbw 56, DOUBLE_EDGE
 	; dbw 60, MAGNET_RISE
@@ -1338,7 +1338,7 @@ SneaselEvosAttacks:
 	dbw 24, ICY_WIND
 	dbw 25, FAINT_ATTACK ; REMOVE
 	dbw 30, FURY_SWIPES
-	; dbw 36, HONE_CLAW
+	; dbw 36, HONE_CLAWS
 	dbw 42, BEAT_UP
 	dbw 48, AGILITY
 	dbw 54, SCREECH
@@ -1404,7 +1404,7 @@ SlugmaEvosAttacks:
 	dbw 41, BODY_SLAM
 	dbw 43, RECOVER
 	dbw 48, FLAMETHROWER
-	; dbw 50, EARTH_POWER
+	dbw 50, EARTH_POWER
 	db 0 ; no more level-up moves
 
 MagcargoEvosAttacks:
@@ -1413,7 +1413,7 @@ MagcargoEvosAttacks:
 	; dbw 1, YAWN
 	dbw 1, EMBER
 	dbw 1, ROCK_THROW
-    ; dbw 1, EARTH_POWER
+    dbw 1, EARTH_POWER
 	dbw 13, HARDEN
 	; dbw 20, CLEAR_SMOG
 	dbw 22, ANCIENTPOWER
@@ -1476,7 +1476,7 @@ CorsolaEvosAttacks:
 	; dbw 35, LIFE_DEW
 	dbw 35, SPIKE_CANNON ; REMOVE
 	; dbw 40, POWER_GEM
-	; dbw 45, EARTH_POWER
+	dbw 45, EARTH_POWER
 	dbw 50, RECOVER
 	dbw 55, MIRROR_COAT
 	db 0 ; no more level-up moves
