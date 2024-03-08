@@ -299,6 +299,7 @@
 	const AIR_SLASH
 	const EERIE_IMPULSE
 	const EXTRASENSORY
+	const MUD_SHOT
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

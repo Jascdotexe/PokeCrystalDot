@@ -909,7 +909,7 @@ WooperEvosAttacks:
 	dbw 1, WATER_GUN
 	dbw 1, TAIL_WHIP
 	dbw 4, RAIN_DANCE
-	; dbw 8, MUD_SHOT
+	dbw 8, MUD_SHOT
 	dbw 12, MIST
 	dbw 12, HAZE
 	dbw 16, SLAM
@@ -926,7 +926,7 @@ QuagsireEvosAttacks:
 	dbw 1, WATER_GUN
 	dbw 1, TAIL_WHIP
 	dbw 1, RAIN_DANCE
-	; dbw 1, MUD_SHOT
+	dbw 1, MUD_SHOT
 	dbw 12, MIST
 	dbw 12, HAZE
 	dbw 16, SLAM

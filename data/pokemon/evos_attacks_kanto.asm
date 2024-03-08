@@ -1313,7 +1313,7 @@ PoliwagEvosAttacks:
 	dbw 1, WATER_GUN
 	dbw 1, HYPNOSIS
 	dbw 6, POUND
-	; dbw 12, MUD_SHOT
+	dbw 12, MUD_SHOT
 	dbw 18, BUBBLEBEAM
 	dbw 24, RAIN_DANCE
 	dbw 30, BODY_SLAM
@@ -1330,7 +1330,7 @@ PoliwhirlEvosAttacks:
 	dbw 1, WATER_GUN
 	dbw 1, HYPNOSIS
 	dbw 1, POUND
-	; dbw 1, MUD_SHOT
+	dbw 1, MUD_SHOT
 	dbw 18, BUBBLEBEAM
 	dbw 24, RAIN_DANCE
 	dbw 32, BODY_SLAM
@@ -1346,7 +1346,7 @@ PoliwrathEvosAttacks:
 	dbw 1, WATER_GUN
 	dbw 1, HYPNOSIS
 	dbw 1, POUND
-	; dbw 1, MUD_SHOT
+	dbw 1, MUD_SHOT
 	dbw 1, BUBBLEBEAM
 	dbw 1, RAIN_DANCE
 	dbw 1, BODY_SLAM
@@ -1857,7 +1857,7 @@ GrimerEvosAttacks:
 	dbw 7, MUD_SLAP
 	dbw 12, DISABLE
 	dbw 15, SLUDGE
-	; dbw 18, MUD_SHOT
+	dbw 18, MUD_SHOT
 	dbw 21, MINIMIZE
 	dbw 26, TOXIC
 	dbw 29, SLUDGE_BOMB
@@ -1877,7 +1877,7 @@ MukEvosAttacks:
 	dbw 1, MUD_SLAP
 	dbw 12, DISABLE
 	dbw 15, SLUDGE
-	; dbw 18, MUD_SHOT
+	dbw 18, MUD_SHOT
 	dbw 21, MINIMIZE
 	dbw 26, TOXIC
 	dbw 29, SLUDGE_BOMB
@@ -2065,7 +2065,7 @@ KrabbyEvosAttacks:
 	dbw 1, LEER
 	dbw 4, HARDEN
 	dbw 8, METAL_CLAW
-	; dbw 12, MUD_SHOT
+	dbw 12, MUD_SHOT
 	dbw 16, PROTECT
 	dbw 20, BUBBLEBEAM
 	dbw 24, STOMP
@@ -2085,7 +2085,7 @@ KinglerEvosAttacks:
 	; dbw 1, HAMMER_ARM
 	dbw 1, LEER
 	dbw 1, METAL_CLAW
-	; dbw 12, MUD_SHOT
+	dbw 12, MUD_SHOT
 	dbw 16, PROTECT
 	dbw 20, BUBBLEBEAM
 	dbw 24, STOMP
@@ -2888,7 +2888,7 @@ OmanyteEvosAttacks:
 	dbw 10, SAND_ATTACK
 	dbw 15, WATER_GUN
 	dbw 20, LEER
-	; dbw 25, MUD_SHOT
+	dbw 25, MUD_SHOT
 	dbw 25, CONSTRICT ; REMOVE
 	dbw 30, ANCIENTPOWER
 	; dbw 35, BRINE
@@ -2908,7 +2908,7 @@ OmastarEvosAttacks:
 	dbw 1, SAND_ATTACK
 	dbw 15, WATER_GUN
 	dbw 20, LEER
-	; dbw 25, MUD_SHOT
+	dbw 25, MUD_SHOT
 	dbw 25, CONSTRICT ; REMOVE
 	dbw 30, ANCIENTPOWER
 	; dbw 35, BRINE
@@ -2928,7 +2928,7 @@ KabutoEvosAttacks:
 	dbw 10, SAND_ATTACK
 	dbw 15, AQUA_JET
 	dbw 20, LEER
-	; dbw 25, MUD_SHOT
+	dbw 25, MUD_SHOT
 	dbw 30, ANCIENTPOWER
 	; dbw 35, BRINE
 	dbw 41, PROTECT
@@ -2951,7 +2951,7 @@ KabutopsEvosAttacks:
 	dbw 1, SAND_ATTACK
 	dbw 15, AQUA_JET
 	dbw 20, LEER
-	; dbw 25, MUD_SHOT
+	dbw 25, MUD_SHOT
 	dbw 30, ANCIENTPOWER
 	; dbw 35, BRINE
 	dbw 43, PROTECT

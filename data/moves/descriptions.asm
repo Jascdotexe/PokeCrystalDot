@@ -298,6 +298,7 @@ MoveDescriptions1:
 	dw AirSlashDescription
 	dw EerieImpulseDescription
 	dw ExtrasensoryDescription
+	dw MudShotDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1474,3 +1475,8 @@ EerieImpulseDescription:
 ExtrasensoryDescription:
 	db    "Attacks with an"
 	next  "unseeable power.@"
+
+MudShotDescription:
+	db    "Mud lowers the"
+	next  "targets speed.@"
+	
