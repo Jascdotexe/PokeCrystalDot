@@ -294,4 +294,5 @@ MoveNames::
 	li "EERIEIMPULSE"
 	li "EXTRASENSORY"
 	li "MUD SHOT"
+	li "MUDDY WATER"
 	assert_list_length NUM_ATTACKS

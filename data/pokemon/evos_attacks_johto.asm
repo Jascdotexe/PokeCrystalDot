@@ -915,7 +915,7 @@ WooperEvosAttacks:
 	dbw 16, SLAM
 	; dbw 21, YAWN
 	dbw 24, AQUA_TAIL
-	; dbw 28, MUDDY_WATER
+	dbw 28, MUDDY_WATER
 	dbw 32, AMNESIA
 	dbw 36, TOXIC
 	dbw 40, EARTHQUAKE
@@ -932,7 +932,7 @@ QuagsireEvosAttacks:
 	dbw 16, SLAM
 	; dbw 23, YAWN
 	dbw 28, AQUA_TAIL
-	; dbw 34, MUDDY_WATER
+	dbw 34, MUDDY_WATER
 	dbw 40, AMNESIA
 	dbw 46, TOXIC
 	dbw 52, EARTHQUAKE

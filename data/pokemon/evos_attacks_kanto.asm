@@ -2797,7 +2797,7 @@ VaporeonEvosAttacks:
 	dbw 25, WATER_PULSE
 	dbw 30, AURORA_BEAM
 	; dbw 35, AQUA_RING
-	; dbw 40, MUDDY_WATER
+	dbw 40, MUDDY_WATER
 	dbw 45, ACID_ARMOR
 	dbw 50, HYDRO_PUMP
 	; dbw 55, LAST_RESORT

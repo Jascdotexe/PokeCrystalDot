@@ -299,6 +299,7 @@ MoveDescriptions1:
 	dw EerieImpulseDescription
 	dw ExtrasensoryDescription
 	dw MudShotDescription
+	dw MuddyWaterDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1479,4 +1480,8 @@ ExtrasensoryDescription:
 MudShotDescription:
 	db    "Mud lowers the"
 	next  "targets speed.@"
+
+MuddyWaterDescription:
+	db    "Muddy water may"
+	next  "lower accuracy.@"
 	

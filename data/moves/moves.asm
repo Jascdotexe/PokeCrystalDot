@@ -311,5 +311,6 @@ Moves1:
 	move EFFECT_FLINCH_HIT,         75, FLYING,        SPECIAL,     95, 15,  30     ; AIR_SLASH
 	move EFFECT_SP_ATK_DOWN_2,       0, ELECTRIC,      STATUS,     100, 15, 100     ; EERIE_IMPLUSE
 	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,  SPECIAL,    100, 20,  10     ; EXTRASENSORY
-	move EFFECT_SPEED_DOWN,         55, GROUND,        SPECIAL,     95, 15, 100     ; MUD_SHOT
+	move EFFECT_SPEED_DOWN_HIT,     55, GROUND,        SPECIAL,     95, 15, 100     ; MUD_SHOT
+	move EFFECT_ACCURACY_DOWN_HIT,  90, WATER,         SPECIAL,     85, 10,  30     ; MUDDY_WATER
 .IndirectEnd::

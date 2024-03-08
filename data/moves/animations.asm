@@ -322,6 +322,7 @@ BattleAnimations::
 	dw BattleAnim_EerieImpulse
 	dw BattleAnim_Extrasensory
 	dw BattleAnim_MudShot
+	dw BattleAnim_MuddyWater
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -3563,6 +3564,7 @@ BattleAnim_SludgeBomb:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_MuddyWater:
 BattleAnim_MudShot:
 BattleAnim_MudSlap:
 	anim_1gfx BATTLE_ANIM_GFX_SAND
