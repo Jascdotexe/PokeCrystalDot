@@ -261,4 +261,6 @@ FramesPointers:
 	dba ElectivireFrames
 	dba MagmortarFrames
 	dba WeavileFrames
+	dba GlaceonFrames
+	dba LeafeonFrames
 	assert_table_length NUM_POKEMON

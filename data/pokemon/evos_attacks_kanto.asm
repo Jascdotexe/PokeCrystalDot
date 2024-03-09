@@ -585,7 +585,7 @@ PikachuEvosAttacks:
 	dbbw EVOLVE_ITEM, THUNDERSTONE, RAICHU
 	db 0 ; no more evolutions
 	; dbw 1, NUZZLE
-	; dbw 1, NASTY_PLOT
+	dbw 1, NASTY_PLOT
 	dbw 1, CHARM
 	dbw 1, SWEET_KISS
 	; dbw 1, PLAY_NICE
@@ -611,7 +611,7 @@ RaichuEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, THUNDERPUNCH
 	; dbw 1, NUZZLE
-	; dbw 1, NASTY_PLOT
+	dbw 1, NASTY_PLOT
 	dbw 1, CHARM
 	dbw 1, SWEET_KISS
 	; dbw 1, PLAY_NICE
@@ -1159,7 +1159,7 @@ MeowthEvosAttacks:
 	dbw 29, FURY_SWIPES
 	dbw 32, SCREECH
 	dbw 36, SLASH
-	; dbw 40, NASTY_PLOT
+	dbw 40, NASTY_PLOT
 	dbw 44, PLAY_ROUGH
 	db 0 ; no more level-up moves
 
@@ -1178,7 +1178,7 @@ PersianEvosAttacks:
 	dbw 31, FURY_SWIPES
 	dbw 36, SCREECH
 	dbw 42, SLASH
-	; dbw 48, NASTY_PLOT
+	dbw 48, NASTY_PLOT
 	dbw 54, PLAY_ROUGH
 	db 0 ; no more level-up moves
 
@@ -2032,7 +2032,7 @@ DrowzeeEvosAttacks:
 	dbw 33, SWAGGER
 	dbw 37, PSYCHIC_M
 	dbw 42, MEDITATE
-	; dbw 41, NASTY_PLOT
+	dbw 41, NASTY_PLOT
 	; dbw 45, PSYSHOCK
 	dbw 49, FUTURE_SIGHT
 	db 0 ; no more level-up moves
@@ -2053,7 +2053,7 @@ HypnoEvosAttacks:
 	dbw 37, SWAGGER
 	dbw 42, PSYCHIC_M
 	dbw 47, MEDITATE
-	; dbw 41, NASTY_PLOT
+	dbw 41, NASTY_PLOT
 	; dbw 45, PSYSHOCK
 	dbw 56, FUTURE_SIGHT
 	db 0 ; no more level-up moves
@@ -2756,6 +2756,8 @@ EeveeEvosAttacks:
 	dbbw EVOLVE_ITEM, FIRE_STONE, FLAREON
 	dbbw EVOLVE_ITEM, MOON_STONE, ESPEON
 	dbbw EVOLVE_ITEM, SUN_STONE, UMBREON
+	dbbw EVOLVE_ITEM, LINK_CABLE, GLACEON
+	dbbw EVOLVE_ITEM, LEAF_STONE, LEAFEON
 	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, SYLVEON
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
@@ -3165,7 +3167,7 @@ MewEvosAttacks:
 	dbw 20, BATON_PASS
 	dbw 30, ANCIENTPOWER
 	; dbw 40, LIFE_DEW
-	; dbw 50, NASTY_PLOT
+	dbw 50, NASTY_PLOT
 	dbw 60, METRONOME
 	; dbw 70, IMPRISON
 	dbw 80, TRANSFORM

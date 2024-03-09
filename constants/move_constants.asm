@@ -304,6 +304,7 @@
 	const SHOCK_WAVE
 	const HONE_CLAWS
 	const STRUGGLE_BUG
+	const NASTY_PLOT
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

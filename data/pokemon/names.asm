@@ -265,4 +265,6 @@ PokemonNames::
 	db "ELECTIVIRE"
 	db "MAGMORTAR@"
 	db "WEAVILE@@@"
+	db "GLACEON@@@"
+	db "LEAFEON@@@"
 	assert_table_length NUM_POKEMON

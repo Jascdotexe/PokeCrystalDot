@@ -326,6 +326,7 @@ BattleAnimations::
 	dw BattleAnim_ShockWave
 	dw BattleAnim_HoneClaws
 	dw BattleAnim_StruggleBug
+	dw BattleAnim_NastyPlot
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -2016,6 +2017,7 @@ BattleAnim_LightScreen:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_NastyPlot:
 BattleAnim_Amnesia:
 	anim_1gfx BATTLE_ANIM_GFX_STATUS
 	anim_sound 0, 0, SFX_LICK

@@ -266,4 +266,6 @@ IconPointers:
 	dw ElectivireIcon
 	dw MagmortarIcon
 	dw WeavileIcon
+	dw GlaceonIcon
+	dw LeafeonIcon
 	assert_table_length NUM_POKEMON + 1

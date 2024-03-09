@@ -271,4 +271,6 @@ MonMenuIconPals:
 	icon_pals BROWN,  GREEN  ; ELECTIVIRE
 	icon_pals RED,    PINK   ; MAGMORTAR
 	icon_pals RED,    PURPLE ; WEAVILE
+	icon_pals BLUE,   TEAL   ; GLACEON
+	icon_pals GREEN,  BROWN  ; LEAFEON
 	assert_table_length NUM_POKEMON

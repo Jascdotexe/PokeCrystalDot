@@ -303,6 +303,7 @@ MoveDescriptions1:
 	dw ShockWaveDescription
 	dw HoneClawsDescription
 	dw StruggleBugDescription
+	dw NastyPlotDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1499,4 +1500,7 @@ HoneClawsDescription:
 StruggleBugDescription:
 	db    "May lower"
 	next  "SP.ATCK.@"
-	
+
+NastyPlotDescription:
+	db    "Sharply raises"
+	next  "SP.ATK.@"

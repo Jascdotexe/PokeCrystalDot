@@ -11,6 +11,8 @@ EvosAttacksPointers3::
     dw ElectivireEvosAttacks
     dw MagmortarEvosAttacks
     dw WeavileEvosAttacks
+    dw GlaceonEvosAttacks
+    dw LeafeonEvosAttacks
 .IndirectEnd::
 
 
@@ -86,7 +88,7 @@ PorygonZEvosAttacks:
 	dbw 1, CONVERSION
 	dbw 1, DEFENSE_CURL
 	dbw 1, TACKLE
-	; dbw 1, NASTY_PLOT
+	dbw 1, NASTY_PLOT
 	; dbw 1, MAGNET_RISE
 	; dbw 1, RECYCLE
 	; dbw 1, TRICK_ROOM
@@ -112,7 +114,7 @@ HonchkrowEvosAttacks:
 	; dbw 1, NIGHT_SLASH
 	; dbw 1, QUASH
 	; dbw 25, SWAGGER
-	; dbw 35, NASTY_PLOT
+	dbw 35, NASTY_PLOT
 	; dbw 45, FOUL_PLAY
 	dbw 55, DARK_PULSE
 	; dbw 65, COMEUPPANCE
@@ -193,8 +195,62 @@ WeavileEvosAttacks:
 	dbw 30, FURY_SWIPES
     dbw 36, HONE_CLAWS
 	; dbw 42, FLING
-	; dbw 48, NASTY_PLOT
+	dbw 48, NASTY_PLOT
 	dbw 54, SCREECH
 	; dbw 60, NIGHT_SLASH
     dbw 66, DARK_PULSE
 	db 0 ; no more level-up moves
+
+GlaceonEvosAttacks:
+    db 0 ; no more evolutions
+    dbw 1, ICY_WIND ; EVOMOVE
+    dbw 1, CHARM
+    dbw 1, TACKLE
+    dbw 1, TAKE_DOWN
+    dbw 1, TAIL_WHIP
+    ; dbw 1, COPYCAT
+    dbw 1, GROWL
+    ; dbw 1, COVET
+    ; dbw 1, HELPING_HAND
+    dbw 1, SWIFT
+    dbw 1, BATON_PASS
+    dbw 5, SAND_ATTACK
+    dbw 10, QUICK_ATTACK
+    ; dbw 15, BABY_DOLL_EYES
+    dbw 20, ICE_SHARD
+    dbw 25, BITE
+    dbw 30, ICE_FANG
+    ; dbw 35, SNOWSCAPE
+    ; dbw 40, FREEZE_DRY
+    dbw 45, MIRROR_COAT
+    dbw 50, BLIZZARD
+    ; dbw 55, LAST_RESORT
+
+
+LeafeonEvosAttacks:
+    db 0 ; no more evolutions
+    dbw 1, RAZOR_LEAF ; EVOMOVE
+    dbw 1, SWIFT
+    dbw 1, TACKLE
+    dbw 1, TAKE_DOWN
+    dbw 1, DOUBLE_EDGE
+    dbw 1, TAIL_WHIP
+    dbw 1, BITE
+    dbw 1, GROWL
+    ; dbw 1, COPYCAT
+    ; dbw 1, COVET
+    ; dbw 1, HELPING_HAND
+    dbw 1, CHARM
+    dbw 1, BATON_PASS
+    dbw 5, SAND_ATTACK
+    dbw 10, QUICK_ATTACK
+    ; dbw 15, BABY_DOLL_EYES
+    dbw 20, LEECH_SEED
+    ; dbw 25, MAGICAL_LEAF
+    ; dbw 30, SYNTHESIS
+    dbw 35, SUNNY_DAY
+    dbw 40, GIGA_DRAIN
+    dbw 45, SWORDS_DANCE
+    ; dbw 50, LEAF_BLADE
+    ; dbw 55, LAST_RESORT
+    

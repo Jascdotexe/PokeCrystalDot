@@ -538,4 +538,8 @@ PokemonPicPointers::
 	dba MagmortarBackpic
 	dba WeavileFrontpic
 	dba WeavileBackpic
+	dba GlaceonFrontpic
+	dba GlaceonBackpic
+	dba LeafeonFrontpic
+	dba LeafeonBackpic
 	assert_table_length NUM_POKEMON + 1
