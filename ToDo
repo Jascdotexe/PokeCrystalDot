@@ -1,6 +1,416 @@
 Pokemon:
 
     Correct moves and evolutions for newly added Pokemon
+
+    To Add:
+
+    Aron - Larion - Aggron
+
+    Blissey
+
+    Cacnea - Cacturne   
+
+    Carvanha - Sharpedo   
+            
+    Corphish - Crawdaunt
+
+    Illumise - Volbeat
+
+    Larvesta - Volcarona
+
+    Litwik - Lampent - Chandelure
+
+    Lotad - Lombre - Ludicolo
+
+    Lunatone - Solrock
+
+    Makuhita - Hariyama
+
+    Mawile
+
+    Mudkip - Marshtomp - Swampert
+
+    Meditite - Medicham
+
+    Numel - Camerupt
+
+    Poochyena - Mightyena
+
+    Ralts - Krilia - Gardevior
+
+    Seedot - Nuzleaf - Shiftry
+
+    Shroomish - Breloom
+
+    Seviper
+
+    Swablu - Altaria
+
+    Spoink - Grumpig
+
+    Skitty - Delcatty
+
+    Surskit - Masquerain
+
+    Torchic - Combusken - Blaziken
+
+    Torkoal
+
+    Trapinch - Vibrava - Flygon
+
+    Treeko - Grovyle - Sceptile
+
+    Wailmer - Wailord
+
+    Zangoose
+    
+    Zigzagoon - Linoone
+
+
+
+
+
+
+
+
+    GFX:
+        Abomasnow
+        AExeggutor
+        AGrimer
+        AMuk
+        Aggron
+        Altaria
+        AMarowak
+        Appltun
+        Aron
+        Beautifly
+        Blaziken
+        Blissey
+        Breloom
+        Buizel
+        Buneary
+        Cacnea
+        Cacturne
+        Camerupt
+        Carvanha
+        Chandelure
+        Cherrim
+        Cherubi
+        Cinccino
+        Clodsire
+        Combusken
+        Corphish
+        Cottonee
+        Crawdaunt
+        Croagunk
+        Cursola
+        Delcatty
+        Dragapult
+        Drakloak
+        Dreepy
+        Drifblim
+        Drifloon
+        Dustox
+        Dwebble
+        Electrike
+        Exploud
+        Farigiraf
+        Floatzel
+        Flygon
+        Froslass
+        Gallade
+        Galvantula
+        Gardevoir
+        Glalie
+        GCorsola
+        Grovyle
+        Grumpig
+        Gulpin
+        Hariyama
+        Illumise
+        Joltik
+        Kirlia
+        Larion
+        Lampent
+        Larvesta
+        Linoone
+        Litwik
+        Lombre
+        Lopunny
+        Lotad
+        Loundred
+        Ludicolo
+        Lunatone
+        Makuhita
+        Manectric
+        Maractus
+        Marshtomp
+        Masquerain
+        Mawile
+        Medicham
+        Meditite
+        Mightyena
+        Mimikyu
+        Minccino
+        Minun
+        Mudkip
+        Nincada
+        Ninjask
+        Noibat
+        Noivern
+        Nosepass
+        Numel
+        Nuzleaf
+        Oreon?
+        Orthworm
+        Phantump
+        Pikipek
+        Plusle
+        Poochyena
+        PWooper
+        Ralts
+        Roselia
+        Sceptile
+        Scoipede
+        Seedot
+        Seviper
+        Sharpedo
+        Shedinja
+        Shiftry
+        Shroomish
+        Silcoon
+        Skitty
+        Slaking
+        Slakoth
+        Snover
+        Solrock
+        Spinda
+        Spiritomb
+        Spoink
+        Surskit
+        Swablu
+        Swalot
+        Swampert
+        Swellow
+        Taillow
+        Torchic
+        Torkoal
+        Toucannon
+        Toxicroak
+        Trapinch
+        Treeko
+        Trevenant
+        Trumbeak
+        Venipede
+        Vibrava
+        Vigoroth
+        Volbeat
+        Volcarona
+        Wailmer
+        Wailord
+        Whimsicott
+        Whirlipede
+        Whismur
+        Wingull
+        Wurmple
+        Wydeer
+        Zangoose
+        Zigzagoon
+
+    Icons:
+        Aggron
+        Altaria
+        Anorith
+        Applin
+        Arceus
+        Archen
+        Armaldo
+        Aron
+        Aurorus
+        Axew
+        Baltoy
+        Banette
+        Barboach
+        Beldum
+        Bergmite
+        Blaziken
+        Blissey
+        Breloom
+        Bronzog
+        Bronzor
+        Cacnea
+        Cacturne
+        Camerupt
+        Carbink
+        Carvanha
+        Chandelure
+        Chesnaught
+        Chespin
+        Chimchar
+        Chimecho
+        Chimeow
+        Chingling
+        Clamperl
+        Claydol
+        Clobbopus
+        Combusken
+        Corphish
+        Cradily
+        Crawdaunt
+        Croagunk
+        Decidueye
+        Dedenne
+        Deino
+        Delcatty
+        Delphox
+        Deoxys
+        Dewott
+        Dhelmise
+        Drifloon
+        Druddigon
+        Dusclops
+        Duskull
+        Elgyem
+        Espurr
+        Feebas
+        Fennekin
+        Ferroseed
+        Flabebe
+        Fletchling
+        Floatzel
+        Floette
+        Florges
+        Froakie
+        Gardevoir
+        Glalie
+        Gogoat
+        Golurk
+        Goodra
+        Gorebyss
+        Gourgeist
+        Greninja
+        Grovyle
+        Grubbin
+        Grumpig
+        Gulpin
+        Guzzlord
+        Hakamo-o
+        Hariyama
+        Hawlucha
+        Haxorus
+        Heatmor
+        Honedge
+        Huntail
+        Hydreigon
+        Inkay
+        Jirachi
+        Joltik
+        Kirlia
+        Klefki
+        Krookodile
+        Latios
+        Latias
+        Lileep
+        Linoone
+        Litwick
+        Lombre
+        Lotad
+        Lucario
+        Ludicolo
+        Lunatone
+        Luvdisc
+        Magearna
+        Magnezone
+        Makuhita
+        Manectric
+        Masrhtomp
+        Masquerain
+        Mawile
+        Medicham
+        Meditite
+        Mesprit
+        Metagross
+        Metang
+        Meinshao
+        Mightyena
+        Milotic
+        Mismagius
+        Mudkip
+        Mudsdale
+        Munna
+        Muchlax
+        Nosepass
+        Numel
+        Nuzleaf
+        Oranguru
+        Pelipper
+        Pignite
+        Pincurchin
+        Piplup
+        Polteagast
+        Poochyena
+        Pumpkaboo
+        Pyukumuku
+        Ralts
+        Rayquaza
+        Relicanth
+        Ribombee
+        Rockruff
+        Roselia
+        Rowlet
+        Sableye
+        Salamence
+        Sandyghast
+        Sceptile
+        Scolipede
+        Sealeo
+        Seedot
+        Seviper
+        Sharpedo
+        Shaymin
+        Shelgon
+        Shiftry
+        Shroomish
+        Shuppet
+        Silvally
+        Sizzlipede
+        Skitty
+        Snivy
+        Snorunt
+        Solosis
+        Solrock
+        Spewpa
+        Spheal
+        Spoink
+        Spritzee
+        Surskit
+        Swablu
+        Swalot
+        Swampert
+        Tangrowth
+        Togedemaru
+        Torchic
+        Torkoal
+        Trapinch
+        Treeko
+        Tropius
+        Turtwig
+        Tynamo
+        Type Null
+        Tyrunt
+        Vibrava
+        Vikavolt
+        Vivilon
+        Volcanion
+        Volcarona
+        Wailmer
+        Wailord
+        Walrein
+        Whiscash
+        Zangoose
+        Zigzagoon
+        Zweilous
+
     
 
 Trainers:
