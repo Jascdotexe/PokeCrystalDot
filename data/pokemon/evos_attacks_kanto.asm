@@ -3149,7 +3149,7 @@ MewtwoEvosAttacks:
 	dbw 32, AMNESIA
 	; dbw 40, AURA_SPHERE
 	dbw 48, PSYCHIC_M
-	dbw 56, PSYCH_UP ; REMOVEl
+	dbw 56, PSYCH_UP ; REMOVE
 	; dbw 56, POWER_SWAP
 	; dbw 56, GUARD_SWAP
 	dbw 64, MIST
