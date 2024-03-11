@@ -305,6 +305,7 @@
 	const HONE_CLAWS
 	const STRUGGLE_BUG
 	const NASTY_PLOT
+	const ENERGY_BALL
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

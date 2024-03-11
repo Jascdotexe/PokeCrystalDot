@@ -299,4 +299,5 @@ MoveNames::
 	li "HONE CLAWS"
 	li "STRUGGLE BUG"
 	li "NASTY PLOT"
+	li "ENERGY BALL"
 	assert_list_length NUM_ATTACKS

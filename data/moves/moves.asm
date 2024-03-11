@@ -317,4 +317,5 @@ Moves1:
 	move EFFECT_HONE_CLAWS,          0, DARK,          STATUS,     100, 15, 100     ; HONE_CLAWS
 	move EFFECT_SP_ATK_DOWN_HIT,    50, BUG,           SPECIAL,    100, 20, 100     ; STRUGGLE_BUG
 	move EFFECT_SP_ATK_UP_2,         0, DARK,          STATUS,     100, 20, 100     ; NASTY_PLOT
+	move EFFECT_SP_DEF_DOWN_HIT,    90, GRASS,         SPECIAL,    100, 10,  10     ; ENERGY_BALL
 .IndirectEnd::

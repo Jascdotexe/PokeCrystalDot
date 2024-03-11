@@ -271,7 +271,7 @@ CacneaEvosAttacks:
     dbw 30, SPIKES
     ; dbw 34, SUCKER_PUNCH
     dbw 38, PIN_MISSILE
-    ; dbw 42 ENERGY_BALL
+    dbw 42, ENERGY_BALL
     ; dbw 46, COTTON_SPORE
     dbw 50, SANDSTORM
     dbw 54, DESTINY_BOND
@@ -292,6 +292,6 @@ CacturneEvosAttacks:
     dbw 30, SPIKES
     ; dbw 35, SUCKER_PUNCH
     dbw 38, PIN_MISSILE
-    ; dbw 44 ENERGY_BALL
+    dbw 44, ENERGY_BALL
     ; dbw 49, COTTON_SPORE
     dbw 54, SANDSTORM

@@ -304,6 +304,7 @@ MoveDescriptions1:
 	dw HoneClawsDescription
 	dw StruggleBugDescription
 	dw NastyPlotDescription
+	dw EnergyBallDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1504,3 +1505,8 @@ StruggleBugDescription:
 NastyPlotDescription:
 	db    "Sharply raises"
 	next  "SP.ATK.@"
+
+EnergyBallDescription:
+	db    "Draws energy"
+	next  "from nature.@"
+	

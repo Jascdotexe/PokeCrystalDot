@@ -327,6 +327,7 @@ BattleAnimations::
 	dw BattleAnim_HoneClaws
 	dw BattleAnim_StruggleBug
 	dw BattleAnim_NastyPlot
+	dw BattleAnim_EnergyBall
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -3159,7 +3160,6 @@ BattleAnim_TailWhip:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_StruggleBug:
 BattleAnim_Struggle:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_POUND
@@ -3339,6 +3339,7 @@ BattleAnim_Curse:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_StruggleBug:
 BattleAnim_Flail:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
@@ -4716,6 +4717,21 @@ BattleAnimSub_Beam:
 	anim_obj BATTLE_ANIM_OBJ_BEAM_TIP, 126, 62, $0
 	anim_ret
 
+BattleAnimSub_BeamGreen:
+	anim_sound 0, 0, SFX_SWEET_SCENT
+	anim_obj BATTLE_ANIM_OBJ_BEAMGREEN, 64, 92, $0
+	anim_wait 4
+	anim_sound 0, 0, SFX_HYPER_BEAM
+	anim_obj BATTLE_ANIM_OBJ_BEAMGREEN, 80, 84, $0
+	anim_wait 4
+	anim_sound 0, 1, SFX_SWEET_SCENT
+	anim_obj BATTLE_ANIM_OBJ_BEAMGREEN, 96, 76, $0
+	anim_wait 4
+	anim_sound 0, 1, SFX_HYPER_BEAM
+	anim_obj BATTLE_ANIM_OBJ_BEAMGREEN, 112, 68, $0
+	anim_obj BATTLE_ANIM_OBJ_BEAMGREEN, 126, 62, $0
+	anim_ret
+
 BattleAnimSub_Explosion1:
 	anim_sound 0, 0, SFX_EGG_BOMB
 	anim_obj BATTLE_ANIM_OBJ_EXPLOSION1, 24, 64, $0
@@ -5206,4 +5222,23 @@ BattleAnim_HoneClaws:
 	anim_incobj 2
 	anim_incbgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT_REPEATING
 	anim_call BattleAnim_ShowMon_0
+	anim_ret
+
+BattleAnim_EnergyBall:
+	anim_2gfx BATTLE_ANIM_GFX_FLOWER, BATTLE_ANIM_GFX_BEAM
+	anim_obj BATTLE_ANIM_OBJ_PETAL_DANCE, 46, 56, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_PETAL_DANCE, 46, 56, $0
+	anim_wait 8
+	anim_bgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT_REPEATING, $0, BG_EFFECT_USER, $40
+	anim_obj BATTLE_ANIM_OBJ_PETAL_DANCE, 46, 56, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_PETAL_DANCE, 46, 56, $0
+	anim_wait 24
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_wait 48
+	anim_call BattleAnimSub_BeamGreen
+	anim_wait 24
+	anim_incobj 5
+	anim_wait 48
 	anim_ret

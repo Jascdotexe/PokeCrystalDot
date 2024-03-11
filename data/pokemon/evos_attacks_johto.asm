@@ -218,9 +218,9 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	dbbw EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	dbw 1, HONE_CLAWS
-	dbw 1, SHOCK_WAVE
-	dbw 1, EXTRASENSORY
+	dbw 1, STRUGGLE_BUG
+	dbw 1, NASTY_PLOT
+	dbw 1, ENERGY_BALL
 	dbw 1, MUDDY_WATER
 	dbw 13, SCARY_FACE
 	dbw 19, ICE_FANG
