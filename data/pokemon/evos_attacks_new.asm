@@ -115,7 +115,7 @@ HonchkrowEvosAttacks:
 	; dbw 1, SUCKER_PUNCH
 	; dbw 1, NIGHT_SLASH
 	; dbw 1, QUASH
-	; dbw 25, SWAGGER
+	dbw 25, SWAGGER
 	dbw 35, NASTY_PLOT
 	; dbw 45, FOUL_PLAY
 	dbw 55, DARK_PULSE
