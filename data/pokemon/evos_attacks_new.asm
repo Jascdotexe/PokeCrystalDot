@@ -13,6 +13,8 @@ EvosAttacksPointers3::
     dw WeavileEvosAttacks
     dw GlaceonEvosAttacks
     dw LeafeonEvosAttacks
+    dw CacneaEvosAttacks
+    dw CacturneEvosAttacks
 .IndirectEnd::
 
 
@@ -253,4 +255,43 @@ LeafeonEvosAttacks:
     dbw 45, SWORDS_DANCE
     ; dbw 50, LEAF_BLADE
     ; dbw 55, LAST_RESORT
-    
+
+CacneaEvosAttacks:
+    dbbw EVOLVE_LEVEL, 32, CACTURNE
+    dbw 1, POISON_STING
+    dbw 1, LEER
+    dbw 4, ABSORB
+    dbw 7, GROWTH
+    dbw 10, LEECH_SEED
+    dbw 13, SAND_ATTACK
+    ; dbw 16, BULLET_SEED
+    ; dbw 19, POWER_TRIP
+    ; dbw 22, INGRAIN
+    ; dbw 26, PAYBACK
+    dbw 30, SPIKES
+    ; dbw 34, SUCKER_PUNCH
+    dbw 38, PIN_MISSILE
+    ; dbw 42 ENERGY_BALL
+    ; dbw 46, COTTON_SPORE
+    dbw 50, SANDSTORM
+    dbw 54, DESTINY_BOND
+
+CacturneEvosAttacks:
+    db 0 ; no more evolutions
+    dbw 1, POISON_STING
+    dbw 1, LEER
+    dbw 1, ABSORB
+    dbw 1, GROWTH
+    dbw 1, DESTINY_BOND
+    dbw 10, LEECH_SEED
+    dbw 13, SAND_ATTACK
+    ; dbw 16, BULLET_SEED
+    ; dbw 19, POWER_TRIP
+    ; dbw 22, INGRAIN
+    ; dbw 26, PAYBACK
+    dbw 30, SPIKES
+    ; dbw 35, SUCKER_PUNCH
+    dbw 38, PIN_MISSILE
+    ; dbw 44 ENERGY_BALL
+    ; dbw 49, COTTON_SPORE
+    dbw 54, SANDSTORM

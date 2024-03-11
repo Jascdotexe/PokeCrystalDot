@@ -89,6 +89,8 @@ NewPokedexOrder:
 	dw GLOOM
 	dw VILEPLUME
 	dw BELLOSSOM
+	dw CACNEA
+	dw CACTURNE
 	dw DROWZEE
 	dw HYPNO
 	dw ABRA

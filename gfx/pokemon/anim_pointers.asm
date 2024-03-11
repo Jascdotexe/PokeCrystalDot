@@ -263,4 +263,6 @@ AnimationPointers:
 	dw WeavileAnimation
 	dw GlaceonAnimation
 	dw LeafeonAnimation
+	dw CacneaAnimation
+	dw CacturneAnimation
 	assert_table_length NUM_POKEMON

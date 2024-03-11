@@ -265,4 +265,6 @@ Pokered_MonIndices:
 	db WEAVILE
 	db GLACEON
 	db LEAFEON
+	db CACNEA
+	db CACTURNE
 	assert_table_length NUM_POKEMON + 1

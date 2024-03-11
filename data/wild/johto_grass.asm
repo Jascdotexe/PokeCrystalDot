@@ -371,7 +371,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 20, CUBONE
 	dbw 22, DIGLETT
-	dbw 18, WOOPER
+	dbw 18, CACNEA
 	dbw 24, NATU
 	dbw 20, MARILL
 	dbw 22, GIRAFARIG
@@ -391,7 +391,7 @@ JohtoGrassWildMons:
 	dbw 24, DIGLETT
 	dbw 22, GASTLY
 	dbw 22, MISDREAVUS
-	dbw 22, QUAGSIRE
+	dbw 22, CACNEA
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
@@ -593,7 +593,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 14, RATTATA
+	dbw 14, CACNEA
 	dbw 13, ZUBAT
 	dbw 14, MACHOP
 	dbw 13, GOLBAT
@@ -615,7 +615,7 @@ JohtoGrassWildMons:
 	dbw 13, GOLBAT
 	dbw 14, GEODUDE
 	dbw 16, SLUGMA
-	dbw 16, RATICATE
+	dbw 16, CACNEA
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_INSIDE
@@ -1634,7 +1634,7 @@ JohtoGrassWildMons:
 	dbw 24, GLIGAR
 	dbw 25, DONPHAN
 	dbw 20, PHANPY
-	dbw 26, SKARMORY
+	dbw 26, CACNEA
 	dbw 27, SKARMORY
 	; day
 	dbw 22, GEODUDE
@@ -1649,7 +1649,7 @@ JohtoGrassWildMons:
 	dbw 23, DIGLETT
 	dbw 24, GLIGAR
 	dbw 25, GRAVELER
-	dbw 26, GRAVELER
+	dbw 26, CACNEA
 	dbw 27, DUGTRIO
 	dbw 27, GRAVELER
 	end_grass_wildmons

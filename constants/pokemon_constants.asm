@@ -284,6 +284,8 @@ DEF NEW_POKEMON EQU const_value
 	const WEAVILE
 	const GLACEON
 	const LEAFEON
+	const CACNEA
+	const CACTURNE
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

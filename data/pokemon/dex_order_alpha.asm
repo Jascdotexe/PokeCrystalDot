@@ -22,6 +22,8 @@ AlphabeticalPokedexOrder:
 	dw BLISSEY
 	dw BULBASAUR
 	dw BUTTERFREE
+	dw CACNEA
+	dw CACTURNE
 	dw CATERPIE
 	dw CELEBI
 	dw CHANSEY

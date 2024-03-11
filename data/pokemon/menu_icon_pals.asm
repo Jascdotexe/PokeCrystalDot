@@ -273,4 +273,6 @@ MonMenuIconPals:
 	icon_pals RED,    PURPLE ; WEAVILE
 	icon_pals BLUE,   TEAL   ; GLACEON
 	icon_pals GREEN,  BROWN  ; LEAFEON
+	icon_pals GREEN,  BROWN  ; CACNEA
+	icon_pals GREEN,  BROWN  ; CACTURNE
 	assert_table_length NUM_POKEMON

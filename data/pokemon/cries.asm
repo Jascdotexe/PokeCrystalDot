@@ -269,4 +269,6 @@ PokemonCries::
 	mon_cry CRY_WOOPER,       183,  246 ; WEAVILE
 	mon_cry CRY_VENONAT,      202, 284 ; GLACEON
 	mon_cry CRY_VENONAT,      180, 354 ; LEAFEON
+	mon_cry CRY_SUNFLORA,      69, 232 ; CACNEA
+	mon_cry CRY_SUNFLORA,    -169, 321 ; CACTURNE
 	assert_table_length NUM_POKEMON

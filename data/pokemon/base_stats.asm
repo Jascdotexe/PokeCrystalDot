@@ -290,4 +290,6 @@ INCLUDE "data/pokemon/base_stats/magmortar.asm"
 INCLUDE "data/pokemon/base_stats/weavile.asm"
 INCLUDE "data/pokemon/base_stats/glaceon.asm"
 INCLUDE "data/pokemon/base_stats/leafeon.asm"
+INCLUDE "data/pokemon/base_stats/cacnea.asm"
+INCLUDE "data/pokemon/base_stats/cacturne.asm"
 .IndirectEnd::

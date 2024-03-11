@@ -264,4 +264,6 @@ FirstEvoStages::
 	dw SNEASEL
 	dw EEVEE
 	dw EEVEE
+	dw CACNEA
+	dw CACNEA
 	assert_table_length NUM_POKEMON
