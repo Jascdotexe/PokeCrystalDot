@@ -173,6 +173,8 @@ NewPokedexOrder:
 	dw TENTACRUEL
 	dw KRABBY
 	dw KINGLER
+	dw CORPHISH
+	dw CRAWDAUNT
 	dw SHUCKLE
 	dw STARYU
 	dw STARMIE

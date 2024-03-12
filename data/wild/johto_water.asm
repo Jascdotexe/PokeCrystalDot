@@ -6,21 +6,21 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	dbw 15, WOOPER
 	dbw 20, QUAGSIRE
-	dbw 15, QUAGSIRE
+	dbw 15, CORPHISH
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_1F
 	db 2 percent ; encounter rate
 	dbw 15, WOOPER
 	dbw 20, QUAGSIRE
-	dbw 15, QUAGSIRE
+	dbw 15, CORPHISH
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B1F
 	db 2 percent ; encounter rate
 	dbw 15, WOOPER
 	dbw 20, QUAGSIRE
-	dbw 15, QUAGSIRE
+	dbw 15, CORPHISH
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B2F
@@ -47,27 +47,27 @@ JohtoWaterWildMons:
 	def_water_wildmons ILEX_FOREST
 	db 2 percent ; encounter rate
 	dbw 15, PSYDUCK
-	dbw 10, PSYDUCK
+	dbw 10, CORPHISH
 	dbw 15, GOLDUCK
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 4 percent ; encounter rate
-	dbw 15, GOLDEEN
+	dbw 15, CORPHISH
 	dbw 20, MARILL
 	dbw 20, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_2F_INSIDE
 	db 2 percent ; encounter rate
-	dbw 20, GOLDEEN
+	dbw 20, CORPHISH
 	dbw 25, MARILL
 	dbw 25, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_B1F
 	db 2 percent ; encounter rate
-	dbw 15, GOLDEEN
+	dbw 15, CORPHISH
 	dbw 20, MARILL
 	dbw 20, SEAKING
 	end_water_wildmons
@@ -130,14 +130,14 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_30
 	db 2 percent ; encounter rate
-	dbw 20, POLIWAG
+	dbw 20, CORPHISH
 	dbw 15, POLIWAG
 	dbw 20, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_31
 	db 2 percent ; encounter rate
-	dbw 20, POLIWAG
+	dbw 20, CORPHISH
 	dbw 15, POLIWAG
 	dbw 20, POLIWHIRL
 	end_water_wildmons
@@ -193,7 +193,7 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_44
 	db 2 percent ; encounter rate
-	dbw 25, POLIWAG
+	dbw 25, CORPHISH
 	dbw 20, POLIWAG
 	dbw 25, POLIWHIRL
 	end_water_wildmons
@@ -221,7 +221,7 @@ JohtoWaterWildMons:
 
 	def_water_wildmons VIOLET_CITY
 	db 2 percent ; encounter rate
-	dbw 20, POLIWAG
+	dbw 20, CORPHISH
 	dbw 15, POLIWAG
 	dbw 20, POLIWHIRL
 	end_water_wildmons
@@ -263,7 +263,7 @@ JohtoWaterWildMons:
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE
 	db 2 percent ; encounter rate
-	dbw 35, POLIWHIRL
+	dbw 35, CRAWDAUNT
 	dbw 40, POLIWHIRL
 	dbw 35, POLIWAG
 	end_water_wildmons

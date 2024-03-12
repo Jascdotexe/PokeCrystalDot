@@ -266,4 +266,6 @@ FirstEvoStages::
 	dw EEVEE
 	dw CACNEA
 	dw CACNEA
+	dw CORPHISH
+	dw CORPHISH
 	assert_table_length NUM_POKEMON

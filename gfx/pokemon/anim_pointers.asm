@@ -265,4 +265,6 @@ AnimationPointers:
 	dw LeafeonAnimation
 	dw CacneaAnimation
 	dw CacturneAnimation
+	dw CorphishAnimation
+	dw CrawdauntAnimation
 	assert_table_length NUM_POKEMON

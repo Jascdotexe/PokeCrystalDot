@@ -15,6 +15,8 @@ EvosAttacksPointers3::
     dw LeafeonEvosAttacks
     dw CacneaEvosAttacks
     dw CacturneEvosAttacks
+	dw CorphishEvosAttacks
+	dw CrawdauntEvosAttacks
 .IndirectEnd::
 
 
@@ -227,7 +229,7 @@ GlaceonEvosAttacks:
     dbw 45, MIRROR_COAT
     dbw 50, BLIZZARD
     ; dbw 55, LAST_RESORT
-
+	db 0 ; no more level-up moves
 
 LeafeonEvosAttacks:
     db 0 ; no more evolutions
@@ -255,6 +257,7 @@ LeafeonEvosAttacks:
     dbw 45, SWORDS_DANCE
     ; dbw 50, LEAF_BLADE
     ; dbw 55, LAST_RESORT
+	db 0 ; no more level-up moves
 
 CacneaEvosAttacks:
     dbbw EVOLVE_LEVEL, 32, CACTURNE
@@ -275,6 +278,7 @@ CacneaEvosAttacks:
     ; dbw 46, COTTON_SPORE
     dbw 50, SANDSTORM
     dbw 54, DESTINY_BOND
+	db 0 ; no more level-up moves
 
 CacturneEvosAttacks:
     db 0 ; no more evolutions
@@ -295,3 +299,42 @@ CacturneEvosAttacks:
     dbw 44, ENERGY_BALL
     ; dbw 49, COTTON_SPORE
     dbw 54, SANDSTORM
+	db 0 ; no more level-up moves
+
+CorphishEvosAttacks:
+	dbbw EVOLVE_LEVEL, 30, CRAWDAUNT
+	dbw 1, WATER_GUN
+	dbw 1, HARDEN
+	dbw 4, LEER
+	; dbw 8, TAUNT
+	dbw 12, BUBBLEBEAM
+	; dbw 16, KNOCK_OFF
+	; dbw 20, DOUBLE_HIT
+	dbw 24, PROTECT
+	; dbw 28, NIGHT_SLASH
+	; dbw 32, RAZOR_SHELL
+	dbw 36, SWORDS_DANCE
+	dbw 40, CRUNCH
+	dbw 44, CRABHAMMER
+	; dbw 48, ENDEAVOR
+	dbw 52, GUILLOTINE
+	db 0 ; no more level-up moves
+
+CrawdauntEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, WATER_GUN
+	dbw 1, HARDEN
+	dbw 1, LEER
+	; dbw 1, TAUNT
+	dbw 12, BUBBLEBEAM
+	; dbw 16, KNOCK_OFF
+	; dbw 20, DOUBLE_HIT
+	dbw 24, PROTECT
+	; dbw 28, NIGHT_SLASH
+	; dbw 34, RAZOR_SHELL
+	dbw 40, SWORDS_DANCE
+	dbw 46, CRUNCH
+	dbw 52, CRABHAMMER
+	; dbw 58, ENDEAVOR
+	dbw 64, GUILLOTINE
+	db 0 ; no more level-up moves

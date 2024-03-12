@@ -265,4 +265,6 @@ AnimationIdlePointers:
 	dw LeafeonAnimationIdle
 	dw CacneaAnimationIdle
 	dw CacturneAnimationIdle
+	dw CorphishAnimationIdle
+	dw CrawdauntAnimationIdle
 	assert_table_length NUM_POKEMON

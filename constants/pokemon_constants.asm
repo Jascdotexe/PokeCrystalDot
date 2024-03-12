@@ -286,6 +286,8 @@ DEF NEW_POKEMON EQU const_value
 	const LEAFEON
 	const CACNEA
 	const CACTURNE
+	const CORPHISH
+	const CRAWDAUNT
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

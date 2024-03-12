@@ -271,4 +271,6 @@ PokemonCries::
 	mon_cry CRY_VENONAT,      180, 354 ; LEAFEON
 	mon_cry CRY_SUNFLORA,      69, 232 ; CACNEA
 	mon_cry CRY_SUNFLORA,    -169, 321 ; CACTURNE
+	mon_cry CRY_RAIKOU,       321, 230 ; CORPHISH
+	mon_cry CRY_ENTEI,        344, 263 ; CRAWDAUNT
 	assert_table_length NUM_POKEMON

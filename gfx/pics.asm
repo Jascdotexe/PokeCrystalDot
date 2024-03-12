@@ -739,3 +739,10 @@ CacneaFrontpic:      INCBIN "gfx/pokemon/cacnea/front.animated.2bpp.lz"
 CacneaBackpic:       INCBIN "gfx/pokemon/cacnea/back.2bpp.lz"
 CacturneFrontpic:    INCBIN "gfx/pokemon/cacturne/front.animated.2bpp.lz"
 CacturneBackpic:     INCBIN "gfx/pokemon/cacturne/back.2bpp.lz"
+
+SECTION "Pics 20", ROMX
+
+CorphishFrontpic:    INCBIN "gfx/pokemon/corphish/front.animated.2bpp.lz"
+CorphishBackpic:     INCBIN "gfx/pokemon/corphish/back.2bpp.lz"
+CrawdauntFrontpic:    INCBIN "gfx/pokemon/crawdaunt/front.animated.2bpp.lz"
+CrawdauntBackpic:     INCBIN "gfx/pokemon/crawdaunt/back.2bpp.lz"

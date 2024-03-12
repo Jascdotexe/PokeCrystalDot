@@ -266,4 +266,6 @@ PokedexDataPointerTable:
 	dba LeafeonPokedexEntry
 	dba CacneaPokedexEntry
 	dba CacturnePokedexEntry
+	dba CorphishPokedexEntry 
+	dba CrawdauntPokedexEntry
 	assert_table_length NUM_POKEMON

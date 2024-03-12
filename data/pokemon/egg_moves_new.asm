@@ -15,8 +15,14 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw CacneaEggMoves
 	dw NoEggMoves3
+	dw CorphishEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 
+
+NoEggMoves3:
+	dw -1 ; end
+	
 AzurillEggMoves:
 	dw LIGHT_SCREEN
 	dw PRESENT
@@ -26,8 +32,6 @@ AzurillEggMoves:
 	dw PERISH_SONG
 	dw SUPERSONIC
 	dw FORESIGHT
-	dw -1 ; end
-NoEggMoves3:
 	dw -1 ; end
 
 CacneaEggMoves:
@@ -39,3 +43,13 @@ CacneaEggMoves:
 	; dw SWITCHEROO
 	; dw BELCH
 	; dw FELL_STINGER
+	dw -1 ; end
+
+CorphishEggMoves:
+	dw DOUBLE_EDGE
+	dw SLASH
+	dw METAL_CLAW
+	dw ANCIENTPOWER
+	dw AQUA_JET
+	; dw SWITCHEROO
+	dw -1 ; end

@@ -267,4 +267,6 @@ Pokered_MonIndices:
 	db LEAFEON
 	db CACNEA
 	db CACTURNE
+	db CORPHISH
+	db CRAWDAUNT
 	assert_table_length NUM_POKEMON + 1

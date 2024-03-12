@@ -546,4 +546,8 @@ PokemonPicPointers::
 	dba CacneaBackpic
 	dba CacturneFrontpic
 	dba CacturneBackpic
+	dba CorphishFrontpic
+	dba CorphishBackpic
+	dba CrawdauntFrontpic
+	dba CrawdauntBackpic
 	assert_table_length NUM_POKEMON + 1

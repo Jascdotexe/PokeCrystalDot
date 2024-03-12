@@ -62,12 +62,12 @@ FishGroups:
 .Lake_Good:
 	dbbw  35 percent,     20, MAGIKARP
 	dbbw  70 percent,     20, GOLDEEN
-	dbbw  90 percent + 1, 20, GOLDEEN
+	dbbw  90 percent + 1, 20, CORPHISH
 	dbbw 100 percent,     4, TIME_GROUP
 .Lake_Super:
 	dbbw  40 percent,     40, GOLDEEN
 	dbbw  70 percent,     5, TIME_GROUP
-	dbbw  90 percent + 1, 40, MAGIKARP
+	dbbw  90 percent + 1, 40, CRAWDAUNT
 	dbbw 100 percent,     40, SEAKING
 
 .Pond_Old:
@@ -76,11 +76,11 @@ FishGroups:
 	dbbw 100 percent,     10, POLIWAG
 .Pond_Good:
 	dbbw  35 percent,     20, MAGIKARP
-	dbbw  70 percent,     20, POLIWAG
+	dbbw  70 percent,     20, CORPHISH
 	dbbw  90 percent + 1, 20, POLIWAG
 	dbbw 100 percent,     6, TIME_GROUP
 .Pond_Super:
-	dbbw  40 percent,     40, POLIWAG
+	dbbw  40 percent,     40, CRAWDAUNT
 	dbbw  70 percent,     7, TIME_GROUP
 	dbbw  90 percent + 1, 40, MAGIKARP
 	dbbw 100 percent,     40, POLIWAG
