@@ -1273,7 +1273,7 @@ ScizorEvosAttacks:
 	dbw 1, WING_ATTACK
 	dbw 1, AGILITY
 	dbw 1, AIR_SLASH
-	; dbw 1, FURY_CUTTER
+	dbw 1, FURY_CUTTER
 	dbw 10, PURSUIT ; REMOVE
 	dbw 12, METAL_CLAW
 	dbw 16, DOUBLE_TEAM
