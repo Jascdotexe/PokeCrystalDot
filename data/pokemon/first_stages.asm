@@ -52,8 +52,8 @@ FirstEvoStages::
 	dw VENONAT
 	dw DIGLETT
 	dw DIGLETT
-	dw MEOWTH
-	dw MEOWTH
+	dw MEOWSY
+	dw MEOWSY
 	dw PSYDUCK
 	dw PSYDUCK
 	dw MANKEY     ;38
@@ -143,7 +143,7 @@ FirstEvoStages::
 	dw KABUTO
 	dw KABUTO
 	dw AERODACTYL
-	dw SNORLAX
+	dw MUNCHLAX
 	dw ARTICUNO   ;90
 	dw ZAPDOS
 	dw MOLTRES
@@ -268,4 +268,6 @@ FirstEvoStages::
 	dw CACNEA
 	dw CORPHISH
 	dw CORPHISH
+	dw MEOWSY
+	dw MUNCHLAX
 	assert_table_length NUM_POKEMON

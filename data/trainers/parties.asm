@@ -838,25 +838,31 @@ BlueGroup:
 
 RedGroup:
 	next_list_item ; RED (1)
-	db "RED@", TRAINERTYPE_MOVES
+	db "RED@", TRAINERTYPE_ITEM_MOVES
 	db 76
 	dw ESPEON
+	dw TWISTEDSPOON
 	dw MUD_SLAP, REFLECT, SWIFT, PSYCHIC_M
 	db 78
 	dw SNORLAX
+	dw LEFTOVERS
 	dw AMNESIA, SNORE, REST, BODY_SLAM
 	db 80
 	dw VENUSAUR
+	dw MIRACLE_SEED
 	dw SUNNY_DAY, GIGA_DRAIN, SYNTHESIS, SOLARBEAM
 	db 80
 	dw CHARIZARD
+	dw CHARCOAL
 	dw FLAMETHROWER, WING_ATTACK, SLASH, FIRE_SPIN
 	db 80
 	dw BLASTOISE
+	dw MYSTIC_WATER
 	dw RAIN_DANCE, SURF, BLIZZARD, WHIRLPOOL
 	db 85
 	dw PIKACHU
-	dw CHARM, QUICK_ATTACK, THUNDERBOLT, THUNDER
+	dw LIGHT_BALL
+	dw CHARM, NASTY_PLOT, THUNDERBOLT, IRON_TAIL
 	db -1 ; end
 
 	end_list_items
@@ -2772,7 +2778,7 @@ FisherGroup:
 	next_list_item ; FISHER (2)
 	db "RALPH@", TRAINERTYPE_NORMAL
 	db 13
-	dw GOLDEEN
+	dw CORPHISH
 	db -1 ; end
 
 	next_list_item ; FISHER (3)
@@ -2806,7 +2812,7 @@ FisherGroup:
 	db 15
 	dw REMORAID
 	db 15
-	dw MAGIKARP
+	dw CORPHISH
 	db 20
 	dw GYARADOS
 	db -1 ; end
@@ -2878,7 +2884,7 @@ FisherGroup:
 	next_list_item ; FISHER (14)
 	db "STEPHEN@", TRAINERTYPE_NORMAL
 	db 27
-	dw MAGIKARP
+	dw CORPHISH
 	db 27
 	dw CHINCHOU
 	db 33
@@ -2902,7 +2908,7 @@ FisherGroup:
 	db 15
 	dw CHINCHOU
 	db 17
-	dw GOLDEEN
+	dw CORPHISH
 	db -1 ; end
 
 	next_list_item ; FISHER (17)
@@ -2910,7 +2916,7 @@ FisherGroup:
 	db 19
 	dw CHINCHOU
 	db 21
-	dw GOLDEEN
+	dw CORPHISH
 	db -1 ; end
 
 	next_list_item ; FISHER (18)
@@ -2926,7 +2932,7 @@ FisherGroup:
 	db 33
 	dw LANTURN
 	db 34
-	dw GOLDEEN
+	dw CRAWDAUNT
 	db 35
 	dw QWILFISH
 	db -1 ; end
@@ -2954,7 +2960,7 @@ FisherGroup:
 	next_list_item ; FISHER (22)
 	db "WILTON@", TRAINERTYPE_NORMAL
 	db 36
-	dw SEAKING
+	dw CRAWDAUNT
 	db 37
 	dw SEAKING
 	db 40
@@ -2964,7 +2970,7 @@ FisherGroup:
 	next_list_item ; FISHER (23)
 	db "RALPH@", TRAINERTYPE_NORMAL
 	db 32
-	dw QWILFISH
+	dw CRAWDAUNT
 	db 35
 	dw LANTURN
 	db -1 ; end
@@ -2972,7 +2978,7 @@ FisherGroup:
 	next_list_item ; FISHER (24)
 	db "RALPH@", TRAINERTYPE_NORMAL
 	db 35
-	dw QWILFISH
+	dw CRAWDAUNT
 	db 39
 	dw LANTURN
 	db -1 ; end
@@ -2982,7 +2988,7 @@ FisherGroup:
 	db 37
 	dw LANTURN
 	db 38
-	dw SEAKING
+	dw CRAWDAUNT
 	db 40
 	dw QWILFISH
 	db -1 ; end
@@ -3153,7 +3159,7 @@ SwimmerMGroup:
 	db 32
 	dw OCTILLERY
 	db 33
-	dw QUAGSIRE
+	dw CORPHISH
 	db -1 ; end
 
 	next_list_item ; SWIMMERM (19)
@@ -3179,7 +3185,7 @@ SwimmerMGroup:
 	next_list_item ; SWIMMERM (21)
 	db "PARKER@", TRAINERTYPE_NORMAL
 	db 34
-	dw OCTILLERY
+	dw CORPHISH
 	db 34
 	dw SEADRA
 	db 37
@@ -3349,7 +3355,7 @@ SailorGroup:
 	next_list_item ; SAILOR (2)
 	db "HUEY@", TRAINERTYPE_NORMAL
 	db 21
-	dw POLIWAG
+	dw CORPHISH
 	db 22
 	dw POLIWHIRL
 	db -1 ; end
@@ -3373,7 +3379,7 @@ SailorGroup:
 	next_list_item ; SAILOR (5)
 	db "ERNEST@", TRAINERTYPE_NORMAL
 	db 21
-	dw MACHOP
+	dw CORPHISH
 	db 21
 	dw MACHOP
 	db 21
@@ -3433,7 +3439,7 @@ SailorGroup:
 	next_list_item ; SAILOR (12)
 	db "HUEY@", TRAINERTYPE_NORMAL
 	db 36
-	dw POLIWHIRL
+	dw CRAWDAUNT
 	db 36
 	dw POLIWRATH
 	db -1 ; end

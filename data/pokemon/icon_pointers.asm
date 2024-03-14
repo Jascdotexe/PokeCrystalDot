@@ -272,4 +272,6 @@ IconPointers:
 	dw CacturneIcon
 	dw CorphishIcon
 	dw CrawdauntIcon
+	dw MeowsyIcon
+	dw MunchlaxIcon
 	assert_table_length NUM_POKEMON + 1

@@ -550,4 +550,8 @@ PokemonPicPointers::
 	dba CorphishBackpic
 	dba CrawdauntFrontpic
 	dba CrawdauntBackpic
+	dba MeowsyFrontpic
+	dba MeowsyBackpic
+	dba MunchlaxFrontpic
+	dba MunchlaxBackpic
 	assert_table_length NUM_POKEMON + 1

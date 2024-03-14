@@ -17,6 +17,8 @@ EvosAttacksPointers3::
     dw CacturneEvosAttacks
 	dw CorphishEvosAttacks
 	dw CrawdauntEvosAttacks
+	dw MeowsyEvosAttacks
+	dw MuchlaxEvosAttacks
 .IndirectEnd::
 
 
@@ -338,3 +340,7 @@ CrawdauntEvosAttacks:
 	; dbw 58, ENDEAVOR
 	dbw 64, GUILLOTINE
 	db 0 ; no more level-up moves
+
+MeowsyEvosAttacks:
+
+MuchlaxEvosAttacks:

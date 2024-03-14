@@ -17,12 +17,14 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw CorphishEggMoves
 	dw NoEggMoves3
+	dw MeowsyEggMoves
+	dw MuchlaxEggMoves
 .IndirectEnd::
 
 
 NoEggMoves3:
 	dw -1 ; end
-	
+
 AzurillEggMoves:
 	dw LIGHT_SCREEN
 	dw PRESENT
@@ -53,3 +55,7 @@ CorphishEggMoves:
 	dw AQUA_JET
 	; dw SWITCHEROO
 	dw -1 ; end
+
+MeowsyEggMoves:
+
+MuchlaxEggMoves:

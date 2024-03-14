@@ -141,6 +141,7 @@ NewPokedexOrder:
 	dw DUGTRIO
 	dw MANKEY
 	dw PRIMEAPE
+	dw MEOWSY
 	dw MEOWTH
 	dw PERSIAN
 	dw PSYDUCK
@@ -241,6 +242,7 @@ NewPokedexOrder:
 	dw KABUTO
 	dw KABUTOPS
 	dw AERODACTYL
+	dw MUNCHLAX
 	dw SNORLAX
 	dw BULBASAUR
 	dw IVYSAUR

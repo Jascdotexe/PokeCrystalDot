@@ -268,4 +268,6 @@ PokedexDataPointerTable:
 	dba CacturnePokedexEntry
 	dba CorphishPokedexEntry 
 	dba CrawdauntPokedexEntry
+	dba MeowsyPokedexEntry
+	dba MunchlaxPokedexEntry
 	assert_table_length NUM_POKEMON

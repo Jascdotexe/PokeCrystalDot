@@ -288,6 +288,8 @@ DEF NEW_POKEMON EQU const_value
 	const CACTURNE
 	const CORPHISH
 	const CRAWDAUNT
+	const MEOWSY
+	const MUNCHLAX
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

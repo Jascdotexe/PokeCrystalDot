@@ -124,7 +124,7 @@ ROMX $26
 ROMX $27
 	"Map Scripts 12"
 ROMX $28
-	"Phone Scripts 1"
+	"mobile5C"
 ROMX $29
 	"Phone Text"
 	"Events"
@@ -170,7 +170,6 @@ ROMX $3b
 	"Songs 2"
 ROMX $3c
 	"Songs 3"
-	"Sound Effects"
 	"Cries"
 ROMX $3d
 	"Songs 4"
@@ -244,8 +243,8 @@ ROMX $5a
 ROMX $5b
 	"bank5B"
 ROMX $5c
-	"mobile5C"
 	"Pics 20"
+	"Miscellaneous Text"
 ROMX $5d
 	"Crystal Phone Text 2"
 	"Egg Moves 2"
@@ -295,13 +294,14 @@ ROMX $70
 ROMX $71
 	"Text 3"
 ROMX $72
-	"Miscellaneous Text"
+	"Sound Effects"
 ROMX $73
 	"Pokedex Entries 129-192"
 ROMX $74
 	"Pokedex Entries 193-251"
 ROMX $75
 	"16-bit ID stuff"
+	"Phone Scripts 1"
 ROMX $77
 	"Unown Font"
 	"Print Party"

@@ -212,6 +212,7 @@ Pokered_MonIndices:
 	db CHINCHOU
 	db LANTURN
 	db PICHU
+	db MEOWSY
 	db CLEFFA
 	db IGGLYBUFF
 	db TOGEPI
@@ -269,4 +270,5 @@ Pokered_MonIndices:
 	db CACTURNE
 	db CORPHISH
 	db CRAWDAUNT
+	db MUNCHLAX
 	assert_table_length NUM_POKEMON + 1

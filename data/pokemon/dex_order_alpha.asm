@@ -143,6 +143,7 @@ AlphabeticalPokedexOrder:
 	dw MAROWAK
 	dw MEGANIUM
 	dw MEOWTH
+	dw MEOWSY
 	dw METAPOD
 	dw MEW
 	dw MEWTWO
@@ -151,6 +152,7 @@ AlphabeticalPokedexOrder:
 	dw MOLTRES
 	dw MR__MIME
 	dw MUK
+	dw MUNCHLAX
 	dw MURKROW
 	dw NATU
 	dw NIDOKING

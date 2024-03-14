@@ -744,5 +744,9 @@ SECTION "Pics 20", ROMX
 
 CorphishFrontpic:    INCBIN "gfx/pokemon/corphish/front.animated.2bpp.lz"
 CorphishBackpic:     INCBIN "gfx/pokemon/corphish/back.2bpp.lz"
-CrawdauntFrontpic:    INCBIN "gfx/pokemon/crawdaunt/front.animated.2bpp.lz"
-CrawdauntBackpic:     INCBIN "gfx/pokemon/crawdaunt/back.2bpp.lz"
+CrawdauntFrontpic:   INCBIN "gfx/pokemon/crawdaunt/front.animated.2bpp.lz"
+CrawdauntBackpic:    INCBIN "gfx/pokemon/crawdaunt/back.2bpp.lz"
+MeowsyFrontpic:      INCBIN "gfx/pokemon/meowsy/front.animated.2bpp.lz"
+MeowsyBackpic:       INCBIN "gfx/pokemon/meowsy/back.2bpp.lz"
+MunchlaxFrontpic:    INCBIN "gfx/pokemon/munchlax/front.animated.2bpp.lz"
+MunchlaxBackpic:     INCBIN "gfx/pokemon/munchlax/back.2bpp.lz"

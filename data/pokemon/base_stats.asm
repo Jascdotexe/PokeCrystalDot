@@ -294,4 +294,6 @@ INCLUDE "data/pokemon/base_stats/cacnea.asm"
 INCLUDE "data/pokemon/base_stats/cacturne.asm"
 INCLUDE "data/pokemon/base_stats/corphish.asm"
 INCLUDE "data/pokemon/base_stats/crawdaunt.asm"
+INCLUDE "data/pokemon/base_stats/meowsy.asm"
+INCLUDE "data/pokemon/base_stats/munchlax.asm"
 .IndirectEnd::

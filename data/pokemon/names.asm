@@ -271,4 +271,6 @@ PokemonNames::
 	db "CACTURNE@@"
 	db "CORPHISH@@"
 	db "CRAWDAUNT@"
+	db "MEOWSY@@@@"
+	db "MUNCHLAX@@"
 	assert_table_length NUM_POKEMON
