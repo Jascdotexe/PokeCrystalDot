@@ -31,27 +31,28 @@ GoldenrodDeptStore3FSuperNerdText:
 	text "I, I, I'm really"
 	line "impatient!"
 
-	para "I use X SPEED in"
-	line "battle to speed up"
-	cont "my #MON."
+	para "Evoltion stones"
+	line "evolve #MON"
+	cont "of any level."
 	done
 
 GoldenrodDeptStore3FRockerText:
-	text "Hey! When you bat-"
-	line "tle, do you use X"
-	cont "SPECIAL?"
+	text "I used an MOON"
+	line "STONE on EEVEE."
+	line "He evolved into"
+	cont "UMBREON!"
 
-	para "It's awesome. It"
-	line "really jacks up"
-	cont "SPECIAL ATTACK!"
+	para "I hear other"
+	line "stones might"
+	cont "work too!"
 	done
 
 GoldenrodDeptStore3FDirectoryText:
-	text "For Victory"
-	line "Seekers"
+	text "Evolve your"
+	line "#MON!"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "3F EVOLUTION"
+	line "     STONES"
 	done
 
 GoldenrodDeptStore3F_MapEvents:

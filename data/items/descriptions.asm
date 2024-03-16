@@ -90,7 +90,7 @@ ItemDescriptions:
 	dw BigMushroomDesc
 	dw SilverPowderDesc
 	dw BluApricornDesc
-	dw QuestionMarkDesc
+	dw IceStoneDesc
 	dw AmuletCoinDesc
 	dw YlwApricornDesc
 	dw GrnApricornDesc
@@ -176,7 +176,7 @@ ItemDescriptions:
 	dw BerryDesc
 	dw GoldBerryDesc
 	dw SquirtBottleDesc
-	dw QuestionMarkDesc
+	dw SalacBerryDesc
 	dw ParkBallDesc
 	dw RainbowWingDesc
 	dw QuestionMarkDesc
@@ -873,6 +873,10 @@ SquirtBottleDesc:
 	db   "A bottle used for"
 	next "watering plants.@"
 
+SalacBerryDesc:
+	db   "Consume in battle"
+	next "to boost SPEED.@"
+
 ParkBallDesc:
 	db   "The Bug-Catching"
 	next "Contest BALL.@"
@@ -923,3 +927,7 @@ MusicMailDesc:
 MirageMailDesc:
 	db   "MEW-print MAIL."
 	next "(HOLD)@"
+
+IceStoneDesc:
+	db   "Evolves certain"
+	next "#MON.@"

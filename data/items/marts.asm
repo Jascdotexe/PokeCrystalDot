@@ -111,7 +111,22 @@ MartGoldenrod2F2:
 	db -1 ; end
 
 MartGoldenrod3F:
-	db 7 ; # items
+	db 6 ; # items
+	db FIRE_STONE
+	db WATER_STONE
+	db THUNDERSTONE
+	db ICE_STONE
+	db SUN_STONE
+	db MOON_STONE
+	db -1 ; end
+
+MartGoldenrod4F:
+	db 12 ; # items
+	db PROTEIN
+	db IRON
+	db CARBOS
+	db CALCIUM
+	db HP_UP
 	db X_SPEED
 	db X_SPECIAL
 	db X_DEFEND
@@ -119,15 +134,6 @@ MartGoldenrod3F:
 	db DIRE_HIT
 	db GUARD_SPEC
 	db X_ACCURACY
-	db -1 ; end
-
-MartGoldenrod4F:
-	db 5 ; # items
-	db PROTEIN
-	db IRON
-	db CARBOS
-	db CALCIUM
-	db HP_UP
 	db -1 ; end
 
 MartGoldenrod5F:
