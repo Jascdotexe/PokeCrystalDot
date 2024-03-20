@@ -50,7 +50,7 @@ ItemDescriptions:
 	dw SodaPopDesc
 	dw LemonadeDesc
 	dw XAttackDesc
-	dw QuestionMarkDesc
+	dw ApicotBerryDesc
 	dw XDefendDesc
 	dw XSpeedDesc
 	dw XSpecialDesc
@@ -100,7 +100,7 @@ ItemDescriptions:
 	dw WhtApricornDesc
 	dw BlackbeltDesc
 	dw BlkApricornDesc
-	dw QuestionMarkDesc
+	dw PetayaBerryDesc
 	dw PnkApricornDesc
 	dw BlackGlassesDesc
 	dw SlowpokeTailDesc
@@ -120,7 +120,7 @@ ItemDescriptions:
 	dw MiracleSeedDesc
 	dw ThickClubDesc
 	dw FocusBandDesc
-	dw QuestionMarkDesc
+	dw GanlonBerryDesc
 	dw EnergyPowderDesc
 	dw EnergyRootDesc
 	dw HealPowderDesc
@@ -135,7 +135,7 @@ ItemDescriptions:
 	dw StarPieceDesc
 	dw BasementKeyDesc
 	dw PassDesc
-	dw QuestionMarkDesc
+	dw LiechiBerryDesc
 	dw QuestionMarkDesc
 	dw QuestionMarkDesc
 	dw CharcoalDesc
@@ -873,10 +873,6 @@ SquirtBottleDesc:
 	db   "A bottle used for"
 	next "watering plants.@"
 
-SalacBerryDesc:
-	db   "Consume in battle"
-	next "to boost SPEED.@"
-
 ParkBallDesc:
 	db   "The Bug-Catching"
 	next "Contest BALL.@"
@@ -931,3 +927,23 @@ MirageMailDesc:
 IceStoneDesc:
 	db   "Evolves certain"
 	next "#MON.@"
+
+PetayaBerryDesc:
+	db   "Consume in battle"
+	next "to raise SP.ATK.@"
+
+SalacBerryDesc:
+	db   "Consume in battle"
+	next "to boost SPEED.@"
+
+ApicotBerryDesc:
+	db   "Consume in battle"
+	next "to raise SP.DEF.@"
+
+GanlonBerryDesc:
+	db   "Consume in battle"
+	next "to raise DEF.@"
+
+LiechiBerryDesc:
+	db   "Consume in battle"
+	next "to raise ATK.@"

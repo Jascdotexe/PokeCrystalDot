@@ -29,9 +29,9 @@ GoldenrodDeptStore3FElevatorButton:
 
 GoldenrodDeptStore3FSuperNerdText:
 	text "I, I, I'm really"
-	line "impatient!"
+	line "impatient! But!"
 
-	para "Evoltion stones"
+	para "Evolution stones"
 	line "evolve #MON"
 	cont "of any level."
 	done

@@ -220,7 +220,7 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, STRUGGLE_BUG
 	dbw 1, NASTY_PLOT
-	dbw 1, ENERGY_BALL
+	dbw 1, ASTONISH
 	dbw 1, MUDDY_WATER
 	dbw 13, SCARY_FACE
 	dbw 19, ICE_FANG
@@ -994,6 +994,7 @@ UmbreonEvosAttacks:
 
 MurkrowEvosAttacks:
 	dbbw EVOLVE_ITEM, MOON_STONE, HONCHKROW
+	db 0 ; no more evolutions
 	dbw 1, PECK
 	dbw 1, ASTONISH
 	dbw 5, GUST
