@@ -328,6 +328,10 @@ BattleAnimations::
 	dw BattleAnim_StruggleBug
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_EnergyBall
+	dw BattleAnim_StealthRock
+	dw BattleAnim_UTurn
+	dw BattleAnim_TrickRoom
+	dw BattleAnim_SuckerPunch
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -5242,3 +5246,59 @@ BattleAnim_EnergyBall:
 	anim_incobj 5
 	anim_wait 48
 	anim_ret
+
+BattleAnim_StealthRock:
+anim_1gfx BATTLE_ANIM_GFX_ROCKS
+anim_sound 0, 1, SFX_MENU
+anim_obj BATTLE_ANIM_OBJ_ROCK, 142, 36, $2
+anim_wait 8
+anim_obj BATTLE_ANIM_OBJ_ROCK, 128, 40, $1
+anim_wait 8
+anim_obj BATTLE_ANIM_OBJ_ROCK, 136, 32, $0
+anim_wait 8
+anim_obj BATTLE_ANIM_OBJ_ROCK, 144, 44, $2
+anim_wait 64
+anim_ret
+
+BattleAnim_UTurn:
+anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_SPEED
+anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
+anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 24, 88, $2
+anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 32, 88, $1
+anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 40, 88, $0
+anim_wait 8
+anim_sound 0, 1, SFX_COMET_PUNCH
+anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
+anim_wait 8
+anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
+anim_wait 32
+anim_ret
+
+BattleAnim_TrickRoom:
+anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
+anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $40
+anim_sound 0, 0, SFX_PSYCHIC
+anim_obj BATTLE_ANIM_OBJ_PSYCHIC, 0, 0, $0
+anim_wait 8
+anim_obj BATTLE_ANIM_OBJ_PSYCHIC, 0, 0, $1
+anim_wait 8
+anim_obj BATTLE_ANIM_OBJ_PSYCHIC, 0, 0, $2
+anim_wait 8
+anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+anim_wait 64
+anim_ret
+
+BattleAnim_SuckerPunch:
+anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_SPEED
+anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
+anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 24, 88, $2
+anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 32, 88, $1
+anim_wait 4
+anim_sound 0, 1, SFX_COMET_PUNCH
+anim_obj BATTLE_ANIM_OBJ_PUNCH, 136, 56, $0
+anim_wait 4
+anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
+anim_wait 8
+anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
+anim_wait 16
+anim_ret

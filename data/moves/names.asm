@@ -300,4 +300,8 @@ MoveNames::
 	li "STRUGGLE BUG"
 	li "NASTY PLOT"
 	li "ENERGY BALL"
+	li "STEALTH ROCK"
+	li "U-TURN"
+	li "TRICK ROOM"
+	li "SUCKER PUNCH"
 	assert_list_length NUM_ATTACKS

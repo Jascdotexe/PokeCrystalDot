@@ -163,4 +163,8 @@ MoveEffectsPointers:
 	dw Quiver
 	; dw CloseCombat
 	dw HoneClaws
+	dw StealthRock
+	dw UTurn
+	dw TrickRoom
+	dw SuckerPunch
 	assert_table_length NUM_MOVE_EFFECTS

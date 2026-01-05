@@ -558,6 +558,10 @@ wWeatherCount::
 ; # turns remaining
 	db
 
+wTrickRoom::
+; Trick Room turns remaining (0 = inactive)
+	db
+
 wLoweredStat:: db
 wEffectFailed:: db
 wFailedMessage:: db
