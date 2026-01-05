@@ -6818,3 +6818,8 @@ CheckMoveInList:
 	pop de
 	pop bc
 	ret
+
+INCLUDE "engine/battle/move_effects/stealth_rock.asm"
+INCLUDE "engine/battle/move_effects/u_turn.asm"
+INCLUDE "engine/battle/move_effects/trick_room.asm"
+INCLUDE "engine/battle/move_effects/sucker_punch.asm"

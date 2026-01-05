@@ -305,6 +305,10 @@ MoveDescriptions1:
 	dw StruggleBugDescription
 	dw NastyPlotDescription
 	dw EnergyBallDescription
+	dw StealthRockDescription
+	dw UTurnDescription
+	dw TrickRoomDescription
+	dw SuckerPunchDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1509,4 +1513,20 @@ NastyPlotDescription:
 EnergyBallDescription:
 	db    "Draws energy"
 	next  "from nature.@"
+
+StealthRockDescription:
+	db    "Sets a trap of"
+	next  "floating rocks.@"
+
+UTurnDescription:
+	db    "Strikes then"
+	next  "switches out.@"
+
+TrickRoomDescription:
+	db    "Twists space to"
+	next  "reverse speed.@"
+
+SuckerPunchDescription:
+	db    "Fast move. Only"
+	next  "works on attack.@"
 	

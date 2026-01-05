@@ -318,4 +318,8 @@ Moves1:
 	move EFFECT_SP_ATK_DOWN_HIT,    50, BUG,           SPECIAL,    100, 20, 100     ; STRUGGLE_BUG
 	move EFFECT_SP_ATK_UP_2,         0, DARK,          STATUS,     100, 20, 100     ; NASTY_PLOT
 	move EFFECT_SP_DEF_DOWN_HIT,    90, GRASS,         SPECIAL,    100, 10,  10     ; ENERGY_BALL
+	move EFFECT_STEALTH_ROCK,        0, ROCK,          STATUS,     100, 20,   0     ; STEALTH_ROCK
+	move EFFECT_U_TURN,             70, BUG,           PHYSICAL,   100, 20,   0     ; U_TURN
+	move EFFECT_TRICK_ROOM,          0, PSYCHIC_TYPE,  STATUS,     100,  5,   0     ; TRICK_ROOM
+	move EFFECT_SUCKER_PUNCH,       70, DARK,          PHYSICAL,   100,  5,   0     ; SUCKER_PUNCH
 .IndirectEnd::
