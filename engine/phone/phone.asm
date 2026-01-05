@@ -624,7 +624,7 @@ GetCallerName:
 	push hl
 	push bc
 	call PlaceString
-	ld a, ":"
+	ld a, CHARVAL(":")
 	ld [bc], a
 	pop bc
 	pop hl

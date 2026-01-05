@@ -4685,7 +4685,7 @@ BattleCommand_StatDownFailText:
 
 GetStatName:
 	ld hl, StatNames
-	ld c, "@"
+	ld c, CHARVAL("@")
 .CheckName:
 	dec b
 	jr z, .Copy

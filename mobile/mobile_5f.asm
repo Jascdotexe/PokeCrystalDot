@@ -274,7 +274,7 @@ Function17d0f3:
 	ld de, wOTTrademonOTName
 	ld bc, NAME_LENGTH_JAPANESE - 1
 	call CopyBytes
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 	ld a, [wMobileMonID]
 	ld [wOTTrademonID], a
@@ -343,7 +343,7 @@ Mobile_CopyDefaultNickname:
 	db "？？？？？"
 
 Mobile_CopyDefaultMail:
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld hl, wMobileMonMail
 	ld bc, MAIL_MSG_LENGTH + 1
 	call ByteFill
@@ -358,7 +358,7 @@ Mobile_CopyDefaultMail:
 .DefaultMessageEnd:
 
 Mobile_CopyDefaultMailAuthor:
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld de, wMobileMonMailAuthor
 	ld bc, NAME_LENGTH_JAPANESE - 1
 	call ByteFill
@@ -3586,7 +3586,7 @@ Function17f0f8:
 	ld c, a
 	ld b, 0
 	call CopyBytes
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 	pop hl
 	ld de, wc608
@@ -4391,7 +4391,7 @@ Function17f5e4:
 	ld [wMusicFadeID], a
 	ld a, d
 	ld [wMusicFadeID + 1], a
-	ld a, " "
+	ld a, CHARVAL(" ")
 	hlcoord 0, 0
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	call ByteFill

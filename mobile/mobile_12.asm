@@ -884,7 +884,7 @@ endr
 
 Function487ff:
 	push hl
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld [hli], a
 	ld [hl], a
 	pop hl
@@ -1561,7 +1561,7 @@ Function48c5a:
 	ret
 
 Function48c63:
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 	ld a, c
 	cp $30
@@ -1572,7 +1572,7 @@ Function48c63:
 	push de
 	ld h, d
 	ld l, e
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld b, 7
 .asm_48c76
 	ld [hli], a

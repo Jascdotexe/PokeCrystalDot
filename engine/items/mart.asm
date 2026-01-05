@@ -282,7 +282,7 @@ GetMartPrice:
 	inc de
 	cp CHARVAL(" ")
 	jr nz, .not_space
-	ld a, "0"
+	ld a, CHARVAL("0")
 
 .not_space
 	sub "0"

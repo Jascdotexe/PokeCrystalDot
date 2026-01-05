@@ -170,7 +170,7 @@ SetHour:
 
 .okay
 	hlcoord 4, 9
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld bc, 15
 	call ByteFill
 	hlcoord 4, 9
@@ -204,7 +204,7 @@ DisplayHoursMinutesWithMinString: ; unreferenced
 	pop de
 	inc de
 	inc de
-	ld a, ":"
+	ld a, CHARVAL(":")
 	ld [de], a
 	inc de
 	push de
@@ -259,7 +259,7 @@ SetMinutes:
 	ld [hl], a
 .finish_dpad
 	hlcoord 12, 9
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld bc, 7
 	call ByteFill
 	hlcoord 12, 9
@@ -281,7 +281,7 @@ DisplayMinutesWithMinString:
 
 PrintTwoDigitNumberLeftAlign:
 	push hl
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld [hli], a
 	ld [hl], a
 	pop hl

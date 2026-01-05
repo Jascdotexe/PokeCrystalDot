@@ -335,7 +335,7 @@ TMHM_DisplayPocketItems:
 
 	hlcoord 5, 2
 	lb bc, 10, 15
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ClearBox
 	call TMHM_GetCurrentPocketPosition
 	ld d, $5

@@ -615,11 +615,11 @@ CopyBottomLineToTopLine:
 ClearBottomLine:
 	hlcoord 1, 15
 	ld bc, SCREEN_WIDTH - 2
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 	hlcoord 1, 16
 	ld bc, SCREEN_WIDTH - 2
-	ld a, " "
+	ld a, CHARVAL(" ")
 	jp ByteFill
 
 PokedexShow1:
@@ -931,7 +931,7 @@ LuckyNumberShow8:
 	ld de, wLuckyIDNumber
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
 	call PrintNum
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [wStringBuffer1 + 5], a
 	ld hl, LC_Text8
 	ld a, LUCKY_NUMBER_SHOW_9

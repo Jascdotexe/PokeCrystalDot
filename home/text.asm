@@ -1,6 +1,6 @@
 ClearBox::
 ; Fill a c*b box at hl with blank tiles.
-	ld a, " "
+	ld a, CHARVAL(" ")
 ; fallthrough
 
 FillBoxWithByte::
@@ -23,7 +23,7 @@ ClearTilemap::
 ; Fill wTilemap with blank tiles.
 
 	hlcoord 0, 0
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld bc, wTilemapEnd - wTilemap
 	call ByteFill
 
@@ -228,7 +228,7 @@ NextChar::
 CheckDict::
 MACRO dict
 	assert CHARLEN(\1) == 1
-	if \1 == 0
+	if CHARVAL(\1) == 0
 		and a
 	else
 		cp CHARVAL(\1)
@@ -300,7 +300,7 @@ ENDM
 .hiragana_dakuten
 	add "か" - "が"
 .place_dakuten
-	ld b, "ﾞ" ; dakuten
+	ld b, CHARVAL("ﾞ") ; dakuten
 	jr .place
 
 .handakuten
@@ -313,7 +313,7 @@ ENDM
 .hiragana_handakuten
 	add "は" - "ぱ"
 .place_handakuten
-	ld b, "ﾟ" ; handakuten
+	ld b, CHARVAL("ﾟ") ; handakuten
 
 .place
 	ld [hli], a
@@ -605,7 +605,7 @@ DoneText::
 	text_end
 
 NullChar::
-	ld a, "?"
+	ld a, CHARVAL("?")
 	ld [hli], a
 	call PrintLetterDelay
 	jp NextChar
@@ -635,7 +635,7 @@ TextScroll::
 	jr nz, .col
 
 	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY + 2
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld bc, TEXTBOX_INNERW
 	call ByteFill
 	ld c, 5
@@ -656,7 +656,7 @@ Text_WaitBGMap::
 	ret
 
 LoadBlinkingCursor::
-	ld a, "▼"
+	ld a, CHARVAL("▼")
 	ldcoord_a 18, 17
 	ret
 
@@ -977,7 +977,7 @@ TextCommand_DOTS::
 
 .loop
 	push de
-	ld a, "…"
+	ld a, CHARVAL("…")
 	ld [hli], a
 	call GetJoypad
 	ldh a, [hJoyDown]

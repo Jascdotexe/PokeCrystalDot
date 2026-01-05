@@ -43,7 +43,7 @@ ConvertFrenchGermanMailToEnglish:
 	ld a, [hl]
 	cp $dc ; 's in French/German font
 	jr nz, .check_intermediate_chars
-	ld a, "'s"
+	ld a, CHARVAL("'s")
 	jr .replace
 
 .check_intermediate_chars

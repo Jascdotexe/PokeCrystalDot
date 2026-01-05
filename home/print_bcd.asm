@@ -74,6 +74,6 @@ PrintBCDDigit::
 	jr z, .outputDigit ; if so, print a zero digit
 	bit PRINTNUM_LEFTALIGN_F, b
 	ret nz
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld [hli], a ; if right-aligned, "print" a space by advancing the pointer
 	ret

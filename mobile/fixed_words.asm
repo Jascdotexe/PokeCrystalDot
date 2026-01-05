@@ -222,7 +222,7 @@ CopyMobileEZChatToC608:
 	push af
 	ld a, $1
 	ldh [rSVBK], a
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld hl, wc608
 	ld bc, NAME_LENGTH
 	call ByteFill
@@ -361,7 +361,7 @@ Function11c254:
 	ret
 
 EZChat_ClearBottom12Rows:
-	ld a, "　"
+	ld a, CHARVAL("　")
 	hlcoord 0, 6
 	ld bc, (SCREEN_HEIGHT - 6) * SCREEN_WIDTH
 	call ByteFill

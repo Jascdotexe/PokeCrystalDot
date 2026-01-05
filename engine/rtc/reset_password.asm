@@ -115,7 +115,7 @@ ClockResetPassword:
 	jr nz, .loop3
 	hlcoord 14, 16
 	ld bc, 5
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 	hlcoord 14, 16
 	ld a, [wStringBuffer2 + 5]

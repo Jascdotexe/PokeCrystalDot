@@ -41,7 +41,7 @@ _DebugRoom:
 .loop
 	ld hl, wTilemap
 	ld bc, wTilemapEnd - wTilemap
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 	call DebugRoom_PrintStackBottomTop
 	call DebugRoom_PrintWindowStackBottomTop
@@ -429,9 +429,9 @@ DebugRoom_PrintGender:
 	ld a, [sCrystalData + (wPlayerGender - wCrystalData)]
 	call CloseSRAM
 	or a
-	ld a, "♂"
+	ld a, CHARVAL("♂")
 	jr z, .ok
-	ld a, "♀"
+	ld a, CHARVAL("♀")
 .ok
 	hlcoord 19, 1
 	ld [hl], a
@@ -591,7 +591,7 @@ DebugRoom_EditPagedValues:
 	call DebugRoom_InitializePagedValues
 	xor a
 	call DebugRoom_PrintPage
-	ld a, "▶"
+	ld a, CHARVAL("▶")
 	call DebugRoom_ShowHideCursor
 	xor a
 	ldh [hJoyLast], a
@@ -717,7 +717,7 @@ DebugRoom_NextPage:
 	dec a
 	ld [wDebugRoomCurValue], a
 .skip
-	ld a, "▶"
+	ld a, CHARVAL("▶")
 	call DebugRoom_ShowHideCursor
 	ret
 
@@ -739,12 +739,12 @@ DebugRoom_PrevPage:
 	dec a
 	ld [wDebugRoomCurValue], a
 .skip
-	ld a, "▶"
+	ld a, CHARVAL("▶")
 	call DebugRoom_ShowHideCursor
 	ret
 
 DebugRoom_NextPagedValue:
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call DebugRoom_ShowHideCursor
 	ld a, [wDebugRoomCurPage]
 	call DebugRoom_GetNthPagePointer
@@ -758,12 +758,12 @@ DebugRoom_NextPagedValue:
 
 DebugRoom_UpdateValueCursor:
 	ld [wDebugRoomCurValue], a
-	ld a, "▶"
+	ld a, CHARVAL("▶")
 	call DebugRoom_ShowHideCursor
 	ret
 
 DebugRoom_PrevPagedValue:
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call DebugRoom_ShowHideCursor
 	ld a, [wDebugRoomCurValue]
 	or a ; pre-decremented value > 0?

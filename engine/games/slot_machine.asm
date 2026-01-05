@@ -110,7 +110,7 @@ _SlotMachine:
 	call DisableLCD
 	hlbgcoord 0, 0
 	ld bc, vBGMap1 - vBGMap0
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 	ld b, SCGB_SLOT_MACHINE
 	call GetSGBLayout

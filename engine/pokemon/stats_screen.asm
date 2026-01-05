@@ -406,9 +406,9 @@ StatsScreen_InitUpperHalf:
 	ld d, h
 	ld e, l
 	hlcoord 8, 0
-	ld a, "№"
+	ld a, CHARVAL("№")
 	ld [hli], a
-	ld a, "."
+	ld a, CHARVAL(".")
 	ld [hli], a
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 3
 	call PrintNum
@@ -423,7 +423,7 @@ StatsScreen_InitUpperHalf:
 	hlcoord 18, 0
 	call .PlaceGenderChar
 	hlcoord 9, 4
-	ld a, "/"
+	ld a, CHARVAL("/")
 	ld [hli], a
 	ld a, [wBaseSpecies]
 	ld [wNamedObjectIndex], a
@@ -456,9 +456,9 @@ StatsScreen_InitUpperHalf:
 	farcall GetGender
 	pop hl
 	ret c
-	ld a, "♂"
+	ld a, CHARVAL("♂")
 	jr nz, .got_gender
-	ld a, "♀"
+	ld a, CHARVAL("♀")
 .got_gender
 	ld [hl], a
 	ret
@@ -790,9 +790,9 @@ LoadBluePage:
 	cp $7f
 	jr z, .done
 	and CAUGHT_GENDER_MASK
-	ld a, "♂"
+	ld a, CHARVAL("♂")
 	jr z, .got_gender
-	ld a, "♀"
+	ld a, CHARVAL("♀")
 .got_gender
 	hlcoord 9, 13
 	ld [hl], a

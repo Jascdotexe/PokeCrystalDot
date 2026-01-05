@@ -24,7 +24,7 @@ CopyStringWithTerminator::
 	jr z, .clear_loop
 	dec c
 	jr nz, .copy_loop
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 	ret
 

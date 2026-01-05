@@ -35,7 +35,7 @@ CorrectNickErrors::
 	jr nc, .loop
 
 ; replace it with a "?"
-	ld a, "?"
+	ld a, CHARVAL("?")
 	ld [de], a
 	jr .loop
 
@@ -49,10 +49,10 @@ CorrectNickErrors::
 ; change nick to "?@"
 	pop de
 	push de
-	ld a, "?"
+	ld a, CHARVAL("?")
 	ld [de], a
 	inc de
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 .end
 ; if the nick has any errors at this point it's out of our hands

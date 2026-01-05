@@ -6461,7 +6461,7 @@ Function102d48:
 	ret
 
 Function102d9a:
-	ld a, " "
+	ld a, CHARVAL(" ")
 	hlcoord 0, 0
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	call ByteFill

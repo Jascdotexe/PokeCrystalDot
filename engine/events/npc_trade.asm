@@ -342,14 +342,14 @@ GetTradeMonName:
 Trade_CopyFourCharString: ; unreferenced
 	ld bc, 4
 	call CopyBytes
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 	ret
 
 Trade_CopyThreeCharString: ; unreferenced
 	ld bc, 3
 	call CopyBytes
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 	ret
 
@@ -401,10 +401,10 @@ GetTradeMonNames:
 	and a ; TRADE_GENDER_EITHER
 	ret z
 	cp TRADE_GENDER_MALE
-	ld a, "♂"
+	ld a, CHARVAL("♂")
 	jr z, .done
 	; TRADE_GENDER_FEMALE
-	ld a, "♀"
+	ld a, CHARVAL("♀")
 .done
 	ld [hli], a
 	ld [hl], "@"

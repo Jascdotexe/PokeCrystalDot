@@ -976,7 +976,7 @@ Pokedex_UnownModeHandleDPadInput:
 	ret
 
 Pokedex_UnownModeEraseCursor:
-	ld c, " "
+	ld c, CHARVAL(" ")
 	jr Pokedex_UnownModeUpdateCursorGfx
 
 Pokedex_UnownModePlaceCursor:
@@ -1284,7 +1284,7 @@ Pokedex_DrawDexEntryScreenBG:
 	hlcoord 19, 0
 	ld [hl], $34
 	hlcoord 19, 1
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld b, 15
 	call Pokedex_FillColumn
 	ld [hl], $39
@@ -1294,7 +1294,7 @@ Pokedex_DrawDexEntryScreenBG:
 	call ByteFill
 	hlcoord 1, 17
 	ld bc, 18
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 	hlcoord 9, 7
 	ld de, .Height
@@ -1606,7 +1606,7 @@ Pokedex_PrintListing:
 	add a
 	inc a
 	ld b, a
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call Pokedex_FillBox
 
 ; Load de with a pointer to the first mon on the list
@@ -1675,7 +1675,7 @@ Pokedex_PrintListing:
 	ld de, wPokedexNameBuffer
 	push de
 	call FarCopyBytes
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [wPokedexNameBuffer + MON_NAME_LENGTH - 1], a
 	pop de
 	pop hl
@@ -2094,7 +2094,7 @@ Pokedex_PlaceSearchScreenTypeStrings:
 	ldh [hBGMapMode], a
 	hlcoord 9, 3
 	lb bc, 4, 8
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call Pokedex_FillBox
 	ld a, [wDexSearchMonType1]
 	hlcoord 9, 4
@@ -2853,7 +2853,7 @@ _NewPokedexEntry:
 	ld [hl], $3b
 	inc hl
 	ld bc, 19
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 	farcall DisplayDexEntry
 	call EnableLCD

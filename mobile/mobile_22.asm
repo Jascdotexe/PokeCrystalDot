@@ -99,7 +99,7 @@ Function891ab:
 Function891b8:
 	call Mobile22_SetBGMapMode0
 	hlcoord 0, 0
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	call ByteFill
 	call DelayFrame
@@ -128,7 +128,7 @@ Function891de:
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	call ByteFill
 	hlcoord 0, 0
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	call ByteFill
 	call Function891ab
@@ -276,14 +276,14 @@ Function892b7:
 	ld e, c
 	ld hl, 0
 	add hl, bc
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld bc, 6
 	call ByteFill
 	ld b, d
 	ld c, e
 	ld hl, 6
 	add hl, bc
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld bc, 6
 	call ByteFill
 	ld b, d
@@ -739,7 +739,7 @@ Function8956f:
 	ld hl, wd030
 	ld a, -1
 	ld [hli], a
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld [hl], a
 	pop af
 	ldh [rSVBK], a
@@ -996,7 +996,7 @@ Function896ff: ; unreferenced
 ; c = width
 
 ; clears an area of the screen
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld de, SCREEN_WIDTH
 .row_loop
 	push bc

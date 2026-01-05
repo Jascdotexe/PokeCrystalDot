@@ -461,7 +461,7 @@ Mom_WithdrawDepositMenuJoypad:
 	ldh [hBGMapMode], a
 	hlcoord 12, 6
 	ld bc, 7
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 	hlcoord 12, 6
 	ld de, wStringBuffer2

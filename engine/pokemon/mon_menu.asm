@@ -976,7 +976,7 @@ MoveScreenLoop:
 	jp .joy_loop
 
 .moving_move
-	ld a, " "
+	ld a, CHARVAL(" ")
 	hlcoord 1, 11
 	ld bc, 8
 	call ByteFill

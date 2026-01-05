@@ -1003,7 +1003,7 @@ PokegearPhone_GetDPad:
 	ret
 
 PokegearPhone_UpdateCursor:
-	ld a, " "
+	ld a, CHARVAL(" ")
 for y, PHONE_DISPLAY_HEIGHT
 	hlcoord 1, 4 + y * 2
 	ld [hl], a
@@ -1018,7 +1018,7 @@ endr
 PokegearPhone_UpdateDisplayList:
 	hlcoord 1, 3
 	ld b, PHONE_DISPLAY_HEIGHT * 2 + 1
-	ld a, " "
+	ld a, CHARVAL(" ")
 .row
 	ld c, SCREEN_WIDTH - 2
 .col
@@ -1230,7 +1230,7 @@ PokegearPhoneContactSubmenu:
 	ld a, [de]
 	ld c, a
 	push hl
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld de, SCREEN_WIDTH * 2
 .clear_column
 	ld [hl], a
@@ -2141,7 +2141,7 @@ TownMapBubble:
 	ld [hli], a
 ; Top row
 	ld bc, 16
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 ; Top-right corner
 	ld a, $31
@@ -2150,7 +2150,7 @@ TownMapBubble:
 
 ; Middle row
 	ld bc, SCREEN_WIDTH - 2
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 
 ; Bottom-left corner
@@ -2159,7 +2159,7 @@ TownMapBubble:
 	ld [hli], a
 ; Bottom row
 	ld bc, 16
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 ; Bottom-right corner
 	ld a, $33
@@ -2450,7 +2450,7 @@ Pokedex_GetArea:
 .PlaceString_MonsNest:
 	hlcoord 0, 0
 	ld bc, SCREEN_WIDTH
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 	hlcoord 0, 1
 	ld a, $06

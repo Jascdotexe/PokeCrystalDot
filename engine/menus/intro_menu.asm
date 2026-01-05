@@ -777,7 +777,7 @@ GSShowPlayerNamingChoices: ; unreferenced
 	ret
 
 StorePlayerName:
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld bc, NAME_LENGTH
 	ld hl, wPlayerName
 	call ByteFill

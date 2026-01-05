@@ -941,10 +941,10 @@ DecodeBufferMon:
 	ld a, [hl]
 	or $80
 	sub $c6
-	ld c, " "
+	ld c, CHARVAL(" ")
 	jr z, .replace
 	dec a
-	ld c, "@"
+	ld c, CHARVAL("@")
 	jr z, .replace
 	dec a
 	jr z, .replace_a ; a is "<START>" ($00) iff the zero flag is set
@@ -966,7 +966,7 @@ DecodeBufferMon:
 	lb bc, 2, PLAYER_NAME_LENGTH - 1
 
 .outer_loop
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 	dec de
 .inner_loop
@@ -1278,7 +1278,7 @@ GetBoxName:
 
 	; Ensure that there's a terminator at the end. This isn't included as part
 	; of saved box name.
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [wStringBuffer1 + BOX_NAME_LENGTH], a
 	ret
 

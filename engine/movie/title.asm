@@ -101,7 +101,7 @@ _TitleScreen:
 ; Clear screen tiles
 	hlbgcoord 0, 0
 	ld bc, 64 * BG_MAP_WIDTH
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 
 ; Draw Pokemon logo

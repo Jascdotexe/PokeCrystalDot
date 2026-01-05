@@ -224,7 +224,7 @@ CorrectPartyErrors: ; unreferenced
 	jr nz, .search_loop
 	dec c
 	dec de
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 .done
 	pop de

@@ -16,7 +16,7 @@ PrintPage1:
 	inc a ; $65
 	ld [hl], a
 	hlcoord 1, 9, wPrinterTilemapBuffer
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld [hli], a
 	ld [hl], a
 	hlcoord 1, 10, wPrinterTilemapBuffer
@@ -53,7 +53,7 @@ PrintPage1:
 PrintPage2:
 	hlcoord 0, 0, wPrinterTilemapBuffer
 	ld bc, 8 * SCREEN_WIDTH
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 	hlcoord 0, 0, wPrinterTilemapBuffer
 	ld a, $36
@@ -324,11 +324,11 @@ PlaceMoveNameString:
 
 PlaceGenderAndShininess:
 	farcall GetGender
-	ld a, " "
+	ld a, CHARVAL(" ")
 	jr c, .got_gender
-	ld a, "♂"
+	ld a, CHARVAL("♂")
 	jr nz, .got_gender
-	ld a, "♀"
+	ld a, CHARVAL("♀")
 
 .got_gender
 	hlcoord 17, 2

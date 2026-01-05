@@ -120,9 +120,9 @@ NamingScreen:
 	call PlaceString
 	farcall GetGender
 	jr c, .genderless
-	ld a, "♂"
+	ld a, CHARVAL("♂")
 	jr nz, .place_gender
-	ld a, "♀"
+	ld a, CHARVAL("♀")
 .place_gender
 	hlcoord 1, 2
 	ld [hl], a
@@ -980,7 +980,7 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 	call ByteFill
 	hlcoord 0, 6
 	ld bc, 12 * SCREEN_WIDTH
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 	hlcoord 1, 1
 	lb bc, 4, SCREEN_WIDTH - 2

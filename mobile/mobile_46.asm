@@ -6090,7 +6090,7 @@ Function11b03d:
 
 .gender
 	dec hl
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [hli], a
 
 .done
@@ -7331,7 +7331,7 @@ Function11b7e5:
 	ld de, wOTTrademonOTName
 	ld bc, 5
 	call CopyBytes
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 	ld a, [wMobileMonID]
 	ld [wOTTrademonID], a
@@ -7581,7 +7581,7 @@ AddMobileMonToParty:
 	ld h, a
 	ld bc, MON_NAME_LENGTH - 1
 	call CopyBytes
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 
 	ld hl, wPartyMonNicknames
@@ -7600,7 +7600,7 @@ AddMobileMonToParty:
 	ld h, a
 	ld bc, MON_NAME_LENGTH - 1
 	call CopyBytes
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 
 	ld hl, sPartyMail

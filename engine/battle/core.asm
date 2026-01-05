@@ -4673,11 +4673,11 @@ PrintPlayerHUD:
 	ld a, TEMPMON
 	ld [wMonType], a
 	callfar GetGender
-	ld a, " "
+	ld a, CHARVAL(" ")
 	jr c, .got_gender_char
-	ld a, "♂"
+	ld a, CHARVAL("♂")
 	jr nz, .got_gender_char
-	ld a, "♀"
+	ld a, CHARVAL("♀")
 
 .got_gender_char
 	hlcoord 17, 8
@@ -4749,11 +4749,11 @@ DrawEnemyHUD:
 	ld a, TEMPMON
 	ld [wMonType], a
 	callfar GetGender
-	ld a, " "
+	ld a, CHARVAL(" ")
 	jr c, .got_gender
-	ld a, "♂"
+	ld a, CHARVAL("♂")
 	jr nz, .got_gender
-	ld a, "♀"
+	ld a, CHARVAL("♀")
 
 .got_gender
 	hlcoord 9, 1
@@ -8491,7 +8491,7 @@ ReadAndPrintLinkBattleRecord:
 	ld de, wLinkBattleRecordName
 	ld bc, NAME_LENGTH - 1
 	call CopyBytes
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld [de], a
 	inc de ; wLinkBattleRecordWins
 	ld bc, 6
@@ -8957,7 +8957,7 @@ InitBattleDisplay:
 
 	ld hl, wDecompressScratch
 	ld bc, BG_MAP_WIDTH * BG_MAP_HEIGHT
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 
 	ld de, wDecompressScratch

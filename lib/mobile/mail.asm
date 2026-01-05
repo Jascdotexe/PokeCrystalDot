@@ -542,10 +542,10 @@ Function1143f3:
 	jr .asm_11446e
 
 .asm_114476
-	ld a, " "
+	ld a, CHARVAL(" ")
 	cp b
 	jr z, .asm_114481
-	ld a, "\n"
+	ld a, CHARVAL("\n")
 	cp b
 	jr z, .asm_114481
 	dec de
