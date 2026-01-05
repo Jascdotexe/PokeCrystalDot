@@ -13,7 +13,7 @@ Conversion aborted after 1 error
 ## Affected Sprites
 
 Many newly added Pokemon have this issue, including:
-- abomasnow, aexeggutor, aggron, altaria, amarowak, appletun, araichu, **arceus**
+- abomasnow, aexeggutor (Alolan), aggron, altaria, alolan_marowak, appletun, alolan_raichu, **arceus**
 - aron, azurill, beautifly, blaziken, breloom, buizel, buneary
 - cacnea, cacturne, camerupt, carvanha, cascoon
 - And many more...

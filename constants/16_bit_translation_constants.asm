@@ -20,7 +20,7 @@ DEF MON_TABLE_SAVED_RECENT_INDEXES   EQU  16 ; Increased from 8 to reduce evicti
 DEF MON_TABLE_MINIMUM_RESERVED_INDEX EQU $FD ; ensures that the value for the egg will remain reserved
 
 DEF MOVE_TABLE_ENTRIES                EQU 500 ; Increased from 230 to allow many more moves
-DEF MOVE_TABLE_LOCKED_ENTRIES         EQU  24 ; Increased from 18 for more locked moves
+DEF MOVE_TABLE_LOCKED_ENTRIES         EQU  24 ; Increased from 18; locked entries are protected from eviction during garbage collection
 DEF MOVE_TABLE_CACHE_SIZE             EQU  32 ; Increased from 16 for better performance
 DEF MOVE_TABLE_SAVED_RECENT_INDEXES   EQU  24 ; Increased from 16 to reduce evictions
 DEF MOVE_TABLE_MINIMUM_RESERVED_INDEX EQU $FF

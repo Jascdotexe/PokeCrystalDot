@@ -30,11 +30,11 @@ move YOUR_NEW_MOVE
     db MOVE_TYPE      ; Move type (NORMAL, FIRE, etc.)
     db EFFECT_NORMAL_HIT  ; Move effect constant
     db POWER          ; Base power (0-255)
-    db TYPE           ; Type again for some reason
+    db TYPE           ; Type field (matches first type field for compatibility)
     db ACCURACY       ; Accuracy (0-255, usually percentage)
     db PP             ; Power Points
     db EFFECT_CHANCE  ; % chance for effect (0-255)
-    db 0              ; Unused
+    db 0              ; Unused byte
     db TARGET         ; Target (ENEMY, SELF, etc.)
     db 0              ; Priority modifier
     db FLAGS          ; Special flags
