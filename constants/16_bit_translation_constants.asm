@@ -13,14 +13,14 @@
 ;                          as $FF), often handled as negative indexes, retain their special meanings without requiring
 ;                          an allocation
 
-DEF MON_TABLE_ENTRIES                EQU 100
+DEF MON_TABLE_ENTRIES                EQU 200 ; Increased from 100 to allow more Pokemon
 DEF MON_TABLE_LOCKED_ENTRIES         EQU  30
-DEF MON_TABLE_CACHE_SIZE             EQU  16
-DEF MON_TABLE_SAVED_RECENT_INDEXES   EQU   8
+DEF MON_TABLE_CACHE_SIZE             EQU  32 ; Increased from 16 for better performance
+DEF MON_TABLE_SAVED_RECENT_INDEXES   EQU  16 ; Increased from 8 (original value) to reduce evictions
 DEF MON_TABLE_MINIMUM_RESERVED_INDEX EQU $FD ; ensures that the value for the egg will remain reserved
 
-DEF MOVE_TABLE_ENTRIES                EQU 230
-DEF MOVE_TABLE_LOCKED_ENTRIES         EQU  18
-DEF MOVE_TABLE_CACHE_SIZE             EQU  16
-DEF MOVE_TABLE_SAVED_RECENT_INDEXES   EQU  16
+DEF MOVE_TABLE_ENTRIES                EQU 500 ; Increased from 230 to allow many more moves
+DEF MOVE_TABLE_LOCKED_ENTRIES         EQU  24 ; Increased from 18; locked entries are protected from eviction during garbage collection
+DEF MOVE_TABLE_CACHE_SIZE             EQU  32 ; Increased from 16 for better performance
+DEF MOVE_TABLE_SAVED_RECENT_INDEXES   EQU  24 ; Increased from 16 to reduce evictions
 DEF MOVE_TABLE_MINIMUM_RESERVED_INDEX EQU $FF
