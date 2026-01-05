@@ -295,11 +295,11 @@ DEF NUM_POKEMON EQU const_value - 1
 DEF EGG EQU -3
 
 ; limits:
-; 999: everything that prints dex counts
-; 1407: size of wPokedexOrder
+; 999: everything that prints dex counts (can be increased with UI updates)
+; 1407: size of wPokedexOrder (current practical limit)
 ; 4095: hard limit; would require serious redesign to increase
-if NUM_POKEMON > 999
-	fail "Too many Pokémon defined!"
+if NUM_POKEMON > 1407
+	fail "Too many Pokémon defined! Limit is 1407."
 endc
 
 ; Unown forms
