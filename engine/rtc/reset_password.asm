@@ -108,7 +108,7 @@ ClockResetPassword:
 	ld c, 5
 .loop3
 	ld a, [de]
-	add "0"
+	add CHARVAL("0")
 	ld [hli], a
 	inc de
 	dec c

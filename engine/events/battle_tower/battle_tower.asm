@@ -258,7 +258,7 @@ RunBattleTowerTrainer:
 	call CloseSRAM
 	ld hl, wStringBuffer3
 	ld a, [wNrOfBeatenBattleTowerTrainers]
-	add "1"
+	add CHARVAL("1")
 	ld [hli], a
 	ld a, CHARVAL("@")
 	ld [hl], a

@@ -478,7 +478,7 @@ Options_Frame:
 UpdateFrame:
 	ld a, [wTextboxFrame]
 	hlcoord 16, 15 ; where on the screen the number is drawn
-	add "1"
+	add CHARVAL("1")
 	ld [hl], a
 	call LoadFontsExtra
 	and a

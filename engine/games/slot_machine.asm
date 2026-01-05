@@ -242,13 +242,13 @@ DebugPrintSlotBias: ; unreferenced
 	daa
 	ld e, a
 	and $f
-	add "0"
+	add CHARVAL("0")
 	hlcoord 1, 0
 	ld [hl], a
 	ld a, e
 	swap a
 	and $f
-	add "0"
+	add CHARVAL("0")
 	hlcoord 0, 0
 	ld [hl], a
 	ret

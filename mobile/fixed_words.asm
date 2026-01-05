@@ -1352,10 +1352,10 @@ BCD2String: ; unreferenced
 	farcall Function11a80c
 	pop hl
 	ld a, [wcd63]
-	add "０"
+	add CHARVAL("０")
 	ld [hli], a
 	ld a, [wcd62]
-	add "０"
+	add CHARVAL("０")
 	ld [hli], a
 	ret
 

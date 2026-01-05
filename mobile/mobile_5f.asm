@@ -4534,7 +4534,7 @@ Function17f6b7:
 	and $f
 
 .bcd_digit
-	add "0"
+	add CHARVAL("0")
 	ld [hli], a
 	ret
 

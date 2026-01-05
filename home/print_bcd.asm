@@ -65,7 +65,7 @@ PrintBCDDigit::
 .skipCurrencySymbol
 	res PRINTNUM_LEADINGZEROS_F, b ; unset 7 to indicate that a nonzero digit has been reached
 .outputDigit
-	add "0"
+	add CHARVAL("0")
 	ld [hli], a
 	jp PrintLetterDelay
 

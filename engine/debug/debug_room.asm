@@ -887,7 +887,7 @@ DebugRoom_InitializePagedValues:
 DebugRoom_PrintPage:
 	push af
 	hlcoord 10, 17
-	add "1"
+	add CHARVAL("1")
 	ld [hl], a
 	hlcoord 1, 1
 	lb bc, SCREEN_HEIGHT - 2, SCREEN_WIDTH - 2
