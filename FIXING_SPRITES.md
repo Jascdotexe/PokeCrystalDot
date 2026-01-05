@@ -173,7 +173,8 @@ for png in gfx/pokemon/*/front.png gfx/pokemon/*/back.png; do
         continue
     fi
     
-    if file "$png" | grep -q "8-bit/color RGBA"; then
+    # Check if file is RGBA format (not indexed)
+    if file "$png" | grep -q "RGBA"; then
         echo "Converting: $png"
         convert "$png" \
             -colors 4 \

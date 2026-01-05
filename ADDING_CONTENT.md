@@ -252,18 +252,14 @@ Test in-game:
 
 ## Space Monitoring
 
-Check remaining space by counting:
-```bash
-# Count moves
-grep "^\tconst [A-Z]" constants/move_constants.asm | wc -l
+To check exactly how many moves and Pokemon are currently defined, you can build the project and check the constants, or count manually in the constants files:
 
-# Count Pokemon  
-grep "^\tconst [A-Z]" constants/pokemon_constants.asm | wc -l
-```
+- Moves are in `constants/move_constants.asm` from NO_MOVE to ENERGY_BALL
+- Pokemon are in `constants/pokemon_constants.asm` from BULBASAUR to MUNCHLAX
 
-Compare against limits:
-- Moves: XXX / 500
-- Pokemon: XXX / 1407
+As of this writing:
+- **Moves**: 300 defined / 500 capacity
+- **Pokemon**: 269 defined / 1407 limit
 
 ## Additional Resources
 
