@@ -65,7 +65,7 @@ Rate:
 	ld c, a
 	push bc
 	push hl
-	ld a, "@"
+	ld a, CHARVAL("@")
 	ld bc, ITEM_NAME_LENGTH
 	call ByteFill
 	ld hl, sp + 2

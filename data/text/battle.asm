@@ -1119,3 +1119,20 @@ BattleText_NoTimeLeftToday: ; unreferenced
 	text "There is no time"
 	line "left today!"
 	done
+
+StealthRockText:
+text "Pointed stones"
+line "float in the air!"
+prompt
+
+TrickRoomStartText:
+text "<USER>"
+line "twisted the"
+cont "dimensions!"
+prompt
+
+TrickRoomEndText:
+text "The twisted"
+line "dimensions"
+cont "returned to normal!"
+prompt

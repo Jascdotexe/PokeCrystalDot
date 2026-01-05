@@ -5571,7 +5571,7 @@ Function1026f3:
 
 .asm_102702
 	hlcoord 9, 17
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	ld a, $01
 	ld [wMenuCursorY], a
 	ld a, $1d ; Function102652
@@ -5580,7 +5580,7 @@ Function1026f3:
 
 .asm_102712
 	hlcoord 9, 17
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	ld a, [wOTPartyCount]
 	ld [wMenuCursorY], a
 	ld a, $1f ; Function1025e9
@@ -5589,7 +5589,7 @@ Function1026f3:
 
 .asm_102723
 	hlcoord 9, 17
-	ld [hl], "▷"
+	ld [hl], CHARVAL("▷")
 	ld hl, wcd4b
 	set 3, [hl]
 	ld hl, wcd4b
@@ -5633,9 +5633,9 @@ Function102770:
 
 Function102775:
 	hlcoord 1, 16
-	ld [hl], "▶"
+	ld [hl], CHARVAL("▶")
 	hlcoord 11, 16
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	ld hl, wcd4b
 	set 2, [hl]
 	ld a, [wcd4a]
@@ -5658,9 +5658,9 @@ Function10278c:
 	ld [wcd4a], a
 Function1027a0:
 	hlcoord 1, 16
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	hlcoord 11, 16
-	ld [hl], "▶"
+	ld [hl], CHARVAL("▶")
 	ld hl, wcd4b
 	set 2, [hl]
 	ld a, [wcd4a]
@@ -6461,7 +6461,7 @@ Function102d48:
 	ret
 
 Function102d9a:
-	ld a, " "
+	ld a, CHARVAL(" ")
 	hlcoord 0, 0
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	call ByteFill

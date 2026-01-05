@@ -228,7 +228,7 @@ INCBIN "gfx/printer/bold_b.1bpp"
 PlaceUnownPrinterFrontpic:
 	hlcoord 0, 0
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
-	ld a, " "
+	ld a, CHARVAL(" ")
 	call ByteFill
 	hlcoord 7, 11
 	ld a, $31

@@ -171,7 +171,7 @@ SwitchPartyMons:
 	ld a, [wSwitchMon]
 	dec a
 	call AddNTimes
-	ld [hl], "▷"
+	ld [hl], CHARVAL("▷")
 	call WaitBGMap
 	call SetPalettes
 	call DelayFrame
@@ -976,7 +976,7 @@ MoveScreenLoop:
 	jp .joy_loop
 
 .moving_move
-	ld a, " "
+	ld a, CHARVAL(" ")
 	hlcoord 1, 11
 	ld bc, 8
 	call ByteFill
@@ -1267,7 +1267,7 @@ PlaceMoveData:
 	ld a, [wCurSpecies]
 	ld b, a
 	hlcoord 1, 12
-	ld [hl], "/"
+	ld [hl], CHARVAL("/")
 	inc hl
 	predef PrintMoveType
 	ld a, [wCurSpecies]
@@ -1332,7 +1332,7 @@ PlaceMoveScreenLeftArrow:
 
 .legal
 	hlcoord 16, 0
-	ld [hl], "◀"
+	ld [hl], CHARVAL("◀")
 	ret
 
 PlaceMoveScreenRightArrow:
@@ -1361,5 +1361,5 @@ PlaceMoveScreenRightArrow:
 
 .legal
 	hlcoord 18, 0
-	ld [hl], "▶"
+	ld [hl], CHARVAL("▶")
 	ret

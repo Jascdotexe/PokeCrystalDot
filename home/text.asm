@@ -1,6 +1,6 @@
 ClearBox::
 ; Fill a c*b box at hl with blank tiles.
-	ld a, " "
+	ld a, CHARVAL(" ")
 ; fallthrough
 
 FillBoxWithByte::
@@ -23,7 +23,7 @@ ClearTilemap::
 ; Fill wTilemap with blank tiles.
 
 	hlcoord 0, 0
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld bc, wTilemapEnd - wTilemap
 	call ByteFill
 
@@ -214,7 +214,7 @@ PlaceString::
 
 PlaceNextChar::
 	ld a, [de]
-	cp "@"
+	cp CHARVAL("@")
 	jr nz, CheckDict
 	ld b, h
 	ld c, l
@@ -228,17 +228,17 @@ NextChar::
 CheckDict::
 MACRO dict
 	assert CHARLEN(\1) == 1
-	if \1 == 0
+	if CHARVAL(\1) == 0
 		and a
 	else
-		cp \1
+		cp CHARVAL(\1)
 	endc
 	if ISCONST(\2)
 		; Replace a character with another one
 		jr nz, .not\@
-		ld a, \2
+		ld a, CHARVAL(\2)
 	.not\@:
-	elif !STRCMP(STRSUB("\2", 1, 1), ".")
+	elif !STRCMP(STRSLICE("\2", 0, 1), ".")
 		; Locals can use a short jump
 		jr z, \2
 	else
@@ -288,32 +288,32 @@ ENDM
 	cp FIRST_REGULAR_TEXT_CHAR
 	jr nc, .place
 ; dakuten or handakuten
-	cp "パ"
+	cp CHARVAL("パ")
 	jr nc, .handakuten
 ; dakuten
 	cp FIRST_HIRAGANA_DAKUTEN_CHAR
 	jr nc, .hiragana_dakuten
 ; katakana dakuten
-	add "カ" - "ガ"
+	add CHARVAL("カ") - CHARVAL("ガ")
 	jr .place_dakuten
 
 .hiragana_dakuten
-	add "か" - "が"
+	add CHARVAL("か") - CHARVAL("が")
 .place_dakuten
-	ld b, "ﾞ" ; dakuten
+	ld b, CHARVAL("ﾞ") ; dakuten
 	jr .place
 
 .handakuten
-	cp "ぱ"
+	cp CHARVAL("ぱ")
 	jr nc, .hiragana_handakuten
 ; katakana handakuten
-	add "ハ" - "パ"
+	add CHARVAL("ハ") - CHARVAL("パ")
 	jr .place_handakuten
 
 .hiragana_handakuten
-	add "は" - "ぱ"
+	add CHARVAL("は") - CHARVAL("ぱ")
 .place_handakuten
-	ld b, "ﾟ" ; handakuten
+	ld b, CHARVAL("ﾟ") ; handakuten
 
 .place
 	ld [hli], a
@@ -573,7 +573,7 @@ ContText::
 PlaceDexEnd::
 ; Ends a Pokédex entry in Gen 1.
 ; Dex entries are now regular strings.
-	ld [hl], "."
+	ld [hl], CHARVAL(".")
 	pop hl
 	ret
 
@@ -605,7 +605,7 @@ DoneText::
 	text_end
 
 NullChar::
-	ld a, "?"
+	ld a, CHARVAL("?")
 	ld [hli], a
 	call PrintLetterDelay
 	jp NextChar
@@ -635,7 +635,7 @@ TextScroll::
 	jr nz, .col
 
 	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY + 2
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld bc, TEXTBOX_INNERW
 	call ByteFill
 	ld c, 5
@@ -656,7 +656,7 @@ Text_WaitBGMap::
 	ret
 
 LoadBlinkingCursor::
-	ld a, "▼"
+	ld a, CHARVAL("▼")
 	ldcoord_a 18, 17
 	ret
 
@@ -977,7 +977,7 @@ TextCommand_DOTS::
 
 .loop
 	push de
-	ld a, "…"
+	ld a, CHARVAL("…")
 	ld [hli], a
 	call GetJoypad
 	ldh a, [hJoyDown]

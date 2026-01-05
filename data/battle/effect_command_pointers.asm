@@ -180,4 +180,8 @@ BattleCommandPointers:
 	dw BattleCommand_SuperEffectiveLoopText
 	dw BattleCommand_StartLoop
 	dw BattleCommand_Curl
+	dw BattleCommand_SetStealthRock
+	dw BattleCommand_ForcePlayerSwitch
+	dw BattleCommand_SetTrickRoom
+	dw BattleCommand_CheckSuckerPunch
 	assert_table_length NUM_EFFECT_COMMANDS

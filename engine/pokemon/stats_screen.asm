@@ -406,9 +406,9 @@ StatsScreen_InitUpperHalf:
 	ld d, h
 	ld e, l
 	hlcoord 8, 0
-	ld a, "№"
+	ld a, CHARVAL("№")
 	ld [hli], a
-	ld a, "."
+	ld a, CHARVAL(".")
 	ld [hli], a
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 3
 	call PrintNum
@@ -423,7 +423,7 @@ StatsScreen_InitUpperHalf:
 	hlcoord 18, 0
 	call .PlaceGenderChar
 	hlcoord 9, 4
-	ld a, "/"
+	ld a, CHARVAL("/")
 	ld [hli], a
 	ld a, [wBaseSpecies]
 	ld [wNamedObjectIndex], a
@@ -456,9 +456,9 @@ StatsScreen_InitUpperHalf:
 	farcall GetGender
 	pop hl
 	ret c
-	ld a, "♂"
+	ld a, CHARVAL("♂")
 	jr nz, .got_gender
-	ld a, "♀"
+	ld a, CHARVAL("♀")
 .got_gender
 	ld [hl], a
 	ret
@@ -496,9 +496,9 @@ StatsScreen_PlaceHorizontalDivider:
 
 StatsScreen_PlacePageSwitchArrows:
 	hlcoord 10, 6
-	ld [hl], "◀"
+	ld [hl], CHARVAL("◀")
 	hlcoord 19, 6
-	ld [hl], "▶"
+	ld [hl], CHARVAL("▶")
 	ret
 
 StatsScreen_PlaceShinyIcon:
@@ -506,7 +506,7 @@ StatsScreen_PlaceShinyIcon:
 	farcall CheckShininess
 	ret nc
 	hlcoord 19, 0
-	ld [hl], "⁂"
+	ld [hl], CHARVAL("⁂")
 	ret
 
 StatsScreen_LoadGFX:
@@ -581,7 +581,7 @@ LoadPinkPage:
 	and $f0
 	jr z, .NotImmuneToPkrs
 	hlcoord 8, 8
-	ld [hl], "." ; Pokérus immunity dot
+	ld [hl], CHARVAL(".") ; Pokérus immunity dot
 .NotImmuneToPkrs:
 	ld a, [wMonType]
 	cp BOXMON
@@ -790,9 +790,9 @@ LoadBluePage:
 	cp $7f
 	jr z, .done
 	and CAUGHT_GENDER_MASK
-	ld a, "♂"
+	ld a, CHARVAL("♂")
 	jr z, .got_gender
-	ld a, "♀"
+	ld a, CHARVAL("♀")
 .got_gender
 	hlcoord 9, 13
 	ld [hl], a
@@ -876,7 +876,7 @@ LoadOrangePage:
 	hlcoord 1, 12
 	call PlaceString
 	hlcoord 2, 13
-	ld [hl], "<LV>"
+	ld [hl], CHARVAL("<LV>")
 	ret
 
 .unknown_level
