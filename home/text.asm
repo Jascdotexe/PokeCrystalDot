@@ -214,7 +214,7 @@ PlaceString::
 
 PlaceNextChar::
 	ld a, [de]
-	cp "@"
+	cp CHARVAL("@")
 	jr nz, CheckDict
 	ld b, h
 	ld c, l
@@ -288,7 +288,7 @@ ENDM
 	cp FIRST_REGULAR_TEXT_CHAR
 	jr nc, .place
 ; dakuten or handakuten
-	cp "パ"
+	cp CHARVAL("パ")
 	jr nc, .handakuten
 ; dakuten
 	cp FIRST_HIRAGANA_DAKUTEN_CHAR
@@ -304,7 +304,7 @@ ENDM
 	jr .place
 
 .handakuten
-	cp "ぱ"
+	cp CHARVAL("ぱ")
 	jr nc, .hiragana_handakuten
 ; katakana handakuten
 	add "ハ" - "パ"

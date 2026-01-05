@@ -11,7 +11,7 @@ CorrectNickErrors::
 .checkchar
 ; end of nick?
 	ld a, [de]
-	cp "@" ; terminator
+	cp CHARVAL("@") ; terminator
 	jr z, .end
 
 ; check if this char is a text command

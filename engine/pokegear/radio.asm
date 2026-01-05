@@ -149,7 +149,7 @@ ReplacePeriodsWithSpaces: ; unreferenced
 	ld b, SCREEN_WIDTH * 2
 .loop
 	ld a, [hl]
-	cp "."
+	cp CHARVAL(".")
 	jr nz, .next
 	ld [hl], " "
 .next
@@ -746,11 +746,11 @@ CopyDexEntryPart1:
 	inc hl
 .loop
 	ld a, [hli]
-	cp "@"
+	cp CHARVAL("@")
 	ret z
-	cp "<NEXT>"
+	cp CHARVAL("<NEXT>")
 	ret z
-	cp "<DEXEND>"
+	cp CHARVAL("<DEXEND>")
 	ret z
 	jr .loop
 
@@ -760,11 +760,11 @@ CopyDexEntryPart2:
 	ld a, d
 	call GetFarByte
 	inc hl
-	cp "@"
+	cp CHARVAL("@")
 	jr z, .okay
-	cp "<NEXT>"
+	cp CHARVAL("<NEXT>")
 	jr z, .okay
-	cp "<DEXEND>"
+	cp CHARVAL("<DEXEND>")
 	jr nz, .loop
 .okay
 	ld a, l
@@ -1555,7 +1555,7 @@ GetBuenasPassword:
 .read_loop
 	ld a, [de]
 	inc de
-	cp "@"
+	cp CHARVAL("@")
 	jr nz, .read_loop
 	dec c
 	jr nz, .read_loop
@@ -1566,7 +1566,7 @@ GetBuenasPassword:
 	ld a, [de]
 	inc de
 	ld [hli], a
-	cp "@"
+	cp CHARVAL("@")
 	jr nz, .copy_loop
 	ld de, wStringBuffer1
 	ret

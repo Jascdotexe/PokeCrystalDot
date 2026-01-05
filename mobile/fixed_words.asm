@@ -182,7 +182,7 @@ PrintEZChatBattleMessage:
 .place_string_loop
 	; load the string from de to hl
 	ld a, [de]
-	cp "@"
+	cp CHARVAL("@")
 	jr z, .done
 	inc de
 	ld [hli], a
@@ -212,7 +212,7 @@ GetLengthOfWordAtC608:
 	ld hl, wc608
 .loop
 	ld a, [hli]
-	cp "@"
+	cp CHARVAL("@")
 	ret z
 	inc c
 	jr .loop
@@ -885,7 +885,7 @@ EZChat_PlaceCategoryNames:
 .find_next_string_loop
 	inc de
 	ld a, [de]
-	cp "@"
+	cp CHARVAL("@")
 	jr z, .find_next_string_loop
 	pop bc
 	pop af

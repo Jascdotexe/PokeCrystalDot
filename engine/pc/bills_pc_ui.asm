@@ -569,7 +569,7 @@ BillsPC_PrintBoxName:
 .loop
 	ld a, [hli]
 	inc b
-	cp "@"
+	cp CHARVAL("@")
 	jr nz, .loop
 	srl b
 	ld a, 5

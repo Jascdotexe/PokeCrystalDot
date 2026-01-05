@@ -389,7 +389,7 @@ GetTradeMonNames:
 	ld hl, wStringBuffer1
 .loop
 	ld a, [hli]
-	cp "@"
+	cp CHARVAL("@")
 	jr nz, .loop
 
 	dec hl

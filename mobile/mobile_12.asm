@@ -433,7 +433,7 @@ Function483bb:
 	jr z, .asm_483d5
 .asm_483cb
 	ld a, [hli]
-	cp "@"
+	cp CHARVAL("@")
 	jr nz, .asm_483cb
 	ld a, b
 	dec a
@@ -465,7 +465,7 @@ Function483e8:
 	jr z, .asm_48405
 .asm_483fc
 	ld a, [hli]
-	cp "@"
+	cp CHARVAL("@")
 	jr nz, .asm_483fc
 	ld a, d
 	dec a
@@ -1586,7 +1586,7 @@ Function48c63:
 	ld [de], a
 	inc de
 	ld a, [hl]
-	cp "@"
+	cp CHARVAL("@")
 	jr nz, .asm_48c81
 	and a
 	pop de

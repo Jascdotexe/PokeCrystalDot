@@ -102,11 +102,11 @@ GetBasePokemonName::
 	ld hl, wStringBuffer1
 .loop
 	ld a, [hl]
-	cp "@"
+	cp CHARVAL("@")
 	jr z, .quit
-	cp "♂"
+	cp CHARVAL("♂")
 	jr z, .end
-	cp "♀"
+	cp CHARVAL("♀")
 	jr z, .end
 	inc hl
 	jr .loop

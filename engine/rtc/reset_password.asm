@@ -243,7 +243,7 @@ ClockResetPassword:
 
 .ComponentFromString:
 	ld a, [hli]
-	cp "@"
+	cp CHARVAL("@")
 	ret z
 	add e
 	ld e, a

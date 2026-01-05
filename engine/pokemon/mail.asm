@@ -155,7 +155,7 @@ CheckPokeMail::
 	ld c, a
 	ld a, b
 	call GetFarByte
-	cp "@"
+	cp CHARVAL("@")
 	jr z, .done
 	cp c
 	ld a, POKEMAIL_WRONG_MAIL

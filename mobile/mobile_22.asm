@@ -84,7 +84,7 @@ Function8919e:
 .loop
 	ld a, [de]
 	inc de
-	cp "@"
+	cp CHARVAL("@")
 	jr nz, .loop
 	dec c
 	jr nz, .loop
@@ -358,9 +358,9 @@ Function89331:
 	ld c, NAME_LENGTH_JAPANESE - 1
 .loop
 	ld a, [hli]
-	cp "@"
+	cp CHARVAL("@")
 	jr z, .terminator
-	cp " "
+	cp CHARVAL(" ")
 	jr nz, .nonspace
 	dec c
 	jr nz, .loop
@@ -390,9 +390,9 @@ _incave:
 	ld c, NAME_LENGTH_JAPANESE - 1
 .loop
 	ld a, [hli]
-	cp "@"
+	cp CHARVAL("@")
 	jr z, .terminator
-	cp " "
+	cp CHARVAL(" ")
 	jr nz, .nonspace
 	dec c
 	jr nz, .loop

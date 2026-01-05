@@ -698,7 +698,7 @@ NamingScreen_AdvanceCursor_CheckEndOfString:
 	inc [hl]
 	call NamingScreen_GetTextCursorPosition
 	ld a, [hl]
-	cp "@"
+	cp CHARVAL("@")
 	jr z, .end_of_string
 	ld [hl], NAMINGSCREEN_UNDERLINE
 	and a

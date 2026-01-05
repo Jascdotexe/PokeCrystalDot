@@ -845,15 +845,15 @@ EncodeBufferMon:
 	ld a, [hl]
 	; " " ($7f) -> $46
 	ld c, $46 | ~%01111111
-	cp " "
+	cp CHARVAL(" ")
 	jr z, .replace
 	; "@" ($50) -> $47
 	inc c
-	cp "@"
+	cp CHARVAL("@")
 	jr z, .replace
 	; "<START>" ($00) -> $48
 	inc c
-	and a ; cp "<START>"
+	and a ; cp CHARVAL("<START>")
 	jr nz, .removebit
 .replace
 	ld a, c

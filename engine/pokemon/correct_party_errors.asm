@@ -216,7 +216,7 @@ CorrectPartyErrors: ; unreferenced
 	ld b, NAME_LENGTH_JAPANESE
 .search_loop
 	ld a, [de]
-	cp "@"
+	cp CHARVAL("@")
 	jr z, .done
 	inc de
 	inc c

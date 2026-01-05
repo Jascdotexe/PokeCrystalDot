@@ -790,7 +790,7 @@ HeavyBallMultiplier:
 	ld a, d
 	call GetFarByte
 	inc hl
-	cp "@"
+	cp CHARVAL("@")
 	jr nz, .SkipText
 
 	ld a, d

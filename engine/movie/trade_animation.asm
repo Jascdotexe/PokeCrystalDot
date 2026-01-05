@@ -604,7 +604,7 @@ TradeAnim_PlaceTrademonStatsOnTubeAnim:
 	ld de, 0
 .find_name_end_loop
 	ld a, [hli]
-	cp "@"
+	cp CHARVAL("@")
 	jr z, .done
 	dec de
 	jr .find_name_end_loop

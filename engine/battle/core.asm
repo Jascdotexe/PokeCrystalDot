@@ -4691,7 +4691,7 @@ PrintPlayerHUD:
 	pop bc
 	ret nz
 	ld a, b
-	cp " "
+	cp CHARVAL(" ")
 	jr nz, .copy_level ; male or female
 	dec hl ; genderless
 
@@ -4768,7 +4768,7 @@ DrawEnemyHUD:
 	pop bc
 	jr nz, .skip_level
 	ld a, b
-	cp " "
+	cp CHARVAL(" ")
 	jr nz, .print_level
 	dec hl
 .print_level
