@@ -765,7 +765,7 @@ NamingScreen_InitNameEntry:
 	ld [hli], a
 	dec c
 	jr nz, .loop
-	ld [hl], "@"
+	ld [hl], CHARVAL("@")
 	ret
 
 NamingScreen_StoreEntry:
@@ -782,7 +782,7 @@ NamingScreen_StoreEntry:
 	cp NAMINGSCREEN_UNDERLINE
 	jr nz, .not_terminator
 .terminator
-	ld [hl], "@"
+	ld [hl], CHARVAL("@")
 .not_terminator
 	inc hl
 	dec c
@@ -961,7 +961,7 @@ _ComposeMailMessage:
 	ld d, [hl]
 	ld hl, MAIL_LINE_LENGTH
 	add hl, de
-	ld [hl], "<NEXT>"
+	ld [hl], CHARVAL("<NEXT>")
 	ret
 
 .MailIcon:
@@ -1103,7 +1103,7 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 	call NamingScreen_GetTextCursorPosition
 	ld [hl], NAMINGSCREEN_UNDERLINE
 	dec hl
-	ld [hl], "<NEXT>"
+	ld [hl], CHARVAL("<NEXT>")
 	ret
 
 .start
@@ -1129,7 +1129,7 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 	call NamingScreen_GetTextCursorPosition
 	ld [hl], NAMINGSCREEN_UNDERLINE
 	inc hl
-	ld [hl], "<NEXT>"
+	ld [hl], CHARVAL("<NEXT>")
 	ret
 
 .finished

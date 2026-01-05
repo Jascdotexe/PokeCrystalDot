@@ -951,9 +951,9 @@ BillsPC_SetBoxArrows:
 
 .box_cursors
 	hlcoord 8, 5
-	ld [hl], "◀"
+	ld [hl], CHARVAL("◀")
 	hlcoord 18, 5
-	ld [hl], "▶"
+	ld [hl], CHARVAL("▶")
 	ret
 
 _GetCursorMon:
@@ -1194,7 +1194,7 @@ _GetCursorMon:
 	and a
 	inc hl
 	jr z, .did_pokerus
-	ld [hl], "."
+	ld [hl], CHARVAL(".")
 	and $f
 	jr z, .did_pokerus
 	ld [hl], $40 ; Rs

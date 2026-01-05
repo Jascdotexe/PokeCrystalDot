@@ -545,7 +545,7 @@ Place2DMenuCursor:
 	cp CHARVAL("▶")
 	jr z, .cursor_on
 	ld [wCursorOffCharacter], a
-	ld [hl], "▶"
+	ld [hl], CHARVAL("▶")
 
 .cursor_on
 	ld a, l

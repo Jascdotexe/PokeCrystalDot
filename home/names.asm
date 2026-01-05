@@ -111,7 +111,7 @@ GetBasePokemonName::
 	inc hl
 	jr .loop
 .end
-	ld [hl], "@"
+	ld [hl], CHARVAL("@")
 .quit
 	pop hl
 	ret
@@ -143,7 +143,7 @@ GetPokemonName::
 	ld bc, MON_NAME_LENGTH - 1
 	call CopyBytes
 	ld hl, wStringBuffer1 + MON_NAME_LENGTH - 1
-	ld [hl], "@"
+	ld [hl], CHARVAL("@")
 	pop de
 
 	pop hl

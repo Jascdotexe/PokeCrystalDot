@@ -1656,7 +1656,7 @@ LinkTradeOTPartymonMenuLoop:
 	push bc
 	ld bc, NAME_LENGTH
 	add hl, bc
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	pop bc
 	pop hl
 	ld a, [wPartyCount]
@@ -1717,7 +1717,7 @@ LinkTradePartymonMenuLoop:
 	push bc
 	ld bc, NAME_LENGTH
 	add hl, bc
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	pop bc
 	pop hl
 	ld a, 1
@@ -1737,7 +1737,7 @@ LinkTradePartymonMenuLoop:
 	push bc
 	ld bc, NAME_LENGTH
 	add hl, bc
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	pop bc
 	pop hl
 	jp LinkTradePartymonMenuCheckCancel
@@ -1928,7 +1928,7 @@ LinkTradeOTPartymonMenuCheckCancel:
 	push bc
 	ld bc, NAME_LENGTH
 	add hl, bc
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	pop bc
 	pop hl
 	; fallthrough
@@ -2013,7 +2013,7 @@ LinkTradePlaceArrow:
 	hlcoord 6, 9
 	ld bc, SCREEN_WIDTH
 	call AddNTimes
-	ld [hl], "▷"
+	ld [hl], CHARVAL("▷")
 	ret
 
 LinkEngine_FillBox:

@@ -548,7 +548,7 @@ Options_UpdateCursorPosition:
 	ld de, SCREEN_WIDTH
 	ld c, SCREEN_HEIGHT - 2
 .loop
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	add hl, de
 	dec c
 	jr nz, .loop
@@ -556,5 +556,5 @@ Options_UpdateCursorPosition:
 	ld bc, 2 * SCREEN_WIDTH
 	ld a, [wJumptableIndex]
 	call AddNTimes
-	ld [hl], "▶"
+	ld [hl], CHARVAL("▶")
 	ret

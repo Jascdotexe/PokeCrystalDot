@@ -1914,7 +1914,7 @@ Slots_PayoutText:
 	inc a
 	ldcoord_a 3, 14
 	hlcoord 18, 17
-	ld [hl], "▼"
+	ld [hl], CHARVAL("▼")
 	ld hl, .SlotsLinedUpText
 rept 4
 	inc bc

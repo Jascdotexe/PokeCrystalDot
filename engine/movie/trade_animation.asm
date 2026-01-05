@@ -984,7 +984,7 @@ TrademonStats_PrintSpeciesNumber:
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 3
 	call PrintNum
 	pop de
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	ret
 
 TrademonStats_PrintSpeciesName:

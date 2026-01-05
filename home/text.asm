@@ -236,7 +236,7 @@ MACRO dict
 	if ISCONST(\2)
 		; Replace a character with another one
 		jr nz, .not\@
-		ld a, \2
+		ld a, CHARVAL(\2)
 	.not\@:
 	elif !STRCMP(STRSLICE("\2", 0, 1), ".")
 		; Locals can use a short jump
@@ -294,11 +294,11 @@ ENDM
 	cp FIRST_HIRAGANA_DAKUTEN_CHAR
 	jr nc, .hiragana_dakuten
 ; katakana dakuten
-	add "カ" - "ガ"
+	add CHARVAL("カ") - CHARVAL("ガ")
 	jr .place_dakuten
 
 .hiragana_dakuten
-	add "か" - "が"
+	add CHARVAL("か") - CHARVAL("が")
 .place_dakuten
 	ld b, CHARVAL("ﾞ") ; dakuten
 	jr .place
@@ -307,11 +307,11 @@ ENDM
 	cp CHARVAL("ぱ")
 	jr nc, .hiragana_handakuten
 ; katakana handakuten
-	add "ハ" - "パ"
+	add CHARVAL("ハ") - CHARVAL("パ")
 	jr .place_handakuten
 
 .hiragana_handakuten
-	add "は" - "ぱ"
+	add CHARVAL("は") - CHARVAL("ぱ")
 .place_handakuten
 	ld b, CHARVAL("ﾟ") ; handakuten
 
@@ -573,7 +573,7 @@ ContText::
 PlaceDexEnd::
 ; Ends a Pokédex entry in Gen 1.
 ; Dex entries are now regular strings.
-	ld [hl], "."
+	ld [hl], CHARVAL(".")
 	pop hl
 	ret
 

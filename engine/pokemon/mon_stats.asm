@@ -472,7 +472,7 @@ ListMoves:
 	ld a, b
 .nonmove_loop
 	push af
-	ld [hl], "-"
+	ld [hl], CHARVAL("-")
 	ld a, [wListMovesLineSpacing]
 	ld c, a
 	ld b, 0

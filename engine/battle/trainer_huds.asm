@@ -247,7 +247,7 @@ _ShowLinkBattleParticipants:
 	hlcoord 9, 8
 	ld a, CHARVAL("<BOLD_V>")
 	ld [hli], a
-	ld [hl], "<BOLD_S>"
+	ld [hl], CHARVAL("<BOLD_S>")
 	farcall LinkBattle_TrainerHuds ; no need to farcall
 	ld b, SCGB_DIPLOMA
 	call GetSGBLayout

@@ -166,7 +166,7 @@ _PrintNum::
 	dec e
 	jr nz, .money_leading_zero
 	inc hl
-	ld [hl], "<DOT>"
+	ld [hl], CHARVAL("<DOT>")
 
 .money_leading_zero
 	call .AdvancePointer
@@ -276,14 +276,14 @@ _PrintNum::
 	dec e
 	ret nz
 	inc hl
-	ld [hl], "<DOT>"
+	ld [hl], CHARVAL("<DOT>")
 	ret
 
 .PrintLeadingZero:
 ; prints a leading zero unless they are turned off in the flags
 	bit 7, d ; print leading zeroes?
 	ret z
-	ld [hl], "0"
+	ld [hl], CHARVAL("0")
 	ret
 
 .AdvancePointer:

@@ -99,7 +99,7 @@ LoadContestantName:
 	cp CHARVAL("@")
 	jr nz, .next
 	dec hl
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	inc hl
 	ld d, h
 	ld e, l

@@ -475,7 +475,7 @@ Mom_WithdrawDepositMenuJoypad:
 	ld c, a
 	ld b, 0
 	add hl, bc
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 
 .skip
 	call WaitBGMap

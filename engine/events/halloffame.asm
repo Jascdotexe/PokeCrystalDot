@@ -495,7 +495,7 @@ DisplayHOFMon:
 	hlcoord 1, 13
 	ld a, CHARVAL("№")
 	ld [hli], a
-	ld [hl], "<DOT>"
+	ld [hl], CHARVAL("<DOT>")
 	ld a, [wCurPartySpecies]
 	call GetPokemonIndexFromID
 	ld a, l
@@ -540,7 +540,7 @@ DisplayHOFMon:
 	ld [hli], a
 	ld a, CHARVAL("№")
 	ld [hli], a
-	ld [hl], "/"
+	ld [hl], CHARVAL("/")
 	hlcoord 10, 16
 	ld de, wTempMonID
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
@@ -610,7 +610,7 @@ HOF_AnimatePlayerPic:
 	ld [hli], a
 	ld a, CHARVAL("№")
 	ld [hli], a
-	ld [hl], "/"
+	ld [hl], CHARVAL("/")
 	hlcoord 4, 6
 	ld de, wPlayerID
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5

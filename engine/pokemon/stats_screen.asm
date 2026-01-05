@@ -496,9 +496,9 @@ StatsScreen_PlaceHorizontalDivider:
 
 StatsScreen_PlacePageSwitchArrows:
 	hlcoord 10, 6
-	ld [hl], "◀"
+	ld [hl], CHARVAL("◀")
 	hlcoord 19, 6
-	ld [hl], "▶"
+	ld [hl], CHARVAL("▶")
 	ret
 
 StatsScreen_PlaceShinyIcon:
@@ -506,7 +506,7 @@ StatsScreen_PlaceShinyIcon:
 	farcall CheckShininess
 	ret nc
 	hlcoord 19, 0
-	ld [hl], "⁂"
+	ld [hl], CHARVAL("⁂")
 	ret
 
 StatsScreen_LoadGFX:
@@ -581,7 +581,7 @@ LoadPinkPage:
 	and $f0
 	jr z, .NotImmuneToPkrs
 	hlcoord 8, 8
-	ld [hl], "." ; Pokérus immunity dot
+	ld [hl], CHARVAL(".") ; Pokérus immunity dot
 .NotImmuneToPkrs:
 	ld a, [wMonType]
 	cp BOXMON
@@ -876,7 +876,7 @@ LoadOrangePage:
 	hlcoord 1, 12
 	call PlaceString
 	hlcoord 2, 13
-	ld [hl], "<LV>"
+	ld [hl], CHARVAL("<LV>")
 	ret
 
 .unknown_level

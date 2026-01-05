@@ -339,7 +339,7 @@ OakText_ResponseToSetTime:
 	ld a, [wInitHourBuffer]
 	ld c, a
 	call PrintHour
-	ld [hl], ":"
+	ld [hl], CHARVAL(":")
 	inc hl
 	ld de, wInitMinuteBuffer
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
@@ -615,46 +615,46 @@ MrChrono: ; unreferenced
 	call UpdateTime
 
 	hlcoord 1, 14
-	ld [hl], "R"
+	ld [hl], CHARVAL("R")
 	inc hl
-	ld [hl], "T"
+	ld [hl], CHARVAL("T")
 	inc hl
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	inc hl
 
 	ld de, hRTCDayLo
 	call .PrintTime
 
 	hlcoord 1, 16
-	ld [hl], "D"
+	ld [hl], CHARVAL("D")
 	inc hl
-	ld [hl], "F"
+	ld [hl], CHARVAL("F")
 	inc hl
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	inc hl
 
 	ld de, wStartDay
 	call .PrintTime
 
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	inc hl
 
 	ld a, [wDST]
 	bit 7, a
 	jr z, .off
 
-	ld [hl], "O"
+	ld [hl], CHARVAL("O")
 	inc hl
-	ld [hl], "N"
+	ld [hl], CHARVAL("N")
 	inc hl
 	jr .done
 
 .off
-	ld [hl], "O"
+	ld [hl], CHARVAL("O")
 	inc hl
-	ld [hl], "F"
+	ld [hl], CHARVAL("F")
 	inc hl
-	ld [hl], "F"
+	ld [hl], CHARVAL("F")
 	inc hl
 
 .done
@@ -669,12 +669,12 @@ MrChrono: ; unreferenced
 .PrintTime:
 	lb bc, 1, 3
 	call PrintNum
-	ld [hl], "."
+	ld [hl], CHARVAL(".")
 	inc hl
 	inc de
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum
-	ld [hl], ":"
+	ld [hl], CHARVAL(":")
 	inc hl
 	inc de
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2

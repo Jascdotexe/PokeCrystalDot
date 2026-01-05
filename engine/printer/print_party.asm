@@ -175,14 +175,14 @@ PrintPartyMonPage1:
 	hlcoord 8, 4
 	call PlaceString
 	hlcoord 9, 6
-	ld [hl], "/"
+	ld [hl], CHARVAL("/")
 	call GetPokemonName
 	hlcoord 10, 6
 	call PlaceString
 	hlcoord 8, 0
-	ld [hl], "№"
+	ld [hl], CHARVAL("№")
 	inc hl
-	ld [hl], "."
+	ld [hl], CHARVAL(".")
 	inc hl
 	ld de, wNamedObjectIndex
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 3
@@ -337,7 +337,7 @@ PlaceGenderAndShininess:
 	farcall CheckShininess
 	ret nc
 	hlcoord 18, 2
-	ld [hl], "⁂"
+	ld [hl], CHARVAL("⁂")
 	ret
 
 PrintParty_OTString:

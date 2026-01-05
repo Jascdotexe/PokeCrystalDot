@@ -153,11 +153,11 @@ PrintEZChatBattleMessage:
 	inc a
 	ld [wJumptableIndex], a
 	; if we're on line 2, insert "<NEXT>"
-	ld [hl], "<NEXT>"
+	ld [hl], CHARVAL("<NEXT>")
 	rra
 	jr c, .got_line_terminator
 	; else, insert "<CONT>"
-	ld [hl], "<CONT>"
+	ld [hl], CHARVAL("<CONT>")
 
 .got_line_terminator
 	inc hl
@@ -171,7 +171,7 @@ PrintEZChatBattleMessage:
 	; add the space, unless we're at the start of the line
 	cp 18
 	jr z, .skip_space
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	inc hl
 
 .skip_space
@@ -194,7 +194,7 @@ PrintEZChatBattleMessage:
 	dec a
 	jr nz, .loop
 	; we're finished, place "<DONE>"
-	ld [hl], "<DONE>"
+	ld [hl], CHARVAL("<DONE>")
 	; now, let's place the string from wc618 to bc
 	pop bc
 	ld hl, wc618

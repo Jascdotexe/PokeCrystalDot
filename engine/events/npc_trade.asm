@@ -407,7 +407,7 @@ GetTradeMonNames:
 	ld a, CHARVAL("♀")
 .done
 	ld [hli], a
-	ld [hl], "@"
+	ld [hl], CHARVAL("@")
 	ret
 
 INCLUDE "data/events/npc_trades.asm"

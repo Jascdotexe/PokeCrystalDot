@@ -978,7 +978,7 @@ DebugRoom_PrintPagedValue:
 .hex
 	ld c, 1
 	call PrintHexNumber
-	ld [hl], "H"
+	ld [hl], CHARVAL("H")
 	inc hl
 .printed
 	ld bc, 6
@@ -1408,12 +1408,12 @@ DebugRoomMenu_RTCEdit_UpdateClock:
 	ld de, wDebugRoomRTCCurHour
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum
-	ld [hl], ":"
+	ld [hl], CHARVAL(":")
 	inc hl
 	ld de, wDebugRoomRTCCurMin
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum
-	ld [hl], ":"
+	ld [hl], CHARVAL(":")
 	inc hl
 	ld de, wDebugRoomRTCCurSec
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
@@ -1598,7 +1598,7 @@ ComputeROMChecksum:
 	hlcoord 16, 16
 	ld c, 1
 	call PrintHexNumber
-	ld [hl], "h"
+	ld [hl], CHARVAL("h")
 	pop de
 	pop bc
 	call ComputeROMXChecksum
@@ -1666,7 +1666,7 @@ DebugRoomMenu_ROMChecksum:
 	ld de, wDebugRoomROMChecksum
 	ld c, 2
 	call PrintHexNumber
-	ld [hl], "h"
+	ld [hl], CHARVAL("h")
 	call DebugRoom_JoyWaitABSelect
 	call CloseWindow
 	ret
@@ -1706,7 +1706,7 @@ DebugRoomMenu_BTBugPoke:
 	ld de, sIsBugMon
 	ld c, 1
 	call PrintHexNumber
-	ld [hl], "h"
+	ld [hl], CHARVAL("h")
 	call YesNoBox
 	jr c, .done
 	xor a

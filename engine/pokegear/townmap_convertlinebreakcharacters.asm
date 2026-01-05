@@ -12,7 +12,7 @@ TownMap_ConvertLineBreakCharacters:
 	jr .loop
 
 .line_feed
-	ld [hl], "<LF>"
+	ld [hl], CHARVAL("<LF>")
 
 .end
 	ld de, wStringBuffer1

@@ -122,7 +122,7 @@ ClockResetPassword:
 	ld e, a
 	ld d, 0
 	add hl, de
-	ld [hl], "▲"
+	ld [hl], CHARVAL("▲")
 	ret
 
 .dpadinput

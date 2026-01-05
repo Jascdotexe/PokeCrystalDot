@@ -1437,7 +1437,7 @@ Pokedex_PlaceSearchResultsTypeStrings:
 	hlcoord 2, 15
 	call Pokedex_PlaceTypeString
 	hlcoord 1, 15
-	ld [hl], "/"
+	ld [hl], CHARVAL("/")
 .done
 	ret
 
@@ -2563,7 +2563,7 @@ Pokedex_MoveArrowCursor:
 	and a
 	jr z, .no_action
 	call Pokedex_GetArrowCursorPos
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	ld hl, wDexArrowCursorPosIndex
 	dec [hl]
 	jr .update_cursor_pos
@@ -2573,13 +2573,13 @@ Pokedex_MoveArrowCursor:
 	cp c
 	jr nc, .no_action
 	call Pokedex_GetArrowCursorPos
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	ld hl, wDexArrowCursorPosIndex
 	inc [hl]
 
 .update_cursor_pos
 	call Pokedex_GetArrowCursorPos
-	ld [hl], "▶"
+	ld [hl], CHARVAL("▶")
 	ld a, 12
 	ld [wDexArrowCursorDelayCounter], a
 	xor a
@@ -2593,7 +2593,7 @@ Pokedex_MoveArrowCursor:
 
 .select
 	call Pokedex_GetArrowCursorPos
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	ld a, [wDexArrowCursorPosIndex]
 	cp c
 	jr c, .update
@@ -2621,12 +2621,12 @@ Pokedex_BlinkArrowCursor:
 	and $8
 	jr z, .blink_on
 	call Pokedex_GetArrowCursorPos
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	ret
 
 .blink_on
 	call Pokedex_GetArrowCursorPos
-	ld [hl], "▶"
+	ld [hl], CHARVAL("▶")
 	ret
 
 Pokedex_ArrowCursorDelay:

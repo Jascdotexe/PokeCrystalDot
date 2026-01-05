@@ -1180,12 +1180,12 @@ InitializeBoxes:
 	sub e
 	sub 10
 	jr c, .next
-	ld [hl], "1"
+	ld [hl], CHARVAL("1")
 	inc hl
 	sub 10
 .next
 	ld [hli], a
-	ld [hl], "@"
+	ld [hl], CHARVAL("@")
 	pop hl
 	ld c, sNewBox2 - sNewBox1Name
 	add hl, bc

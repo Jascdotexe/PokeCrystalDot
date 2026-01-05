@@ -873,7 +873,7 @@ PokegearPhone_Joypad:
 	ld a, [wPokegearPhoneCursorPosition]
 	ld bc, SCREEN_WIDTH * 2
 	call AddNTimes
-	ld [hl], "▷"
+	ld [hl], CHARVAL("▷")
 	call PokegearPhoneContactSubmenu
 	jr c, .quit_submenu
 	ld hl, wJumptableIndex
@@ -1012,7 +1012,7 @@ endr
 	ld a, [wPokegearPhoneCursorPosition]
 	ld bc, 2 * SCREEN_WIDTH
 	call AddNTimes
-	ld [hl], "▶"
+	ld [hl], CHARVAL("▶")
 	ret
 
 PokegearPhone_UpdateDisplayList:
@@ -1241,7 +1241,7 @@ PokegearPhoneContactSubmenu:
 	ld a, [wPokegearPhoneSubmenuCursor]
 	ld bc, SCREEN_WIDTH  * 2
 	call AddNTimes
-	ld [hl], "▶"
+	ld [hl], CHARVAL("▶")
 	pop de
 	ret
 
@@ -1972,13 +1972,13 @@ PlayRadio:
 	lb bc, 4, 18
 	call Textbox
 	hlcoord 1, 14
-	ld [hl], "“"
+	ld [hl], CHARVAL("“")
 	pop de
 	hlcoord 2, 14
 	call PlaceString
 	ld h, b
 	ld l, c
-	ld [hl], "”"
+	ld [hl], CHARVAL("”")
 	call WaitBGMap
 	ret
 

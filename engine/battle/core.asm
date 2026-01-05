@@ -5437,7 +5437,7 @@ MoveSelectionScreen:
 	ld bc, SCREEN_WIDTH
 	dec a
 	call AddNTimes
-	ld [hl], "▷"
+	ld [hl], CHARVAL("▷")
 
 .interpret_joypad
 	ld a, $1
@@ -5695,7 +5695,7 @@ MoveInfoBox:
 
 	ld h, b
 	ld l, c
-	ld [hl], "/"
+	ld [hl], CHARVAL("/")
 
 	ld a, [wPlayerMoveStruct + MOVE_ANIM]
 	ld b, a
@@ -5722,7 +5722,7 @@ MoveInfoBox:
 	pop hl
 	inc hl
 	inc hl
-	ld [hl], "/"
+	ld [hl], CHARVAL("/")
 	inc hl
 	ld de, wNamedObjectIndex
 	lb bc, 1, 2

@@ -20,7 +20,7 @@ PrintBCDNumber::
 	jr z, .loop
 	bit PRINTNUM_LEADINGZEROS_F, b
 	jr nz, .loop ; skip currency symbol
-	ld [hl], "¥"
+	ld [hl], CHARVAL("¥")
 	inc hl
 .loop
 	ld a, [de]
@@ -41,10 +41,10 @@ PrintBCDNumber::
 .skipLeftAlignmentAdjustment
 	bit PRINTNUM_MONEY_F, b
 	jr z, .skipCurrencySymbol
-	ld [hl], "¥" ; currency symbol
+	ld [hl], CHARVAL("¥") ; currency symbol
 	inc hl
 .skipCurrencySymbol
-	ld [hl], "0"
+	ld [hl], CHARVAL("0")
 	call PrintLetterDelay
 	inc hl
 	ret
@@ -59,7 +59,7 @@ PrintBCDDigit::
 ; if bit 7 is set, then no numbers have been printed yet
 	bit PRINTNUM_MONEY_F, b
 	jr z, .skipCurrencySymbol
-	ld [hl], "¥"
+	ld [hl], CHARVAL("¥")
 	inc hl
 	res PRINTNUM_MONEY_F, b
 .skipCurrencySymbol

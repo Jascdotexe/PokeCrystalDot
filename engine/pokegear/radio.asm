@@ -151,7 +151,7 @@ ReplacePeriodsWithSpaces: ; unreferenced
 	ld a, [hl]
 	cp CHARVAL(".")
 	jr nz, .next
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 .next
 	inc hl
 	dec b
@@ -671,7 +671,7 @@ PokedexShow2:
 	push hl
 	call CopyDexEntryPart1
 	dec hl
-	ld [hl], "<DONE>"
+	ld [hl], CHARVAL("<DONE>")
 	ld hl, wPokedexShowPointerAddr
 	call CopyRadioTextToRAM
 	pop hl
@@ -727,7 +727,7 @@ CopyDexEntry:
 	push hl
 	call CopyDexEntryPart1
 	dec hl
-	ld [hl], "<DONE>"
+	ld [hl], CHARVAL("<DONE>")
 	ld hl, wPokedexShowPointerAddr
 	call CopyRadioTextToRAM
 	pop hl
@@ -742,7 +742,7 @@ CopyDexEntryPart1:
 	ld hl, wPokedexShowPointerAddr
 	ld [hl], TX_START
 	inc hl
-	ld [hl], "<LINE>"
+	ld [hl], CHARVAL("<LINE>")
 	inc hl
 .loop
 	ld a, [hli]
