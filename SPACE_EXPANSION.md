@@ -41,16 +41,16 @@ This document describes the changes made to maximize room for additional moves, 
 ## Technical Details
 
 ### Move Limits
-- **Current move count**: ~300 moves defined (including NO_MOVE and special animations)
+- **Current move count**: 300 moves defined (including NO_MOVE and special moves)
 - **New table capacity**: 500 moves (up from 230)
-- **Space available**: ~200 additional moves can be added
+- **Space available**: 200 additional moves can be added
 - **Hard limit**: $3fff (16,383) - will never be reached
 - **Practical limit**: ~500 moves comfortably supported with current tables
 
 ### Pokemon Limits
-- **Current Pokemon count**: ~280 Pokemon defined (Bulbasaur through Munchlax)
+- **Current Pokemon count**: 269 Pokemon defined (Bulbasaur #1 through Munchlax #269)
 - **New limit**: 1407 Pokemon (up from 999)
-- **Space available**: ~1127 additional Pokemon can be added
+- **Space available**: 1138 additional Pokemon can be added
 - **Hard limit**: 4095 (would require redesign to exceed)
 - **RAM allocation**: wPokedexOrder already sized for 1407 entries
 
@@ -61,10 +61,10 @@ This document describes the changes made to maximize room for additional moves, 
 
 ## What This Enables
 
-1. **Moves**: Can now add ~200 more moves from later generations (currently at ~300, capacity is 500)
+1. **Moves**: Can now add 200 more moves from later generations (currently at 300, capacity is 500)
    - Todo list shows many moves still to add (Bug Bite, Night Slash, Nuzzle, Power-Up Punch, etc.)
    
-2. **Pokemon**: Can now add ~1127 more Pokemon (currently at ~280, limit is 1407)
+2. **Pokemon**: Can now add 1138 more Pokemon (currently at 269, limit is 1407)
    - Todo list shows many Pokemon still to add (Aron line, Carvanha line, Treecko line, etc.)
    
 3. **Move Effects**: Unlimited within reasonable bounds

@@ -5,8 +5,8 @@ This guide explains how to add new moves and Pokemon to the game now that space 
 ## Quick Reference
 
 ### Current Capacity
-- **Moves**: ~300 used / 500 capacity = **200 slots available**
-- **Pokemon**: ~280 used / 1407 limit = **1127 slots available**
+- **Moves**: 300 used / 500 capacity = **200 slots available**
+- **Pokemon**: 269 used / 1407 limit = **1138 slots available**
 - **Move Effects**: ~165 used / unlimited
 
 ## Adding a New Move

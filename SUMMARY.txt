@@ -29,15 +29,15 @@ CURRENT STATUS & CAPACITY
 =============================================================================
 
 MOVES:
-  Current: Approximately 300 moves defined (including NO_MOVE)
+  Current: 300 moves defined (including NO_MOVE)
   Capacity: 500 moves
-  Available: Approximately 200 additional move slots
+  Available: 200 additional move slots
   Hard limit: 16,383 (will never be reached)
 
 POKEMON:
-  Current: Approximately 280 Pokemon defined (Bulbasaur through Munchlax)
+  Current: 269 Pokemon defined (Bulbasaur through Munchlax)
   Limit: 1407 Pokemon
-  Available: Over 1100 additional Pokemon slots
+  Available: 1138 additional Pokemon slots
   Hard limit: 4095 (would require major redesign)
 
 MOVE EFFECTS:
@@ -120,12 +120,12 @@ WHAT THIS ENABLES
 
 You can now add from your ToDo list:
 
-MOVES (approximately 200 slots available):
+MOVES (200 slots available):
   ✓ All the moves listed in ToDo (Bug Bite, Night Slash, Nuzzle, etc.)
   ✓ Plenty of room for moves from Gen 4+
   ✓ Custom moves if desired
 
-POKEMON (over 1100 slots available):
+POKEMON (1138 slots available):
   ✓ All Pokemon from ToDo (Aron line, Carvanha line, Treecko line, etc.)
   ✓ All remaining Gen 3 Pokemon
   ✓ Pokemon from Gen 4, 5, 6, 7, 8, 9
