@@ -41,15 +41,18 @@ This document describes the changes made to maximize room for additional moves, 
 ## Technical Details
 
 ### Move Limits
-- Current move count: ~250 moves defined
-- Hard limit: $3fff (16,383) - will never be reached
-- New practical limit with tables: ~500 moves comfortably supported
+- **Current move count**: ~300 moves defined (including NO_MOVE and special animations)
+- **New table capacity**: 500 moves (up from 230)
+- **Space available**: ~200 additional moves can be added
+- **Hard limit**: $3fff (16,383) - will never be reached
+- **Practical limit**: ~500 moves comfortably supported with current tables
 
 ### Pokemon Limits
-- Current Pokemon count: ~280 Pokemon defined
-- New limit: 1407 Pokemon (up from 999)
-- Hard limit: 4095 (would require redesign to exceed)
-- RAM allocation: wPokedexOrder already sized for 1407 entries
+- **Current Pokemon count**: ~280 Pokemon defined (Bulbasaur through Munchlax)
+- **New limit**: 1407 Pokemon (up from 999)
+- **Space available**: ~1127 additional Pokemon can be added
+- **Hard limit**: 4095 (would require redesign to exceed)
+- **RAM allocation**: wPokedexOrder already sized for 1407 entries
 
 ### Move Effects
 - Current move effects: ~165 effects
@@ -58,10 +61,17 @@ This document describes the changes made to maximize room for additional moves, 
 
 ## What This Enables
 
-1. **Moves**: Can now add ~250 more moves from later generations
-2. **Pokemon**: Can now add ~1100 more Pokemon (currently at ~280, limit is 1407)
+1. **Moves**: Can now add ~200 more moves from later generations (currently at ~300, capacity is 500)
+   - Todo list shows many moves still to add (Bug Bite, Night Slash, Nuzzle, Power-Up Punch, etc.)
+   
+2. **Pokemon**: Can now add ~1127 more Pokemon (currently at ~280, limit is 1407)
+   - Todo list shows many Pokemon still to add (Aron line, Carvanha line, Treecko line, etc.)
+   
 3. **Move Effects**: Unlimited within reasonable bounds
+   - Currently ~165 effects, no hard limit
+   
 4. **Battle Animations**: Same limits as moves (can support all new moves)
+   - Animation constants automatically match move constants
 
 ## Known Issues
 
