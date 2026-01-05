@@ -231,14 +231,14 @@ MACRO dict
 	if \1 == 0
 		and a
 	else
-		cp \1
+		cp CHARVAL(\1)
 	endc
 	if ISCONST(\2)
 		; Replace a character with another one
 		jr nz, .not\@
 		ld a, \2
 	.not\@:
-	elif !STRCMP(STRSUB("\2", 1, 1), ".")
+	elif !STRCMP(STRSLICE("\2", 0, 1), ".")
 		; Locals can use a short jump
 		jr z, \2
 	else
