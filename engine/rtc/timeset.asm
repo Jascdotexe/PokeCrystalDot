@@ -170,7 +170,7 @@ SetHour:
 
 .okay
 	hlcoord 4, 9
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld bc, 15
 	call ByteFill
 	hlcoord 4, 9
@@ -204,7 +204,7 @@ DisplayHoursMinutesWithMinString: ; unreferenced
 	pop de
 	inc de
 	inc de
-	ld a, ":"
+	ld a, CHARVAL(":")
 	ld [de], a
 	inc de
 	push de
@@ -259,7 +259,7 @@ SetMinutes:
 	ld [hl], a
 .finish_dpad
 	hlcoord 12, 9
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld bc, 7
 	call ByteFill
 	hlcoord 12, 9
@@ -281,7 +281,7 @@ DisplayMinutesWithMinString:
 
 PrintTwoDigitNumberLeftAlign:
 	push hl
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld [hli], a
 	ld [hl], a
 	pop hl
@@ -339,7 +339,7 @@ OakText_ResponseToSetTime:
 	ld a, [wInitHourBuffer]
 	ld c, a
 	call PrintHour
-	ld [hl], ":"
+	ld [hl], CHARVAL(":")
 	inc hl
 	ld de, wInitMinuteBuffer
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
@@ -615,46 +615,46 @@ MrChrono: ; unreferenced
 	call UpdateTime
 
 	hlcoord 1, 14
-	ld [hl], "R"
+	ld [hl], CHARVAL("R")
 	inc hl
-	ld [hl], "T"
+	ld [hl], CHARVAL("T")
 	inc hl
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	inc hl
 
 	ld de, hRTCDayLo
 	call .PrintTime
 
 	hlcoord 1, 16
-	ld [hl], "D"
+	ld [hl], CHARVAL("D")
 	inc hl
-	ld [hl], "F"
+	ld [hl], CHARVAL("F")
 	inc hl
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	inc hl
 
 	ld de, wStartDay
 	call .PrintTime
 
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	inc hl
 
 	ld a, [wDST]
 	bit 7, a
 	jr z, .off
 
-	ld [hl], "O"
+	ld [hl], CHARVAL("O")
 	inc hl
-	ld [hl], "N"
+	ld [hl], CHARVAL("N")
 	inc hl
 	jr .done
 
 .off
-	ld [hl], "O"
+	ld [hl], CHARVAL("O")
 	inc hl
-	ld [hl], "F"
+	ld [hl], CHARVAL("F")
 	inc hl
-	ld [hl], "F"
+	ld [hl], CHARVAL("F")
 	inc hl
 
 .done
@@ -669,12 +669,12 @@ MrChrono: ; unreferenced
 .PrintTime:
 	lb bc, 1, 3
 	call PrintNum
-	ld [hl], "."
+	ld [hl], CHARVAL(".")
 	inc hl
 	inc de
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum
-	ld [hl], ":"
+	ld [hl], CHARVAL(":")
 	inc hl
 	inc de
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2

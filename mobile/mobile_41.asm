@@ -684,13 +684,13 @@ endr
 	jr .done
 
 .create_digit
-	ld a, "0"
+	ld a, CHARVAL("0")
 	add c
 	ld [hl], a
 
 .done
 	call .Function1062ff
-	ld a, "0"
+	ld a, CHARVAL("0")
 	add b
 	ld [hli], a
 	pop de

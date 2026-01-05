@@ -37,10 +37,10 @@ PrintHoursMins:
 	push hl
 	pop de
 	pop hl
-	ld [hl], " "
+	ld [hl], CHARVAL(" ")
 	lb bc, 1, 2
 	call PrintNum
-	ld [hl], ":"
+	ld [hl], CHARVAL(":")
 	inc hl
 	ld d, h
 	ld e, l

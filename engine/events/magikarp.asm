@@ -104,14 +104,14 @@ PrintMagikarpLength:
 	ld de, wMagikarpLength
 	lb bc, PRINTNUM_LEFTALIGN | 1, 2
 	call PrintNum
-	ld [hl], "′"
+	ld [hl], CHARVAL("′")
 	inc hl
 	ld de, wMagikarpLength + 1
 	lb bc, PRINTNUM_LEFTALIGN | 1, 2
 	call PrintNum
-	ld [hl], "″"
+	ld [hl], CHARVAL("″")
 	inc hl
-	ld [hl], "@"
+	ld [hl], CHARVAL("@")
 	ret
 
 CalcMagikarpLength:

@@ -58,7 +58,7 @@ ReadTrainerParty:
 
 .skip_name
 	call GetNextTrainerDataByte
-	cp "@"
+	cp CHARVAL("@")
 	jr nz, .skip_name
 
 	call GetNextTrainerDataByte

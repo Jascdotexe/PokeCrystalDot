@@ -482,7 +482,7 @@ PhoneCall::
 .CallerTextboxWithName:
 	call Phone_CallerTextbox
 	hlcoord 1, 2
-	ld [hl], "☎"
+	ld [hl], CHARVAL("☎")
 	inc hl
 	inc hl
 	ld a, [wPhoneCaller]
@@ -566,7 +566,7 @@ Phone_TextboxWithName:
 	push bc
 	call Phone_CallerTextbox
 	hlcoord 1, 1
-	ld [hl], "☎"
+	ld [hl], CHARVAL("☎")
 	inc hl
 	inc hl
 	ld d, h
@@ -624,7 +624,7 @@ GetCallerName:
 	push hl
 	push bc
 	call PlaceString
-	ld a, ":"
+	ld a, CHARVAL(":")
 	ld [bc], a
 	pop bc
 	pop hl

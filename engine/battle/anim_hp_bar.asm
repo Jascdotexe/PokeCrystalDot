@@ -257,7 +257,7 @@ HPBarAnim_UpdateHPRemaining:
 .loaded_de
 	push hl
 	add hl, de
-	ld a, " "
+	ld a, CHARVAL(" ")
 	ld [hli], a
 	ld [hli], a
 	ld [hld], a
