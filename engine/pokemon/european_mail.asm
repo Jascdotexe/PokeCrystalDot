@@ -49,7 +49,7 @@ ConvertFrenchGermanMailToEnglish:
 .check_intermediate_chars
 	sub CHARVAL("'s")
 	jr c, .dont_replace
-	cp CHARVAL("'v") - "'s" + 1
+	cp CHARVAL("'v") - CHARVAL("'s") + 1
 	jr nc, .dont_replace
 	add $cd
 
@@ -78,7 +78,7 @@ ConvertEnglishMailToFrenchGerman:
 .check_intermediate_chars
 	sub $cd
 	jr c, .dont_replace
-	cp CHARVAL("'v") - "'s" + 1
+	cp CHARVAL("'v") - CHARVAL("'s") + 1
 	jr nc, .dont_replace
 	add CHARVAL("'s")
 
