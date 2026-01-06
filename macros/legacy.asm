@@ -401,8 +401,7 @@ DEF gamecornercoinvendor  EQUS "GameCornerCoinVendorScript"
 DEF happinesschecknpc     EQUS "HappinessCheckScript"
 
 ; constants/charmap.asm
-charmap "%", "<BSP>"
-charmap "¯", "<WBR>"
+; Removed legacy charmap remappings - use <BSP> and <WBR> directly
 
 ; constants/sprite_constants.asm
 DEF SPRITE_BUENA EQUS "SPRITE_BEAUTY"

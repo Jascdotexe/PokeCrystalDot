@@ -1,4 +1,4 @@
-DEF PRINTPARTY_HP EQU "◀" ; $71
+DEF PRINTPARTY_HP EQU CHARVAL("◀") ; $71
 
 PrintPage1:
 	hlcoord 0, 0
@@ -142,12 +142,12 @@ PrintPartyMonPage1:
 	call Request1bpp
 
 	ld de, GBPrinterLvIcon
-	ld hl, vTiles2 tile "<LV>"
+	ld hl, vTiles2 tile CHARVAL("<LV>")
 	lb bc, BANK(GBPrinterLvIcon), 1
 	call Request1bpp
 
 	ld de, StatsScreenPageTilesGFX + 14 tiles ; shiny icon
-	ld hl, vTiles2 tile "⁂"
+	ld hl, vTiles2 tile CHARVAL("⁂")
 	lb bc, BANK(StatsScreenPageTilesGFX), 1
 	call Get2bpp
 
