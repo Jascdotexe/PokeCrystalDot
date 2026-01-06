@@ -1,35 +1,70 @@
-error: The linker script assigns section "Newbox" to address $63a5, but then it would overflow ROMX by 224 bytes
-    at layout.link(75)
-error: The linker script assigns section "Bill's PC Graphics" to address $8000, but then it would overflow ROMX by 366 byte
-s
-    at layout.link(76)
-error: The linker script assigns section "Crystal Phone Text 2" to address $71e3, but then it would overflow ROMX by 10052
-bytes
-    at layout.link(250)
-error: The linker script assigns section "Egg Moves 2" to address $8000, but then it would overflow ROMX by 720 bytes
-    at layout.link(251)
-error: The linker script assigns section "Box Metadata" to address $bc2a, but then it would overflow SRAM by 264 bytes
-    at layout.link(382)
-error: The linker script assigns section "Link Battle Data" to address $c000, but then it would overflow SRAM by 96 bytes
-    at layout.link(383)
-error: The linker script assigns section "SRAM Hall of Fame" to address $c000, but then it would overflow SRAM by 3150 byte
-s
-    at layout.link(384)
-error: The linker script assigns section "SRAM Crystal Data" to address $c000, but then it would overflow SRAM by 9 bytes
-    at layout.link(385)
-error: The linker script assigns section "SRAM Battle Tower" to address $c000, but then it would overflow SRAM by 24 bytes
-    at layout.link(386)
-Linking failed with 9 errors
-make: *** [Makefile:134: pokecrystal.gbc] Error 1
+So what I need help with is I previously taksed you with creating these moves:
+
+    move EFFECT_STEALTH_ROCK,        0, ROCK,          STATUS,     100, 20,   0     ; STEALTH_ROCK
+    move EFFECT_U_TURN,             70, BUG,           PHYSICAL,   100, 20,   0     ; U_TURN
+    move EFFECT_TRICK_ROOM,          0, PSYCHIC_TYPE,  STATUS,     100,  5,   0     ; TRICK_ROOM
+    move EFFECT_SUCKER_PUNCH,       70, DARK,          PHYSICAL,   100,  5,   0     ; SUCKER_PUNCH
 
 
+    as well as their move effects:
 
+    StealthRock:
+    checkobedience
+    usedmovetext
+    doturn
+    checkhit
+    setstealthrock
+    endmove
+    
+    UTurn:
+    checkobedience
+    usedmovetext
+    doturn
+    critical
+    damagestats
+    damagecalc
+    stab
+    damagevariation
+    checkhit
+    moveanim
+    failuretext
+    applydamage
+    criticaltext
+    supereffectivetext
+    checkfaint
+    buildopponentrage
+    kingsrock
+    forceplayerswitch
+    endmove
+    
+    TrickRoom:
+    checkobedience
+    usedmovetext
+    doturn
+    checkhit
+    settrickroom
+    endmove
+    
+    SuckerPunch:
+    checkobedience
+    usedmovetext
+    doturn
+    checksuckerpunch
+    critical
+    damagestats
+    damagecalc
+    stab
+    damagevariation
+    checkhit
+    moveanim
+    failuretext
+    applydamage
+    criticaltext
+    supereffectivetext
+    checkfaint
+    buildopponentrage
+    kingsrock
+    endmove
+    
 
-
-
-warning: Treating strings as numbers is deprecated; use character literals or `CHARVAL` instead [-Wobsolete]
-    at macros/legacy.asm(405)
-    <- includes.asm(26)
-    <- lib/mobile/mail.asm(0)
-
-THIS WARNING IS IN THERE A WHOLE WHOLE LOT, LOOK EVERYWHERE THIS WARNING MAY APPEAR AND FIX
+    Currently, they ALL only make the user flinch, and then proceed to crash the game. Can we take a look and fix?
