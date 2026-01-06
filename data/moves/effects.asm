@@ -2184,59 +2184,59 @@ HoneClaws:
 	endmove
 
 StealthRock:
-checkobedience
-usedmovetext
-doturn
-checkhit
-setstealthrock
-endmove
+	checkobedience
+	usedmovetext
+	doturn
+	checkhit
+	setstealthrock
+	endmove
 
 UTurn:
-checkobedience
-usedmovetext
-doturn
-critical
-damagestats
-damagecalc
-stab
-damagevariation
-checkhit
-moveanim
-failuretext
-applydamage
-criticaltext
-supereffectivetext
-checkfaint
-buildopponentrage
-kingsrock
-forceplayerswitch
-endmove
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	forceplayerswitch
+	endmove
 
 TrickRoom:
-checkobedience
-usedmovetext
-doturn
-checkhit
-settrickroom
-endmove
+	checkobedience
+	usedmovetext
+	doturn
+	checkhit
+	settrickroom
+	endmove
 
 SuckerPunch:
-checkobedience
-usedmovetext
-doturn
-checksuckerpunch
-critical
-damagestats
-damagecalc
-stab
-damagevariation
-checkhit
-moveanim
-failuretext
-applydamage
-criticaltext
-supereffectivetext
-checkfaint
-buildopponentrage
-kingsrock
-endmove
+	checkobedience
+	usedmovetext
+	doturn
+	checksuckerpunch
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove
