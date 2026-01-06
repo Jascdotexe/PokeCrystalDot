@@ -1,5 +1,5 @@
-DEF TIMESET_UP_ARROW   EQU "♂" ; $ef
-DEF TIMESET_DOWN_ARROW EQU "♀" ; $f5
+DEF TIMESET_UP_ARROW   EQU CHARVAL("♂") ; $ef
+DEF TIMESET_DOWN_ARROW EQU CHARVAL("♀") ; $f5
 
 InitClock:
 ; Ask the player to set the time.
