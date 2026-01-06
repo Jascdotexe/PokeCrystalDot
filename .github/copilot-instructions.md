@@ -22,7 +22,7 @@
 - Many data tables use `indirect_table` / `indirect_entries` patterns (example: `data/moves/moves.asm`). When extending an indexed table, update the corresponding constants (e.g., `constants/move_constants.asm`) and any `NUM_*` limits referenced by the table.
 
 ## Build workflow (what to run)
-- Prereqs: RGBDS **v0.7.0+** is enforced by `rgbdscheck.asm`.
+- Prereqs: RGBDS **v0.7.0+** is enforced by `rgbdscheck.asm`. We are using **v1.0.1** features (e.g., `IFDEFN`).
 - Recommended on Windows: use WSL or Cygwin per `INSTALL.md`.
 - Common targets:
   - `make` → builds `pokecrystal.gbc` (and builds `tools/` first unless you’re running `clean/tidy/tools`).
