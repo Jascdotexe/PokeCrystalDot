@@ -2430,7 +2430,7 @@ GruntMGroup:
 	dw 30
 	db HYPNO
 	dw 32
-	db CACTURNE
+	db LOW(CACTURNE)
 	db 36
 	dw CROBAT
 	db -1 ; end

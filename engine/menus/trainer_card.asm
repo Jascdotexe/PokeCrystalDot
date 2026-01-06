@@ -462,7 +462,7 @@ TrainerCard_Page1_PrintGameTime:
 	ret nz
 	hlcoord 15, 12
 	ld a, [hl]
-	xor " " ^ $2e ; alternate between space and small colon ($2e) tiles
+	xor CHARVAL(" ") ^ $2e ; alternate between space and small colon ($2e) tiles
 	ld [hl], a
 	ret
 

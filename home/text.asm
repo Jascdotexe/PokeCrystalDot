@@ -233,8 +233,8 @@ MACRO dict
 	else
 		cp CHARVAL(\1)
 	endc
-	if ISCONST(\2)
-		; Replace a character with another one
+	if !STRCMP(STRSLICE("\2", 0, 1), "\"")
+		; Replace a character with another one (string literal)
 		jr nz, .not\@
 		ld a, CHARVAL(\2)
 	.not\@:
